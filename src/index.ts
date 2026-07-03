@@ -1,16 +1,20 @@
 import express from 'express';
 import Anthropic from "@anthropic-ai/sdk";
 import 'dotenv/config';
+import { VoyageAIClient } from 'voyageai';
 
 const app = express();
 const port = 3001;
-const client = new Anthropic();
+const AnthropicClient = new Anthropic();
+const VoyageClient= new VoyageAIClient( {apiKey: process.env.VOYAGE_API_KEY });
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
 app.post('/api/analyse-ingredients', async (req, res) => {
+
+  //Extract ingredients
   const { text } = req.body;
 
   if (!text) {
@@ -18,7 +22,7 @@ app.post('/api/analyse-ingredients', async (req, res) => {
   }
 
   try {
-    const message = await client.messages.create({
+    const message = await AnthropicClient.messages.create({
       model: "claude-opus-4-8",
       max_tokens: 1000,
       messages: [
@@ -44,15 +48,33 @@ app.post('/api/analyse-ingredients', async (req, res) => {
     const block = message.content[0];
     const reply = block?.type === 'text' ? block.text : '';
     const analysis = JSON.parse(reply);
-
     res.json(analysis)
+
+    //Convert ingredients to vector
+    if (!analysis.ingredient_text) {
+      return res.status(400).json({ error: 'No ingredients found in text' });
+    }
+
+    const ingredients = analysis.ingredients_text.split(',').map((i: string) => i.trim());
+
+    for (const ingredient of ingredients) {
+      const response = await VoyageClient.embed({
+        input:[ingredient],
+        model:  'voyage-3-lite'
+      });
+
+      const embedding = response.data?.[0]?.embedding;
+      if (!embedding) {
+        console.error(`Failed to get embedding for ${ingredient}`);
+        continue;
+      }
+    }
 
   } catch (error) {
     console.error('Claude analysis failed:', error);
     res.status(500).json({ error: 'Failed to analyse ingredients' })
   }
 });
-
 
 app.listen(port, () => {
   console.log(`AI Service running on port ${port}`);
