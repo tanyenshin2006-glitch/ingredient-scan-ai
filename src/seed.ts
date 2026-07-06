@@ -19,7 +19,7 @@ const ingredients = [
 
 async function seed() {
   for (const ingredient of ingredients){
-    const text = `${ingredient.name}: ${ingredient.description}. ${ingredient.safety_notes}`;
+    const text = ingredient.name;
 
 
     const response = await ai.models.embedContent({

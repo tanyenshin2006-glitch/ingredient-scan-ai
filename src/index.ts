@@ -1,12 +1,29 @@
 import express from 'express';
-import Anthropic from "@anthropic-ai/sdk";
-import 'dotenv/config';
-import { VoyageAIClient } from 'voyageai';
+import dotenv from 'dotenv';
+dotenv.config({ path: '.env.local', override: true });
+console.log('GEMINI_API_KEY:', process.env.GEMINI_API_KEY ? 'loaded' : 'MISSING');
+import { ingredientExtractAgent } from './agent.js';
+import { Runner, InMemorySessionService, isFinalResponse } from '@google/adk';
+import {GoogleGenAI} from '@google/genai';
+import axios from 'axios';
+import { ingredientAnalysisAgent } from './agent.js';
 
 const app = express();
+app.use(express.json());
 const port = 3001;
-const AnthropicClient = new Anthropic();
-const VoyageClient= new VoyageAIClient( {apiKey: process.env.VOYAGE_API_KEY });
+
+const ai = new GoogleGenAI({ 
+  apiKey: process.env.GEMINI_API_KEY!,
+  apiVersion: 'v1'
+});
+
+const sessionService = new InMemorySessionService();
+
+const runner = new Runner({
+  appName: 'ingredient-scan',
+  agent: ingredientExtractAgent,
+  sessionService,
+});
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
@@ -14,64 +31,102 @@ app.get('/', (req, res) => {
 
 app.post('/api/analyse-ingredients', async (req, res) => {
 
-  //Extract ingredients
+  // Pass 1: Gemini via ADK — extract clean ingredient list.
   const { text } = req.body;
-
   if (!text) {
     return res.status(400).json({ error: 'Text is required' });
   }
 
   try {
-    const message = await AnthropicClient.messages.create({
-      model: "claude-opus-4-8",
-      max_tokens: 1000,
-      messages: [
-        {
-          role: "user",
-          content: `Here is raw OCR text extracted from a food/supplement product label. It may contain ingredients mixed together with unrelated sections like nutrition facts, storage instructions, directions of use, and manufacturer info, and may have OCR typos.
-
-          Raw text:
-          "${text}"
-
-          Your task:
-          1. Find ONLY the actual ingredients list (usually appears after a heading like "INGREDIENTS" or similar).
-          2. IGNORE everything else - nutrition facts tables, storage conditions, directions of use, manufacturer details, barcodes.
-          3. Correct obvious OCR typos in ingredient names (e.g., "EnythritoL" -> "Erythritol").
-          4. If the text has both English and another language, use the English version. If the text is ENTIRELY in a non-English language (no English present), translate the ingredients into English.
-
-          Respond with ONLY valid JSON in this exact shape, no other text:
-          {"ingredients_text": "<cleaned, comma-separated ingredient list only>", "allergens": ["<allergen1>", ...], "warnings": ["<any concerning additives or notes>", ...]}`
-        }
-      ]
+    const events = runner.runEphemeral({
+      userId: 'system',
+      newMessage: { role: 'user', parts: [{ text }] },
     });
 
-    const block = message.content[0];
-    const reply = block?.type === 'text' ? block.text : '';
-    const analysis = JSON.parse(reply);
-    res.json(analysis)
+    let reply = '';
+    let eventCount = 0;
+    for await (const event of events) {
+      eventCount++;
+      console.log(`[ADK event #${eventCount}]:`, JSON.stringify(event).substring(0, 400));
+      if (isFinalResponse(event)) {
+        reply = event.content?.parts?.[0]?.text ?? '';
+        break;
+      }
+    }
+    console.log(`[ADK] total events: ${eventCount}, reply: ${reply.substring(0, 1000)}`);
 
-    //Convert ingredients to vector
-    if (!analysis.ingredient_text) {
+    if (!reply) {
+      return res.status(500).json({ error: 'ADK returned no response — check model name or API key access' });
+    }
+
+    const extracted = JSON.parse(reply);
+    if (!extracted.ingredients_text) {
       return res.status(400).json({ error: 'No ingredients found in text' });
     }
 
-    const ingredients = analysis.ingredients_text.split(',').map((i: string) => i.trim());
+    const ingredients = extracted.ingredients_text.split(',').map((i: string) => i.trim());
 
-    for (const ingredient of ingredients) {
-      const response = await VoyageClient.embed({
-        input:[ingredient],
-        model:  'voyage-3-lite'
+    //Pass 2: Gemini converts ingredient into vector.
+    const dbMatches: object[] = [];
+    for (const ingredient of ingredients) { 
+      const embedResponse = await ai.models.embedContent({
+        model: 'gemini-embedding-2', 
+        contents: ingredient,
+        config: {
+          outputDimensionality: 768 
+        }
       });
 
-      const embedding = response.data?.[0]?.embedding;
+      const embedding = embedResponse.embeddings?.[0]?.values;
+
       if (!embedding) {
-        console.error(`Failed to get embedding for ${ingredient}`);
-        continue;
+        return res.status(500).json({ error: `Failed to embed ingredient: ${ingredient}` });
       }
+
+      //Pass 3: Search similar vector in DB.
+      const searchResponse = await axios.post(
+        `${process.env.BE_SERVICE_URL}/api/ingredients/search`,
+        {embedding, limit:3, maxDistance:0.55},
+        {headers: { 'x-api-key': process.env.INTERNAL_API_KEY }}
+      )
+      console.log(`[Pass 3] matches for "${ingredient}":`, searchResponse.data);
+      dbMatches.push(...searchResponse.data);
     }
 
+    res.json({
+      ingredients: extracted.ingredients_text,
+      db_matches: dbMatches
+    })
+
+    //Pass 4: Ingredient analysis.
+    // const analysisRunner = new Runner({
+    //   appName: 'ingredient-scan',
+    //   agent: ingredientAnalysisAgent,
+    //   sessionService,
+    // });
+
+    // const analysisEvents = analysisRunner.runEphemeral({
+    //   userId: 'system',
+    //   newMessage: { parts: [{ text: JSON.stringify({ ingredients: extracted.ingredients_text, db_matches: dbMatches }) }] },
+    // });
+
+    // let analysisReply = '';
+    // for await (const event of analysisEvents) {
+    //   if (isFinalResponse(event)) {
+    //     analysisReply = event.content?.parts?.[0]?.text ?? '';
+    //     break;
+    //   }
+    // }
+
+    // const finalAnalysis = JSON.parse(analysisReply);
+
+    // res.json({
+    //   ingredients: extracted.ingredients_text,
+    //   db_matches: dbMatches,
+    //   ...finalAnalysis,
+    // });
   } catch (error) {
-    console.error('Claude analysis failed:', error);
+    console.error('AI analysis failed:', error);
     res.status(500).json({ error: 'Failed to analyse ingredients' })
   }
 });
