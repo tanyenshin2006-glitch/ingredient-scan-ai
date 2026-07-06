@@ -1,12 +1,10 @@
 import express from 'express';
 import dotenv from 'dotenv';
 dotenv.config({ path: '.env.local', override: true });
-console.log('GEMINI_API_KEY:', process.env.GEMINI_API_KEY ? 'loaded' : 'MISSING');
-import { ingredientExtractAgent } from './agent.js';
+import { ingredientExtractAgent, ingredientAnalysisAgent } from './agent.js';
 import { Runner, InMemorySessionService, isFinalResponse } from '@google/adk';
 import {GoogleGenAI} from '@google/genai';
 import axios from 'axios';
-import { ingredientAnalysisAgent } from './agent.js';
 
 const app = express();
 app.use(express.json());
@@ -67,8 +65,8 @@ app.post('/api/analyse-ingredients', async (req, res) => {
     const ingredients = extracted.ingredients_text.split(',').map((i: string) => i.trim());
 
     //Pass 2: Gemini converts ingredient into vector.
-    const dbMatches: object[] = [];
-    for (const ingredient of ingredients) { 
+    const dbMatches: { ingredient: string; matches: object[] }[] = [];
+    for (const ingredient of ingredients) {
       const embedResponse = await ai.models.embedContent({
         model: 'gemini-embedding-2', 
         contents: ingredient,
@@ -90,41 +88,37 @@ app.post('/api/analyse-ingredients', async (req, res) => {
         {headers: { 'x-api-key': process.env.INTERNAL_API_KEY }}
       )
       console.log(`[Pass 3] matches for "${ingredient}":`, searchResponse.data);
-      dbMatches.push(...searchResponse.data);
+      dbMatches.push({ ingredient, matches: searchResponse.data });
     }
+
+    //Pass 4: Ingredient analysis.
+    const analysisRunner = new Runner({
+      appName: 'ingredient-scan',
+      agent: ingredientAnalysisAgent,
+      sessionService,
+    });
+
+    const analysisEvents = analysisRunner.runEphemeral({
+      userId: 'system',
+      newMessage: { role: 'user', parts: [{ text: JSON.stringify({ ingredients: extracted.ingredients_text, db_matches: dbMatches }) }] },
+    });
+
+    let analysisReply = '';
+    for await (const event of analysisEvents) {
+      if (isFinalResponse(event)) {
+        analysisReply = event.content?.parts?.[0]?.text ?? '';
+        break;
+      }
+    }
+
+    const finalAnalysis = JSON.parse(analysisReply);
+    console.log('[Pass 4] final analysis:', finalAnalysis);
 
     res.json({
       ingredients: extracted.ingredients_text,
-      db_matches: dbMatches
-    })
-
-    //Pass 4: Ingredient analysis.
-    // const analysisRunner = new Runner({
-    //   appName: 'ingredient-scan',
-    //   agent: ingredientAnalysisAgent,
-    //   sessionService,
-    // });
-
-    // const analysisEvents = analysisRunner.runEphemeral({
-    //   userId: 'system',
-    //   newMessage: { parts: [{ text: JSON.stringify({ ingredients: extracted.ingredients_text, db_matches: dbMatches }) }] },
-    // });
-
-    // let analysisReply = '';
-    // for await (const event of analysisEvents) {
-    //   if (isFinalResponse(event)) {
-    //     analysisReply = event.content?.parts?.[0]?.text ?? '';
-    //     break;
-    //   }
-    // }
-
-    // const finalAnalysis = JSON.parse(analysisReply);
-
-    // res.json({
-    //   ingredients: extracted.ingredients_text,
-    //   db_matches: dbMatches,
-    //   ...finalAnalysis,
-    // });
+      db_matches: dbMatches,
+      ...finalAnalysis,
+    });
   } catch (error) {
     console.error('AI analysis failed:', error);
     res.status(500).json({ error: 'Failed to analyse ingredients' })
