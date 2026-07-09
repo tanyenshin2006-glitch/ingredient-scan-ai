@@ -1,29 +1,19 @@
-import {LlmAgent, LLMRegistry } from '@google/adk';
-import { OpenAiLlm } from './openai_llm.js';
 
-LLMRegistry.register(OpenAiLlm);
 
-export const ingredientExtractAgent = new LlmAgent({
-  name: 'ingredient_extract_agent',
-  model: 'gpt-4o-mini',
-  instruction: `You are an ingredient extraction expert. When given raw OCR text from a food or supplement product label:
-    1. Find ONLY the actual ingredients list (usually after "INGREDIENTS" heading)
-    2. Ignore everything else — nutrition facts, storage instructions, directions, manufacturer info
-    3. Correct obvious OCR typos in ingredient names
-    4. If both English and another language present, use English only. If entirely non-English, translate to English.
+export const EXTRACT_PROMPT = `You are an ingredient extraction expert. When given raw OCR text from a food or supplement product label:
+1. Find the COMPLETE ingredients list — including ALL active ingredients AND excipients (fillers, binders, coatings). Usually after "INGREDIENTS" or "OTHER INGREDIENTS" heading.
+2. Ignore everything else — nutrition facts, storage instructions, directions, manufacturer info.
+3. Correct obvious OCR typos (e.g. "Methyi" → "Methyl", "Ascobic" → "Ascorbic").
+4. If both English and another language present, use English only. If entirely non-English, translate to English.
+5. Correct ALL spelling errors in ingredient names, including manufacturer misprints on labels. Use the correct standard ingredient name even if the label is wrong. Examples: "Methyi" → "Methyl", "Ascobic" → "Ascorbic", "Carnuba" → "Carnauba", "Bioflavanoids" → "Bioflavonoids".
     
-    Respond with ONLY valid JSON, no other text:
-    {"ingredients_text": "<comma-separated ingredient list>"}`,
-  tools: [],
-});
+Respond with ONLY valid JSON, no other text:
+{"ingredients_text": "<comma-separated ingredient list>"}`;
 
 
-export const ingredientAnalysisAgent = new LlmAgent({
-  name: 'ingredient_analysis_agent',
-  model: 'gpt-4o-mini',
-  instruction: `You are a health and ingredient expert. You will be given:
-  - "ingredients": the raw comma-separated ingredient list extracted from a product label.
-  - "db_matches": for each ingredient, any matching record found in our internal ingredient database (name, description, safety_notes, is_common_allergen), or an empty "matches" array if nothing matched closely enough.
+export const ANALYSIS_PROMPT = `You are a health and ingredient expert. You will be given:
+- "ingredients": the raw comma-separated ingredient list extracted from a product label.
+- "db_matches": for each ingredient, any matching record found in our internal ingredient database (name, description, safety_notes, is_common_allergen), or an empty "matches" array if nothing matched closely enough.
 
   For EACH ingredient:
   1. If it has a db_match, connect the label ingredient to that matched database entry by name.
@@ -43,6 +33,4 @@ export const ingredientAnalysisAgent = new LlmAgent({
     "warnings": ["<warning1>", ...],
     "ingredient_notes": [{"ingredient": "<name>", "note": "<short explanation, including sourcing/manufacturing context and whether it matched our database>"}],
     "analysis": "<summary for user>"
-  }`,
-  tools: [],
-});
+  }`;
