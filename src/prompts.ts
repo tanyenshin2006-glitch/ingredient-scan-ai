@@ -6,7 +6,13 @@ export const EXTRACT_PROMPT = `You are an ingredient extraction expert. When giv
 3. Correct obvious OCR typos (e.g. "Methyi" → "Methyl", "Ascobic" → "Ascorbic").
 4. If both English and another language present, use English only. If entirely non-English, translate to English.
 5. Correct ALL spelling errors in ingredient names, including manufacturer misprints on labels. Use the correct standard ingredient name even if the label is wrong. Examples: "Methyi" → "Methyl", "Ascobic" → "Ascorbic", "Carnuba" → "Carnauba", "Bioflavanoids" → "Bioflavonoids".
-    
+6. For each ingredient, extract the MOST SPECIFIC chemical form name using these rules:
+   - If label says "(as X)" → always extract X. Example: "Vitamin B6 (as Pyridoxine HCl)" → "Pyridoxine HCl"
+   - If label says "Chemical Name (Common Name)" → extract the chemical name. Example: "Thiamine (Vitamin B1)" → "Thiamine"
+   - If label says "Common Name (Chemical Form)" → extract the chemical form. Example: "Vitamin B1 (Thiamine HCl)" → "Thiamine HCl"
+   - If only a common name with no form → keep as-is. Example: "Vitamin B1" → "Vitamin B1"
+   - Always strip dosages, percentages, and units. Example: "Thiamine HCl 5mg (417%)" → "Thiamine HCl"
+
 Respond with ONLY valid JSON, no other text:
 {"ingredients_text": "<comma-separated ingredient list>"}`;
 

@@ -1,0 +1,1234 @@
+{"query":"Natural Acerola Cherry Concentrate","pos":["Natural Acerola Cherry Concentrate"],"neg":["Ginger Powder","Black Seed"]}
+{"query":"Acerola Extract","pos":["Natural Acerola Cherry Concentrate"],"neg":["Ginger Powder","Black Seed"]}
+{"query":"Natural Vitamin C from Acerola Cherries","pos":["Natural Acerola Cherry Concentrate"],"neg":["Ginger Powder","Black Seed"]}
+{"query":"Acerola Cherry Powder Concentrate","pos":["Natural Acerola Cherry Concentrate"],"neg":["Ginger Powder","Black Seed"]}
+{"query":"Pure Acerola Cherry Concentrate","pos":["Natural Acerola Cherry Concentrate"],"neg":["Ginger Powder","Black Seed"]}
+{"query":"Citrus Bioflavonoids","pos":["Citrus Bioflavonoids"],"neg":["Grape Seed Extract","Bacopa Monnieri Extract"]}
+{"query":"Bioflavonoid Complex from Citrus","pos":["Citrus Bioflavonoids"],"neg":["Grape Seed Extract","Bacopa Monnieri Extract"]}
+{"query":"Citrus Flavanone Extract","pos":["Citrus Bioflavonoids"],"neg":["Grape Seed Extract","Bacopa Monnieri Extract"]}
+{"query":"Citrus Pectin Bioflavonoids","pos":["Citrus Bioflavonoids"],"neg":["Grape Seed Extract","Bacopa Monnieri Extract"]}
+{"query":"Natural Citrus Bioflavonoids","pos":["Citrus Bioflavonoids"],"neg":["Grape Seed Extract","Bacopa Monnieri Extract"]}
+{"query":"Magnesium Stearate","pos":["Magnesium Stearate"],"neg":["Calcium Stearate","Polyethylene Glycol"]}
+{"query":"MgSt","pos":["Magnesium Stearate"],"neg":["Calcium Stearate","Polyethylene Glycol"]}
+{"query":"E470b","pos":["Magnesium Stearate"],"neg":["Calcium Stearate","Polyethylene Glycol"]}
+{"query":"Stearic Acid Magnesium Salt","pos":["Magnesium Stearate"],"neg":["Calcium Stearate","Polyethylene Glycol"]}
+{"query":"Magnesia Stearate","pos":["Magnesium Stearate"],"neg":["Calcium Stearate","Polyethylene Glycol"]}
+{"query":"Microcrystalline Cellulose","pos":["Microcrystalline Cellulose"],"neg":["Cellulose","Methyl Cellulose"]}
+{"query":"MCC","pos":["Microcrystalline Cellulose"],"neg":["Cellulose","Methyl Cellulose"]}
+{"query":"Avicel","pos":["Microcrystalline Cellulose"],"neg":["Cellulose","Methyl Cellulose"]}
+{"query":"E460","pos":["Microcrystalline Cellulose"],"neg":["Cellulose","Methyl Cellulose"]}
+{"query":"Maltodextrin","pos":["Maltodextrin"],"neg":["Talc","Kaolin"]}
+{"query":"Dextrose Equivalent (DE) Maltodextrin","pos":["Maltodextrin"],"neg":["Talc","Kaolin"]}
+{"query":"Silicon Dioxide","pos":["Silicon Dioxide"],"neg":["Silica","Rice Flour"]}
+{"query":"SiO₂","pos":["Silicon Dioxide"],"neg":["Silica","Rice Flour"]}
+{"query":"Anti-caking Agent","pos":["Silicon Dioxide"],"neg":["Silica","Rice Flour"]}
+{"query":"Hydroxypropyl Methylcellulose","pos":["Hydroxypropyl Methylcellulose"],"neg":["Carnauba Wax","Shellac"]}
+{"query":"HPMC","pos":["Hydroxypropyl Methylcellulose"],"neg":["Carnauba Wax","Shellac"]}
+{"query":"HMPC","pos":["Hydroxypropyl Methylcellulose"],"neg":["Carnauba Wax","Shellac"]}
+{"query":"E464","pos":["Hydroxypropyl Methylcellulose"],"neg":["Carnauba Wax","Shellac"]}
+{"query":"Methocel","pos":["Hydroxypropyl Methylcellulose"],"neg":["Carnauba Wax","Shellac"]}
+{"query":"Carnauba Wax","pos":["Carnauba Wax"],"neg":["Hydroxypropyl Methylcellulose","Beeswax"]}
+{"query":"Carnauba Cera","pos":["Carnauba Wax"],"neg":["Hydroxypropyl Methylcellulose","Beeswax"]}
+{"query":"Cera de Carnauba","pos":["Carnauba Wax"],"neg":["Hydroxypropyl Methylcellulose","Beeswax"]}
+{"query":"Methylcellulose","pos":["Methyl Cellulose"],"neg":["Microcrystalline Cellulose","Cellulose"]}
+{"query":"E461","pos":["Methyl Cellulose"],"neg":["Microcrystalline Cellulose","Cellulose"]}
+{"query":"Liposomal Vitamin C","pos":["Liposomal Vitamin C"],"neg":["Vitamin K2","Pyridoxine"]}
+{"query":"Liposomal Ascorbic Acid","pos":["Liposomal Vitamin C"],"neg":["Vitamin K2","Pyridoxine"]}
+{"query":"VitC Liposome","pos":["Liposomal Vitamin C"],"neg":["Vitamin K2","Pyridoxine"]}
+{"query":"Liposomal C","pos":["Liposomal Vitamin C"],"neg":["Vitamin K2","Pyridoxine"]}
+{"query":"Ascorbic Acid Liposomes","pos":["Liposomal Vitamin C"],"neg":["Vitamin K2","Pyridoxine"]}
+{"query":"Niacin","pos":["Niacin"],"neg":["Ascorbyl Palmitate","Calcium Ascorbate"]}
+{"query":"Nicotinic Acid","pos":["Niacin"],"neg":["Ascorbyl Palmitate","Calcium Ascorbate"]}
+{"query":"Riboflavin","pos":["Riboflavin"],"neg":["Adenosylcobalamin","Liposomal Vitamin C"]}
+{"query":"Vitamin B2","pos":["Riboflavin"],"neg":["Adenosylcobalamin","Liposomal Vitamin C"]}
+{"query":"B2","pos":["Riboflavin"],"neg":["Adenosylcobalamin","Liposomal Vitamin C"]}
+{"query":"PABA","pos":["Para-Aminobenzoic Acid"],"neg":["Retinol","Adenosylcobalamin"]}
+{"query":"Para-Aminobenzoic Acid","pos":["Para-Aminobenzoic Acid"],"neg":["Retinol","Adenosylcobalamin"]}
+{"query":"P-ABA","pos":["Para-Aminobenzoic Acid"],"neg":["Retinol","Adenosylcobalamin"]}
+{"query":"Para-Amino Benzoic Acid","pos":["Para-Aminobenzoic Acid"],"neg":["Retinol","Adenosylcobalamin"]}
+{"query":"Dicalcium Phosphate","pos":["Dicalcium Phosphate"],"neg":["Kaolin","Starch"]}
+{"query":"E341(ii)","pos":["Dicalcium Phosphate"],"neg":["Kaolin","Starch"]}
+{"query":"CaHPO₄·2H₂O","pos":["Dicalcium Phosphate"],"neg":["Kaolin","Starch"]}
+{"query":"Dicalcium Phosphate 2H₂O","pos":["Dicalcium Phosphate"],"neg":["Kaolin","Starch"]}
+{"query":"DCP","pos":["Dicalcium Phosphate"],"neg":["Kaolin","Starch"]}
+{"query":"Lactose","pos":["Lactose"],"neg":["Starch","Dibasic Calcium Phosphate"]}
+{"query":"Milk Sugar","pos":["Lactose"],"neg":["Starch","Dibasic Calcium Phosphate"]}
+{"query":"Lactose Anhydrous","pos":["Lactose"],"neg":["Starch","Dibasic Calcium Phosphate"]}
+{"query":"Calcium Stearate","pos":["Calcium Stearate"],"neg":["Glyceryl Behenate","Magnesium Stearate"]}
+{"query":"Ca Stearate","pos":["Calcium Stearate"],"neg":["Glyceryl Behenate","Magnesium Stearate"]}
+{"query":"Stearic Acid Calcium Salt","pos":["Calcium Stearate"],"neg":["Glyceryl Behenate","Magnesium Stearate"]}
+{"query":"E470B","pos":["Calcium Stearate"],"neg":["Glyceryl Behenate","Magnesium Stearate"]}
+{"query":"Stearate Ca","pos":["Calcium Stearate"],"neg":["Glyceryl Behenate","Magnesium Stearate"]}
+{"query":"Methylfolate","pos":["Methylfolate"],"neg":["Methylcobalamin","Menaquinone MK-7"]}
+{"query":"L-Methylfolate","pos":["Methylfolate"],"neg":["Methylcobalamin","Menaquinone MK-7"]}
+{"query":"MTHF","pos":["Methylfolate"],"neg":["Methylcobalamin","Menaquinone MK-7"]}
+{"query":"5-Methyltetrahydrofolic Acid","pos":["Methylfolate"],"neg":["Methylcobalamin","Menaquinone MK-7"]}
+{"query":"Methylated Folate","pos":["Methylfolate"],"neg":["Methylcobalamin","Menaquinone MK-7"]}
+{"query":"Cyanocobalamin","pos":["Cyanocobalamin"],"neg":["Thiamine HCl","Adenosylcobalamin"]}
+{"query":"CynoCob","pos":["Cyanocobalamin"],"neg":["Thiamine HCl","Adenosylcobalamin"]}
+{"query":"Methylcobalamin","pos":["Methylcobalamin"],"neg":["Sodium Ascorbate","Cyanocobalamin"]}
+{"query":"Cobalamin (methyl form)","pos":["Methylcobalamin"],"neg":["Sodium Ascorbate","Cyanocobalamin"]}
+{"query":"Methyl B12","pos":["Methylcobalamin"],"neg":["Sodium Ascorbate","Cyanocobalamin"]}
+{"query":"Active B12","pos":["Methylcobalamin"],"neg":["Sodium Ascorbate","Cyanocobalamin"]}
+{"query":"Adenosylcobalamin","pos":["Adenosylcobalamin"],"neg":["Sodium Ascorbate","Vitamin B6"]}
+{"query":"Ado-Cbl","pos":["Adenosylcobalamin"],"neg":["Sodium Ascorbate","Vitamin B6"]}
+{"query":"Cobalamin-adenosyl form","pos":["Adenosylcobalamin"],"neg":["Sodium Ascorbate","Vitamin B6"]}
+{"query":"Vit B12 Adenosyl Form","pos":["Adenosylcobalamin"],"neg":["Sodium Ascorbate","Vitamin B6"]}
+{"query":"Adenosylcobalamine","pos":["Adenosylcobalamin"],"neg":["Sodium Ascorbate","Vitamin B6"]}
+{"query":"Choline Bitartrate","pos":["Choline"],"neg":["Cyanocobalamin","Alpha-Tocopherol"]}
+{"query":"Choline Chloride","pos":["Choline"],"neg":["Cyanocobalamin","Alpha-Tocopherol"]}
+{"query":"Choline Hydroxymethylbitartrate","pos":["Choline"],"neg":["Cyanocobalamin","Alpha-Tocopherol"]}
+{"query":"Choline","pos":["Choline"],"neg":["Cyanocobalamin","Alpha-Tocopherol"]}
+{"query":"Vitamin D3","pos":["Vitamin D3"],"neg":["Methylfolate","Para-Aminobenzoic Acid"]}
+{"query":"Cholecalciferol","pos":["Vitamin D3"],"neg":["Methylfolate","Para-Aminobenzoic Acid"]}
+{"query":"D3","pos":["Vitamin D3"],"neg":["Methylfolate","Para-Aminobenzoic Acid"]}
+{"query":"Vit D3","pos":["Vitamin D3"],"neg":["Methylfolate","Para-Aminobenzoic Acid"]}
+{"query":"Calciferol","pos":["Vitamin D3"],"neg":["Methylfolate","Para-Aminobenzoic Acid"]}
+{"query":"Vitamin D2","pos":["Vitamin D2"],"neg":["Vitamin A","Pantothenic Acid"]}
+{"query":"Calciferol","pos":["Vitamin D2"],"neg":["Vitamin A","Pantothenic Acid"]}
+{"query":"D2","pos":["Vitamin D2"],"neg":["Vitamin A","Pantothenic Acid"]}
+{"query":"Vitamin D","pos":["Vitamin D"],"neg":["Vitamin C","Mixed Tocopherols"]}
+{"query":"Retinol","pos":["Retinol"],"neg":["Calcium Ascorbate","Calcium Pantothenate"]}
+{"query":"Vitamin A Palmitate","pos":["Vitamin A"],"neg":["Calcium Ascorbate","Calcium Pantothenate"]}
+{"query":"Retinyl Palmitate","pos":["Vitamin A"],"neg":["Calcium Ascorbate","Calcium Pantothenate"]}
+{"query":"Retinyl Acetate","pos":["Vitamin A"],"neg":["Calcium Ascorbate","Calcium Pantothenate"]}
+{"query":"Microencapsulated Retinol","pos":["Retinol"],"neg":["Beta-Carotene","Calcium Ascorbate"]}
+{"query":"Beta-Carotene","pos":["Beta-Carotene"],"neg":["Tocotrienols","Liposomal Vitamin C"]}
+{"query":"B-Carotene","pos":["Beta-Carotene"],"neg":["Tocotrienols","Liposomal Vitamin C"]}
+{"query":"β-Carotene","pos":["Beta-Carotene"],"neg":["Tocotrienols","Liposomal Vitamin C"]}
+{"query":"Tocopherol","pos":["Vitamin E"],"neg":["Thiamine HCl","Pyridoxine"]}
+{"query":"Vitamin E (Natural)","pos":["Vitamin E"],"neg":["Thiamine HCl","Pyridoxine"]}
+{"query":"Vitamin E (Synthetic)","pos":["Vitamin E"],"neg":["Thiamine HCl","Pyridoxine"]}
+{"query":"dl-Alpha Tocopheryl Acetate","pos":["Vitamin E"],"neg":["Thiamine HCl","Pyridoxine"]}
+{"query":"Alpha-Tocopherol","pos":["Alpha-Tocopherol"],"neg":["Adenosylcobalamin","Ascorbyl Palmitate"]}
+{"query":"α-Tocopherol","pos":["Alpha-Tocopherol"],"neg":["Adenosylcobalamin","Ascorbyl Palmitate"]}
+{"query":"Vit E","pos":["Vitamin E"],"neg":["Adenosylcobalamin","Ascorbyl Palmitate"]}
+{"query":"d-Alpha-Tocopherol","pos":["Alpha-Tocopherol"],"neg":["Adenosylcobalamin","Ascorbyl Palmitate"]}
+{"query":"Natural Mixed Tocopherols","pos":["Mixed Tocopherols"],"neg":["Pyridoxine HCl","Beta-Carotene"]}
+{"query":"Mixed Tocopherols (Natural)","pos":["Mixed Tocopherols"],"neg":["Pyridoxine HCl","Beta-Carotene"]}
+{"query":"Tocopherols","pos":["Mixed Tocopherols"],"neg":["Pyridoxine HCl","Beta-Carotene"]}
+{"query":"Mixed Vitamin E Tocopherols","pos":["Mixed Tocopherols"],"neg":["Pyridoxine HCl","Beta-Carotene"]}
+{"query":"Vitamin E Natural Mix","pos":["Mixed Tocopherols"],"neg":["Pyridoxine HCl","Beta-Carotene"]}
+{"query":"Tocotrienols","pos":["Tocotrienols"],"neg":["Menaquinone MK-7","Liposomal Vitamin C"]}
+{"query":"Tocopherol Tocotrienols","pos":["Tocotrienols"],"neg":["Menaquinone MK-7","Liposomal Vitamin C"]}
+{"query":"Natural Tocotrienols","pos":["Tocotrienols"],"neg":["Menaquinone MK-7","Liposomal Vitamin C"]}
+{"query":"Bioactive Tocotrienols","pos":["Tocotrienols"],"neg":["Menaquinone MK-7","Liposomal Vitamin C"]}
+{"query":"Tocotrienol Complex","pos":["Tocotrienols"],"neg":["Menaquinone MK-7","Liposomal Vitamin C"]}
+{"query":"Vitamin K1","pos":["Vitamin K1"],"neg":["Para-Aminobenzoic Acid","Biotin"]}
+{"query":"Phylloquinone","pos":["Vitamin K1"],"neg":["Para-Aminobenzoic Acid","Biotin"]}
+{"query":"K1","pos":["Vitamin K1"],"neg":["Para-Aminobenzoic Acid","Biotin"]}
+{"query":"Vitamin K2","pos":["Vitamin K2"],"neg":["Calcium Ascorbate","Pantothenic Acid"]}
+{"query":"Vit K2","pos":["Vitamin K2"],"neg":["Calcium Ascorbate","Pantothenic Acid"]}
+{"query":"Menaquinone 7","pos":["Menaquinone MK-7"],"neg":["Riboflavin","Adenosylcobalamin"]}
+{"query":"MK-7","pos":["Menaquinone MK-7"],"neg":["Riboflavin","Adenosylcobalamin"]}
+{"query":"Vitamin K2 MK-7","pos":["Menaquinone MK-7"],"neg":["Riboflavin","Adenosylcobalamin"]}
+{"query":"Menaquinone 4","pos":["Menaquinone MK-4"],"neg":["Thiamine HCl","Riboflavin"]}
+{"query":"MK-4","pos":["Menaquinone MK-4"],"neg":["Thiamine HCl","Riboflavin"]}
+{"query":"Vitamin K2 MK-4","pos":["Menaquinone MK-4"],"neg":["Thiamine HCl","Riboflavin"]}
+{"query":"K2 MK-4","pos":["Menaquinone MK-4"],"neg":["Thiamine HCl","Riboflavin"]}
+{"query":"Menatetrenone","pos":["Menaquinone MK-4"],"neg":["Thiamine HCl","Riboflavin"]}
+{"query":"Vitamin C (E300)","pos":["Vitamin C"],"neg":["Sodium Ascorbate","Niacinamide"]}
+{"query":"Magnesium Ascorbyl Phosphate","pos":["Vitamin C"],"neg":["Sodium Ascorbate","Niacinamide"]}
+{"query":"Ascorbic Acid","pos":["Ascorbic Acid"],"neg":["Calcium Pantothenate","Vitamin D3"]}
+{"query":"L-Ascorbic Acid","pos":["Ascorbic Acid"],"neg":["Calcium Pantothenate","Vitamin D3"]}
+{"query":"E300","pos":["Ascorbic Acid"],"neg":["Calcium Pantothenate","Vitamin D3"]}
+{"query":"C","pos":["Ascorbic Acid"],"neg":["Calcium Pantothenate","Vitamin D3"]}
+{"query":"Sodium Ascorbate","pos":["Sodium Ascorbate"],"neg":["Thiamine HCl","Niacin"]}
+{"query":"Ascorbic Acid Salt","pos":["Sodium Ascorbate"],"neg":["Thiamine HCl","Niacin"]}
+{"query":"Vitamin C (Sodium Ascorbate)","pos":["Sodium Ascorbate"],"neg":["Thiamine HCl","Niacin"]}
+{"query":"NaAsc","pos":["Sodium Ascorbate"],"neg":["Thiamine HCl","Niacin"]}
+{"query":"Calcium Ascorbate","pos":["Calcium Ascorbate"],"neg":["Para-Aminobenzoic Acid","Sodium Ascorbate"]}
+{"query":"Ascorbyl Calcium","pos":["Calcium Ascorbate"],"neg":["Para-Aminobenzoic Acid","Sodium Ascorbate"]}
+{"query":"Calcium L-Ascorbate","pos":["Calcium Ascorbate"],"neg":["Para-Aminobenzoic Acid","Sodium Ascorbate"]}
+{"query":"Ascorbyl Palmitate","pos":["Ascorbyl Palmitate"],"neg":["Cyanocobalamin","Liposomal Vitamin C"]}
+{"query":"Ascorbyl Esters","pos":["Ascorbyl Palmitate"],"neg":["Cyanocobalamin","Liposomal Vitamin C"]}
+{"query":"Magnesium Oxide","pos":["Magnesium Oxide"],"neg":["Zinc Bisglycinate","Manganese"]}
+{"query":"MgO","pos":["Magnesium Oxide"],"neg":["Zinc Bisglycinate","Manganese"]}
+{"query":"Magnesium(II) oxide","pos":["Magnesium Oxide"],"neg":["Zinc Bisglycinate","Manganese"]}
+{"query":"Magnesium Citrate","pos":["Magnesium Citrate"],"neg":["Iron","Zinc"]}
+{"query":"Mg(C6H7O7)2","pos":["Magnesium Citrate"],"neg":["Iron","Zinc"]}
+{"query":"Magnesia Citrata","pos":["Magnesium Citrate"],"neg":["Iron","Zinc"]}
+{"query":"MagCit","pos":["Magnesium Citrate"],"neg":["Iron","Zinc"]}
+{"query":"Magnesi Citarate","pos":["Magnesium Citrate"],"neg":["Iron","Zinc"]}
+{"query":"Magnesium Glycinate","pos":["Magnesium Glycinate"],"neg":["Zinc Gluconate","Cupric Oxide"]}
+{"query":"Mg(Gly)2","pos":["Magnesium Glycinate"],"neg":["Zinc Gluconate","Cupric Oxide"]}
+{"query":"Magnesii glycinate","pos":["Magnesium Glycinate"],"neg":["Zinc Gluconate","Cupric Oxide"]}
+{"query":"Glycinate Magnesium","pos":["Magnesium Glycinate"],"neg":["Zinc Gluconate","Cupric Oxide"]}
+{"query":"Mag Glycinate","pos":["Magnesium Glycinate"],"neg":["Zinc Gluconate","Cupric Oxide"]}
+{"query":"Magnesium Malate","pos":["Magnesium Malate"],"neg":["Boron","Copper"]}
+{"query":"Mg(Malate)","pos":["Magnesium Malate"],"neg":["Boron","Copper"]}
+{"query":"Magnesium (Malic Acid) Complex","pos":["Magnesium Malate"],"neg":["Boron","Copper"]}
+{"query":"Mag. Mal.","pos":["Magnesium Malate"],"neg":["Boron","Copper"]}
+{"query":"Magnesia Malatia","pos":["Magnesium Malate"],"neg":["Boron","Copper"]}
+{"query":"Magnesium L-Threonate","pos":["Magnesium L-Threonate"],"neg":["Potassium Gluconate","Magnesium Malate"]}
+{"query":"Mg-L-Threonate","pos":["Magnesium L-Threonate"],"neg":["Potassium Gluconate","Magnesium Malate"]}
+{"query":"Magnesio L-Tironato","pos":["Magnesium L-Threonate"],"neg":["Potassium Gluconate","Magnesium Malate"]}
+{"query":"Mag-L-Thr","pos":["Magnesium L-Threonate"],"neg":["Potassium Gluconate","Magnesium Malate"]}
+{"query":"Magnesium Taurate","pos":["Magnesium Taurate"],"neg":["Calcium Glycinate","Zinc Oxide"]}
+{"query":"Mg(Tau)2","pos":["Magnesium Taurate"],"neg":["Calcium Glycinate","Zinc Oxide"]}
+{"query":"Mg(Taurine)","pos":["Magnesium Taurate"],"neg":["Calcium Glycinate","Zinc Oxide"]}
+{"query":"Magnesium Chloride","pos":["Magnesium Chloride"],"neg":["Calcium Carbonate","Boron"]}
+{"query":"MgCl₂","pos":["Magnesium Chloride"],"neg":["Calcium Carbonate","Boron"]}
+{"query":"Magnesii Chloridum","pos":["Magnesium Chloride"],"neg":["Calcium Carbonate","Boron"]}
+{"query":"Magnesi chloridi","pos":["Magnesium Chloride"],"neg":["Calcium Carbonate","Boron"]}
+{"query":"Zinc","pos":["Zinc"],"neg":["Iodine","Magnesium Oxide"]}
+{"query":"Zn","pos":["Zinc"],"neg":["Iodine","Magnesium Oxide"]}
+{"query":"Zinc Oxide","pos":["Zinc Oxide"],"neg":["Zinc Picolinate","Calcium Glycinate"]}
+{"query":"Zinc(II) oxide","pos":["Zinc Oxide"],"neg":["Zinc Picolinate","Calcium Glycinate"]}
+{"query":"Zinkoxid","pos":["Zinc Oxide"],"neg":["Zinc Picolinate","Calcium Glycinate"]}
+{"query":"Zinc Gluconate","pos":["Zinc Gluconate"],"neg":["Ferrous Bisglycinate","Magnesium"]}
+{"query":"Zn Gluconate","pos":["Zinc Gluconate"],"neg":["Ferrous Bisglycinate","Magnesium"]}
+{"query":"Zinc (Gluconate)","pos":["Zinc Gluconate"],"neg":["Ferrous Bisglycinate","Magnesium"]}
+{"query":"Zn (C6H11O7)2","pos":["Zinc Gluconate"],"neg":["Ferrous Bisglycinate","Magnesium"]}
+{"query":"Zinc(II) gluconate","pos":["Zinc Gluconate"],"neg":["Ferrous Bisglycinate","Magnesium"]}
+{"query":"Zinc Picolinate","pos":["Zinc Picolinate"],"neg":["Potassium Chloride","Calcium"]}
+{"query":"Zn Picolinate","pos":["Zinc Picolinate"],"neg":["Potassium Chloride","Calcium"]}
+{"query":"Zinc (Picolinate)","pos":["Zinc Picolinate"],"neg":["Potassium Chloride","Calcium"]}
+{"query":"Zn(Pic)","pos":["Zinc Picolinate"],"neg":["Potassium Chloride","Calcium"]}
+{"query":"Zinc Bisglycinate","pos":["Zinc Bisglycinate"],"neg":["Selenium","Copper Gluconate"]}
+{"query":"Zn(Bisglycinate)","pos":["Zinc Bisglycinate"],"neg":["Selenium","Copper Gluconate"]}
+{"query":"Bis(glycine) zinc","pos":["Zinc Bisglycinate"],"neg":["Selenium","Copper Gluconate"]}
+{"query":"Zinc (II) bis(glycinate)","pos":["Zinc Bisglycinate"],"neg":["Selenium","Copper Gluconate"]}
+{"query":"Zn(Gly)2","pos":["Zinc Bisglycinate"],"neg":["Selenium","Copper Gluconate"]}
+{"query":"Calcium Citrate","pos":["Calcium Citrate"],"neg":["Magnesium L-Threonate","Selenium"]}
+{"query":"CaCit","pos":["Calcium Citrate"],"neg":["Magnesium L-Threonate","Selenium"]}
+{"query":"Calcium (as Calcium Citrate)","pos":["Calcium Citrate"],"neg":["Magnesium L-Threonate","Selenium"]}
+{"query":"Calcium (from Calcium Citrate)","pos":["Calcium Citrate"],"neg":["Magnesium L-Threonate","Selenium"]}
+{"query":"Calcium Glycinate","pos":["Calcium Glycinate"],"neg":["Copper","Boron"]}
+{"query":"Ca-Glycinate","pos":["Calcium Glycinate"],"neg":["Copper","Boron"]}
+{"query":"Glycine Calcium Complex","pos":["Calcium Glycinate"],"neg":["Copper","Boron"]}
+{"query":"Calcium (Glycinate)","pos":["Calcium Glycinate"],"neg":["Copper","Boron"]}
+{"query":"Calcium Glycinate Supplement","pos":["Calcium Glycinate"],"neg":["Copper","Boron"]}
+{"query":"Iron","pos":["Iron"],"neg":["Zinc","Zinc Oxide"]}
+{"query":"Iron Gluconate","pos":["Iron"],"neg":["Zinc","Zinc Oxide"]}
+{"query":"Ferrous Sulfate","pos":["Ferrous Sulfate"],"neg":["Calcium Carbonate","Ferrous Bisglycinate"]}
+{"query":"FeSO4","pos":["Ferrous Sulfate"],"neg":["Calcium Carbonate","Ferrous Bisglycinate"]}
+{"query":"Iron(II) Sulfate","pos":["Ferrous Sulfate"],"neg":["Calcium Carbonate","Ferrous Bisglycinate"]}
+{"query":"Iron Sulphate","pos":["Ferrous Sulfate"],"neg":["Calcium Carbonate","Ferrous Bisglycinate"]}
+{"query":"Ferrous Bisglycinate","pos":["Ferrous Bisglycinate"],"neg":["Calcium Citrate","Zinc"]}
+{"query":"Fe(Bisglycinate)","pos":["Ferrous Bisglycinate"],"neg":["Calcium Citrate","Zinc"]}
+{"query":"Iron (Bisglycinate)","pos":["Ferrous Bisglycinate"],"neg":["Calcium Citrate","Zinc"]}
+{"query":"Iron(II) Bisglycinate","pos":["Ferrous Bisglycinate"],"neg":["Calcium Citrate","Zinc"]}
+{"query":"Ferrous Glycinate","pos":["Ferrous Bisglycinate"],"neg":["Calcium Citrate","Zinc"]}
+{"query":"Selenium","pos":["Selenium"],"neg":["Boron","Magnesium Chloride"]}
+{"query":"Selenium L-Selenomethionine","pos":["Selenium"],"neg":["Boron","Magnesium Chloride"]}
+{"query":"Chromium Picolinate","pos":["Chromium"],"neg":["Potassium Chloride","Magnesium Citrate"]}
+{"query":"Iodine","pos":["Iodine"],"neg":["Calcium","Copper Bisglycinate"]}
+{"query":"Iodide","pos":["Iodine"],"neg":["Calcium","Copper Bisglycinate"]}
+{"query":"K+ (Potassium)","pos":["Potassium"],"neg":["Magnesium Carbonate","Copper Bisglycinate"]}
+{"query":"Mn","pos":["Manganese"],"neg":["Magnesium Malate","Magnesium Citrate"]}
+{"query":"Manganese","pos":["Manganese"],"neg":["Magnesium Malate","Magnesium Citrate"]}
+{"query":"Mn Salt","pos":["Manganese"],"neg":["Magnesium Malate","Magnesium Citrate"]}
+{"query":"Manganese Gluconate","pos":["Manganese"],"neg":["Magnesium Malate","Magnesium Citrate"]}
+{"query":"Copper","pos":["Copper"],"neg":["Magnesium Malate","Copper Bisglycinate"]}
+{"query":"Cu","pos":["Copper"],"neg":["Magnesium Malate","Copper Bisglycinate"]}
+{"query":"Boron","pos":["Boron"],"neg":["Manganese","Magnesium Malate"]}
+{"query":"Crospovidone","pos":["Crospovidone"],"neg":["Pregelatinised Starch","Povidone"]}
+{"query":"Copper(II) Gluconate","pos":["Copper Gluconate"],"neg":["Selenium","Magnesium"]}
+{"query":"Cu(Gluco)3","pos":["Copper Gluconate"],"neg":["Selenium","Magnesium"]}
+{"query":"Cupric Gluconate","pos":["Copper Gluconate"],"neg":["Selenium","Magnesium"]}
+{"query":"Cupric(II) Gluconate","pos":["Copper Gluconate"],"neg":["Selenium","Magnesium"]}
+{"query":"Cuprum Gluconicum","pos":["Copper Gluconate"],"neg":["Selenium","Magnesium"]}
+{"query":"Copper(II) Bisglycinate Chelate","pos":["Copper Bisglycinate"],"neg":["Magnesium Taurate","Potassium Gluconate"]}
+{"query":"Cupric Bisglycinate","pos":["Copper Bisglycinate"],"neg":["Magnesium Taurate","Potassium Gluconate"]}
+{"query":"Cu(BisGly)","pos":["Copper Bisglycinate"],"neg":["Magnesium Taurate","Potassium Gluconate"]}
+{"query":"BisGlycinate Copper","pos":["Copper Bisglycinate"],"neg":["Magnesium Taurate","Potassium Gluconate"]}
+{"query":"Cupric Glycinate","pos":["Copper Bisglycinate"],"neg":["Magnesium Taurate","Potassium Gluconate"]}
+{"query":"Cupric Oxide","pos":["Cupric Oxide"],"neg":["Iron","Zinc Oxide"]}
+{"query":"CuO","pos":["Cupric Oxide"],"neg":["Iron","Zinc Oxide"]}
+{"query":"Cu₂O","pos":["Cupric Oxide"],"neg":["Iron","Zinc Oxide"]}
+{"query":"Potassium Chloride","pos":["Potassium Chloride"],"neg":["Magnesium Oxide","Magnesium"]}
+{"query":"KCl","pos":["Potassium Chloride"],"neg":["Magnesium Oxide","Magnesium"]}
+{"query":"POT-KL","pos":["Potassium Chloride"],"neg":["Magnesium Oxide","Magnesium"]}
+{"query":"Kaliumchlorid","pos":["Potassium Chloride"],"neg":["Magnesium Oxide","Magnesium"]}
+{"query":"Potassium Gluconate","pos":["Potassium Gluconate"],"neg":["Magnesium Citrate","Zinc Picolinate"]}
+{"query":"K+ Gluconate","pos":["Potassium Gluconate"],"neg":["Magnesium Citrate","Zinc Picolinate"]}
+{"query":"KGluco","pos":["Potassium Gluconate"],"neg":["Magnesium Citrate","Zinc Picolinate"]}
+{"query":"L-Glutamine","pos":["L-Glutamine"],"neg":["Acetyl-L-Carnitine","BCAA"]}
+{"query":"Glutamine","pos":["L-Glutamine"],"neg":["Acetyl-L-Carnitine","BCAA"]}
+{"query":"L-Gln","pos":["L-Glutamine"],"neg":["Acetyl-L-Carnitine","BCAA"]}
+{"query":"Glutamin","pos":["L-Glutamine"],"neg":["Acetyl-L-Carnitine","BCAA"]}
+{"query":"L-Arginine","pos":["L-Arginine"],"neg":["Acetyl-L-Carnitine","Creatine Nitrate"]}
+{"query":"L-Arg","pos":["L-Arginine"],"neg":["Acetyl-L-Carnitine","Creatine Nitrate"]}
+{"query":"Arginine HCl","pos":["L-Arginine"],"neg":["Acetyl-L-Carnitine","Creatine Nitrate"]}
+{"query":"L-Arginine Hydrochloride","pos":["L-Arginine"],"neg":["Acetyl-L-Carnitine","Creatine Nitrate"]}
+{"query":"L-Arg HCL","pos":["L-Arginine"],"neg":["Acetyl-L-Carnitine","Creatine Nitrate"]}
+{"query":"L-Citrulline","pos":["L-Citrulline"],"neg":["L-Arginine","L-Histidine"]}
+{"query":"L-Citrullinum","pos":["L-Citrulline"],"neg":["L-Arginine","L-Histidine"]}
+{"query":"L-Citrulina","pos":["L-Citrulline"],"neg":["L-Arginine","L-Histidine"]}
+{"query":"L-Carnitine","pos":["L-Carnitine"],"neg":["Buffered Creatine","L-Threonine"]}
+{"query":"L-Carnitina","pos":["L-Carnitine"],"neg":["Buffered Creatine","L-Threonine"]}
+{"query":"L-Carn","pos":["L-Carnitine"],"neg":["Buffered Creatine","L-Threonine"]}
+{"query":"L-Carnt","pos":["L-Carnitine"],"neg":["Buffered Creatine","L-Threonine"]}
+{"query":"L-Carni","pos":["L-Carnitine"],"neg":["Buffered Creatine","L-Threonine"]}
+{"query":"Acetyl-L-Carnitine","pos":["Acetyl-L-Carnitine"],"neg":["L-Tyrosine","Taurine"]}
+{"query":"ALCAR","pos":["Acetyl-L-Carnitine"],"neg":["L-Tyrosine","Taurine"]}
+{"query":"Acetylated L-Carnitine","pos":["Acetyl-L-Carnitine"],"neg":["L-Tyrosine","Taurine"]}
+{"query":"ACR","pos":["Acetyl-L-Carnitine"],"neg":["L-Tyrosine","Taurine"]}
+{"query":"L-Carnitine L-Tartrate","pos":["L-Carnitine L-Tartrate"],"neg":["L-Citrulline","L-Methionine"]}
+{"query":"LCarnitine LTartrate","pos":["L-Carnitine L-Tartrate"],"neg":["L-Citrulline","L-Methionine"]}
+{"query":"L Carnitine L Tartrate","pos":["L-Carnitine L-Tartrate"],"neg":["L-Citrulline","L-Methionine"]}
+{"query":"L-Carn LT","pos":["L-Carnitine L-Tartrate"],"neg":["L-Citrulline","L-Methionine"]}
+{"query":"L Carn LT","pos":["L-Carnitine L-Tartrate"],"neg":["L-Citrulline","L-Methionine"]}
+{"query":"Taurine","pos":["Taurine"],"neg":["L-Tryptophan","L-Carnitine L-Tartrate"]}
+{"query":"L-Lysine HCl","pos":["L-Lysine"],"neg":["L-Histidine","L-Carnitine"]}
+{"query":"L-Lysine Hydrochloride","pos":["L-Lysine"],"neg":["L-Histidine","L-Carnitine"]}
+{"query":"L-Lysine Monohydrochloride","pos":["L-Lysine"],"neg":["L-Histidine","L-Carnitine"]}
+{"query":"L-lysine","pos":["L-Lysine"],"neg":["L-Histidine","L-Carnitine"]}
+{"query":"L-Лизин","pos":["L-Lysine"],"neg":["L-Histidine","L-Carnitine"]}
+{"query":"L-Tyrosine","pos":["L-Tyrosine"],"neg":["Taurine","L-Carnitine L-Tartrate"]}
+{"query":"Tyrosine","pos":["L-Tyrosine"],"neg":["Taurine","L-Carnitine L-Tartrate"]}
+{"query":"L-Tyr","pos":["L-Tyrosine"],"neg":["Taurine","L-Carnitine L-Tartrate"]}
+{"query":"L-Tirozyn","pos":["L-Tyrosine"],"neg":["Taurine","L-Carnitine L-Tartrate"]}
+{"query":"L-Tryptophan","pos":["L-Tryptophan"],"neg":["L-Carnitine","Creatine Ethyl Ester"]}
+{"query":"L-tryptofano","pos":["L-Tryptophan"],"neg":["L-Carnitine","Creatine Ethyl Ester"]}
+{"query":"L-TRYPTOPHAN","pos":["L-Tryptophan"],"neg":["L-Carnitine","Creatine Ethyl Ester"]}
+{"query":"L-Tryptophan HCl","pos":["L-Tryptophan"],"neg":["L-Carnitine","Creatine Ethyl Ester"]}
+{"query":"L-Phenylalanine","pos":["L-Phenylalanine"],"neg":["Buffered Creatine","L-Isoleucine"]}
+{"query":"L-Phe","pos":["L-Phenylalanine"],"neg":["Buffered Creatine","L-Isoleucine"]}
+{"query":"Phe","pos":["L-Phenylalanine"],"neg":["Buffered Creatine","L-Isoleucine"]}
+{"query":"L-Phenyl-Ala","pos":["L-Phenylalanine"],"neg":["Buffered Creatine","L-Isoleucine"]}
+{"query":"Phenylalaninum","pos":["L-Phenylalanine"],"neg":["Buffered Creatine","L-Isoleucine"]}
+{"query":"L-Leucine","pos":["L-Leucine"],"neg":["Creatine HCl","L-Carnitine"]}
+{"query":"Leu","pos":["L-Leucine"],"neg":["Creatine HCl","L-Carnitine"]}
+{"query":"L-Leu","pos":["L-Leucine"],"neg":["Creatine HCl","L-Carnitine"]}
+{"query":"L-Valine","pos":["L-Valine"],"neg":["L-Threonine","L-Citrulline"]}
+{"query":"L-Val","pos":["L-Valine"],"neg":["L-Threonine","L-Citrulline"]}
+{"query":"L-Valin","pos":["L-Valine"],"neg":["L-Threonine","L-Citrulline"]}
+{"query":"L-Valina","pos":["L-Valine"],"neg":["L-Threonine","L-Citrulline"]}
+{"query":"BCAA","pos":["BCAA"],"neg":["Buffered Creatine","L-Isoleucine"]}
+{"query":"Branched Chain Amino Acids","pos":["BCAA"],"neg":["Buffered Creatine","L-Isoleucine"]}
+{"query":"L-Methionine","pos":["L-Methionine"],"neg":["Glycine","L-Tryptophan"]}
+{"query":"L-Met","pos":["L-Methionine"],"neg":["Glycine","L-Tryptophan"]}
+{"query":"L-Methioninum","pos":["L-Methionine"],"neg":["Glycine","L-Tryptophan"]}
+{"query":"L-Histidine","pos":["L-Histidine"],"neg":["Creatine Ethyl Ester","L-Valine"]}
+{"query":"L-His","pos":["L-Histidine"],"neg":["Creatine Ethyl Ester","L-Valine"]}
+{"query":"Histidinum","pos":["L-Histidine"],"neg":["Creatine Ethyl Ester","L-Valine"]}
+{"query":"L-Histidina","pos":["L-Histidine"],"neg":["Creatine Ethyl Ester","L-Valine"]}
+{"query":"L-Threonine Anhydrous","pos":["L-Threonine"],"neg":["L-Methionine","L-Glutamine"]}
+{"query":"L-Thr","pos":["L-Threonine"],"neg":["L-Methionine","L-Glutamine"]}
+{"query":"L-Threonin","pos":["L-Threonine"],"neg":["L-Methionine","L-Glutamine"]}
+{"query":"EAA","pos":["EAA"],"neg":["Micronised Creatine","L-Lysine"]}
+{"query":"Glycine","pos":["Glycine"],"neg":["L-Phenylalanine","L-Citrulline"]}
+{"query":"Amino Acid Glycine","pos":["Glycine"],"neg":["L-Phenylalanine","L-Citrulline"]}
+{"query":"Gly","pos":["Glycine"],"neg":["L-Phenylalanine","L-Citrulline"]}
+{"query":"Glycine Monohydrate","pos":["Glycine"],"neg":["L-Phenylalanine","L-Citrulline"]}
+{"query":"Creatine Monohydrate","pos":["Creatine Monohydrate"],"neg":["L-Glutamine","L-Isoleucine"]}
+{"query":"Creatina Monohidrato","pos":["Creatine Monohydrate"],"neg":["L-Glutamine","L-Isoleucine"]}
+{"query":"Cr-Mono","pos":["Creatine Monohydrate"],"neg":["L-Glutamine","L-Isoleucine"]}
+{"query":"Creatinum Monohydratum","pos":["Creatine Monohydrate"],"neg":["L-Glutamine","L-Isoleucine"]}
+{"query":"Creatine Hydrochloride","pos":["Creatine HCl"],"neg":["L-Arginine","L-Glutamine"]}
+{"query":"Creatine HCl","pos":["Creatine HCl"],"neg":["L-Arginine","L-Glutamine"]}
+{"query":"Creatine Monohydrate HCl Form","pos":["Creatine HCl"],"neg":["L-Arginine","L-Glutamine"]}
+{"query":"Mono-Hydrochloride Creatine","pos":["Creatine HCl"],"neg":["L-Arginine","L-Glutamine"]}
+{"query":"Creatinum HCl","pos":["Creatine HCl"],"neg":["L-Arginine","L-Glutamine"]}
+{"query":"Creatine Ethyl Ester","pos":["Creatine Ethyl Ester"],"neg":["L-Lysine","L-Carnitine"]}
+{"query":"Creat Ester","pos":["Creatine Ethyl Ester"],"neg":["L-Lysine","L-Carnitine"]}
+{"query":"Ethylester Creatine","pos":["Creatine Ethyl Ester"],"neg":["L-Lysine","L-Carnitine"]}
+{"query":"Buffered Creatine Monohydrate","pos":["Buffered Creatine"],"neg":["L-Carnitine","L-Lysine"]}
+{"query":"Buffered Creatine HCl","pos":["Buffered Creatine"],"neg":["L-Carnitine","L-Lysine"]}
+{"query":"Cr Buffer","pos":["Buffered Creatine"],"neg":["L-Carnitine","L-Lysine"]}
+{"query":"Micronised Creatine Monohydrate","pos":["Micronised Creatine"],"neg":["Buffered Creatine","L-Lysine"]}
+{"query":"Creatine Monohydrate (Micronised)","pos":["Micronised Creatine"],"neg":["Buffered Creatine","L-Lysine"]}
+{"query":"Micronised Creatine HCl","pos":["Micronised Creatine"],"neg":["Buffered Creatine","L-Lysine"]}
+{"query":"Creatine Nitrate","pos":["Creatine Nitrate"],"neg":["L-Glutamine","L-Leucine"]}
+{"query":"Creatinum Nitratum","pos":["Creatine Nitrate"],"neg":["L-Glutamine","L-Leucine"]}
+{"query":"Cr-Nitrate","pos":["Creatine Nitrate"],"neg":["L-Glutamine","L-Leucine"]}
+{"query":"Potassium Sorbate","pos":["Potassium Sorbate"],"neg":["Butylparaben","BHA"]}
+{"query":"Kosher Preservative","pos":["Potassium Sorbate"],"neg":["Butylparaben","BHA"]}
+{"query":"Sorbic Acid","pos":["Sorbic Acid"],"neg":["EDTA","BHT"]}
+{"query":"Benzoic Acid","pos":["Benzoic Acid"],"neg":["Calcium Propionate","Sodium Benzoate"]}
+{"query":"Benz酸","pos":["Benzoic Acid"],"neg":["Calcium Propionate","Sodium Benzoate"]}
+{"query":"Benzioïque Acide","pos":["Benzoic Acid"],"neg":["Calcium Propionate","Sodium Benzoate"]}
+{"query":"Sodium Benzoate","pos":["Sodium Benzoate"],"neg":["Potassium Metabisulphite","Potassium Sorbate"]}
+{"query":"E211","pos":["Sodium Benzoate"],"neg":["Potassium Metabisulphite","Potassium Sorbate"]}
+{"query":"Benzoates","pos":["Sodium Benzoate"],"neg":["Potassium Metabisulphite","Potassium Sorbate"]}
+{"query":"NaB","pos":["Sodium Benzoate"],"neg":["Potassium Metabisulphite","Potassium Sorbate"]}
+{"query":"Sodium Benzoato","pos":["Sodium Benzoate"],"neg":["Potassium Metabisulphite","Potassium Sorbate"]}
+{"query":"BHA","pos":["BHA"],"neg":["Potassium Sorbate","Sodium Metabisulphite"]}
+{"query":"BHA Antioxidant","pos":["BHA"],"neg":["Potassium Sorbate","Sodium Metabisulphite"]}
+{"query":"BHT","pos":["BHT"],"neg":["Nisin","BHA"]}
+{"query":"BHT (Antioxidant)","pos":["BHT"],"neg":["Nisin","BHA"]}
+{"query":"EDTA disodium","pos":["EDTA"],"neg":["Potassium Sorbate","Propylparaben"]}
+{"query":"Disodium EDTA","pos":["EDTA"],"neg":["Potassium Sorbate","Propylparaben"]}
+{"query":"Ethylene Diamine Tetraacetic Acid","pos":["EDTA"],"neg":["Potassium Sorbate","Propylparaben"]}
+{"query":"Hydrated Disodium Ethylenediaminetetraacetate","pos":["EDTA"],"neg":["Potassium Sorbate","Propylparaben"]}
+{"query":"Sodium Metabisulfite","pos":["Sodium Metabisulphite"],"neg":["Potassium Sorbate","BHT"]}
+{"query":"E223","pos":["Sodium Metabisulphite"],"neg":["Potassium Sorbate","BHT"]}
+{"query":"Sulfiting Agent","pos":["Sodium Metabisulphite"],"neg":["Potassium Sorbate","BHT"]}
+{"query":"Sulphiting Agent","pos":["Sodium Metabisulphite"],"neg":["Potassium Sorbate","BHT"]}
+{"query":"E224","pos":["Potassium Metabisulphite"],"neg":["EDTA","Calcium Propionate"]}
+{"query":"Potasùum Metabisulfite (French)","pos":["Potassium Metabisulphite"],"neg":["EDTA","Calcium Propionate"]}
+{"query":"Potassio Metabisulfito (Spanish)","pos":["Potassium Metabisulphite"],"neg":["EDTA","Calcium Propionate"]}
+{"query":"Metabisulfito de Potasio (Italian)","pos":["Potassium Metabisulphite"],"neg":["EDTA","Calcium Propionate"]}
+{"query":"Sulphite","pos":["Sulphur Dioxide"],"neg":["Natamycin","Methylparaben"]}
+{"query":"Sulfite","pos":["Sulphur Dioxide"],"neg":["Natamycin","Methylparaben"]}
+{"query":"E220","pos":["Sulphur Dioxide"],"neg":["Natamycin","Methylparaben"]}
+{"query":"SO2","pos":["Sulphur Dioxide"],"neg":["Natamycin","Methylparaben"]}
+{"query":"Sulphur dioxide","pos":["Sulphur Dioxide"],"neg":["Natamycin","Methylparaben"]}
+{"query":"Sodium Sulfite","pos":["Sodium Sulphite"],"neg":["Calcium Propionate","Rosemary Extract"]}
+{"query":"Sodium Sulphite (E221)","pos":["Sodium Sulphite"],"neg":["Calcium Propionate","Rosemary Extract"]}
+{"query":"Sulphiting Agent","pos":["Sodium Sulphite"],"neg":["Calcium Propionate","Rosemary Extract"]}
+{"query":"Sulfite Preservative","pos":["Sodium Sulphite"],"neg":["Calcium Propionate","Rosemary Extract"]}
+{"query":"Sulfiting Salt","pos":["Sodium Sulphite"],"neg":["Calcium Propionate","Rosemary Extract"]}
+{"query":"Croscarmellose Sodium","pos":["Croscarmellose Sodium"],"neg":["Povidone","Microcrystalline Cellulose"]}
+{"query":"Croscarm-S","pos":["Croscarmellose Sodium"],"neg":["Povidone","Microcrystalline Cellulose"]}
+{"query":"Sodium Nitrate","pos":["Sodium Nitrate"],"neg":["Benzoic Acid","Rosemary Extract"]}
+{"query":"Nitrato de Sodio","pos":["Sodium Nitrate"],"neg":["Benzoic Acid","Rosemary Extract"]}
+{"query":"Calcium Propionate","pos":["Calcium Propionate"],"neg":["Sodium Sulphite","Propionic Acid"]}
+{"query":"Ca Propionate","pos":["Calcium Propionate"],"neg":["Sodium Sulphite","Propionic Acid"]}
+{"query":"Propionato de Cálcio","pos":["Calcium Propionate"],"neg":["Sodium Sulphite","Propionic Acid"]}
+{"query":"Propiónico de Calcio","pos":["Calcium Propionate"],"neg":["Sodium Sulphite","Propionic Acid"]}
+{"query":"Sodium Propionate","pos":["Sodium Propionate"],"neg":["Potassium Sorbate","Sorbic Acid"]}
+{"query":"Propi酸钠","pos":["Sodium Propionate"],"neg":["Potassium Sorbate","Sorbic Acid"]}
+{"query":"NaPr","pos":["Sodium Propionate"],"neg":["Potassium Sorbate","Sorbic Acid"]}
+{"query":"Sodio Propionato","pos":["Sodium Propionate"],"neg":["Potassium Sorbate","Sorbic Acid"]}
+{"query":"Rosemary Extract","pos":["Rosemary Extract"],"neg":["Sodium Nitrate","Butylparaben"]}
+{"query":"Rosmarinus Officinalis Leaf Extract","pos":["Rosemary Extract"],"neg":["Sodium Nitrate","Butylparaben"]}
+{"query":"Rosemary Leaf Extract","pos":["Rosemary Extract"],"neg":["Sodium Nitrate","Butylparaben"]}
+{"query":"Natamycin","pos":["Natamycin"],"neg":["Propylparaben","Sodium Sulphite"]}
+{"query":"Natamycine","pos":["Natamycin"],"neg":["Propylparaben","Sodium Sulphite"]}
+{"query":"Natamycine Fungicide","pos":["Natamycin"],"neg":["Propylparaben","Sodium Sulphite"]}
+{"query":"Nisin","pos":["Nisin"],"neg":["Sodium Benzoate","Rosemary Extract"]}
+{"query":"Nisin (Natural Food Preservative)","pos":["Nisin"],"neg":["Sodium Benzoate","Rosemary Extract"]}
+{"query":"Nisin (E296)","pos":["Nisin"],"neg":["Sodium Benzoate","Rosemary Extract"]}
+{"query":"Propionic Acid","pos":["Propionic Acid"],"neg":["BHA","Sodium Propionate"]}
+{"query":"Acid Propionique","pos":["Propionic Acid"],"neg":["BHA","Sodium Propionate"]}
+{"query":"Propi醡酸","pos":["Propionic Acid"],"neg":["BHA","Sodium Propionate"]}
+{"query":"Methylparaben","pos":["Methylparaben"],"neg":["Sodium Sulphite","Natamycin"]}
+{"query":"E218","pos":["Methylparaben"],"neg":["Sodium Sulphite","Natamycin"]}
+{"query":"Methyl Paraben","pos":["Methylparaben"],"neg":["Sodium Sulphite","Natamycin"]}
+{"query":"Metilparabeno","pos":["Methylparaben"],"neg":["Sodium Sulphite","Natamycin"]}
+{"query":"MeParaben","pos":["Methylparaben"],"neg":["Sodium Sulphite","Natamycin"]}
+{"query":"Propylparaben","pos":["Propylparaben"],"neg":["Natamycin","Rosemary Extract"]}
+{"query":"Paraben-Pr","pos":["Propylparaben"],"neg":["Natamycin","Rosemary Extract"]}
+{"query":"Preservante Propilparabeno","pos":["Propylparaben"],"neg":["Natamycin","Rosemary Extract"]}
+{"query":"Propilparabeno","pos":["Propylparaben"],"neg":["Natamycin","Rosemary Extract"]}
+{"query":"Ethylparaben","pos":["Ethylparaben"],"neg":["Butylparaben","Potassium Sorbate"]}
+{"query":"E214","pos":["Ethylparaben"],"neg":["Butylparaben","Potassium Sorbate"]}
+{"query":"Ethyl Para-Hydroxybenzoate","pos":["Ethylparaben"],"neg":["Butylparaben","Potassium Sorbate"]}
+{"query":"Butylparaben","pos":["Butylparaben"],"neg":["Methylparaben","Natamycin"]}
+{"query":"Preservative BP","pos":["Butylparaben"],"neg":["Methylparaben","Natamycin"]}
+{"query":"Paraben Butyl","pos":["Butylparaben"],"neg":["Methylparaben","Natamycin"]}
+{"query":"Butyl Paraben","pos":["Butylparaben"],"neg":["Methylparaben","Natamycin"]}
+{"query":"Povidone","pos":["Povidone"],"neg":["Acacia","Microcrystalline Cellulose"]}
+{"query":"Povidone K30","pos":["Povidone"],"neg":["Acacia","Microcrystalline Cellulose"]}
+{"query":"Polyvidone","pos":["Povidone"],"neg":["Acacia","Microcrystalline Cellulose"]}
+{"query":"Sodium Starch Glycolate","pos":["Sodium Starch Glycolate"],"neg":["Microcrystalline Cellulose","Methyl Cellulose"]}
+{"query":"Pregelatinised Starch","pos":["Pregelatinised Starch"],"neg":["Croscarmellose Sodium","Methyl Cellulose"]}
+{"query":"Pregelatinized Corn Starch","pos":["Pregelatinised Starch"],"neg":["Croscarmellose Sodium","Methyl Cellulose"]}
+{"query":"Pregelatinised Potato Starch","pos":["Pregelatinised Starch"],"neg":["Croscarmellose Sodium","Methyl Cellulose"]}
+{"query":"Pregelatined Starch","pos":["Pregelatinised Starch"],"neg":["Croscarmellose Sodium","Methyl Cellulose"]}
+{"query":"Acacia Fiber","pos":["Acacia"],"neg":["Microcrystalline Cellulose","Pregelatinised Starch"]}
+{"query":"Cellulose","pos":["Cellulose"],"neg":["Crospovidone","Povidone"]}
+{"query":"Talc","pos":["Talc"],"neg":["Kaolin","Lactose"]}
+{"query":"Talcum Powder","pos":["Talc"],"neg":["Kaolin","Lactose"]}
+{"query":"Tricalcium Phosphate","pos":["Tricalcium Phosphate"],"neg":["Maltodextrin","Dicalcium Phosphate"]}
+{"query":"Tribasic Calcium Phosphate","pos":["Tricalcium Phosphate"],"neg":["Maltodextrin","Dicalcium Phosphate"]}
+{"query":"Ca3(PO4)2","pos":["Tricalcium Phosphate"],"neg":["Maltodextrin","Dicalcium Phosphate"]}
+{"query":"Starch","pos":["Starch"],"neg":["Tricalcium Phosphate","Talc"]}
+{"query":"Corn Starch","pos":["Starch"],"neg":["Tricalcium Phosphate","Talc"]}
+{"query":"Potato Starch","pos":["Starch"],"neg":["Tricalcium Phosphate","Talc"]}
+{"query":"Waxy Maize Starch","pos":["Starch"],"neg":["Tricalcium Phosphate","Talc"]}
+{"query":"Kaolin","pos":["Kaolin"],"neg":["Talc","Maltodextrin"]}
+{"query":"China Clay","pos":["Kaolin"],"neg":["Talc","Maltodextrin"]}
+{"query":"Kaolin Powder","pos":["Kaolin"],"neg":["Talc","Maltodextrin"]}
+{"query":"Dibasic Calcium Phosphate","pos":["Dibasic Calcium Phosphate"],"neg":["Kaolin","Starch"]}
+{"query":"Calcium Phosphate Dibasic","pos":["Dibasic Calcium Phosphate"],"neg":["Kaolin","Starch"]}
+{"query":"Guar Gum","pos":["Guar Gum"],"neg":["Cellulose Gum","Carrageenan"]}
+{"query":"Ghatti Gum","pos":["Guar Gum"],"neg":["Cellulose Gum","Carrageenan"]}
+{"query":"E412","pos":["Guar Gum"],"neg":["Cellulose Gum","Carrageenan"]}
+{"query":"Stearic Acid","pos":["Stearic Acid"],"neg":["Polyethylene Glycol","Hydrogenated Vegetable Oil"]}
+{"query":"Stearate","pos":["Stearic Acid"],"neg":["Polyethylene Glycol","Hydrogenated Vegetable Oil"]}
+{"query":"Sodium Stearyl Fumarate","pos":["Sodium Stearyl Fumarate"],"neg":["Oleic Acid","Stearic Acid"]}
+{"query":"SSF","pos":["Sodium Stearyl Fumarate"],"neg":["Oleic Acid","Stearic Acid"]}
+{"query":"SFA","pos":["Sodium Stearyl Fumarate"],"neg":["Oleic Acid","Stearic Acid"]}
+{"query":"Glyceryl Behenate","pos":["Glyceryl Behenate"],"neg":["Oleic Acid","Magnesium Stearate"]}
+{"query":"Behenyl Glycerylate","pos":["Glyceryl Behenate"],"neg":["Oleic Acid","Magnesium Stearate"]}
+{"query":"Glyceryl Esters of Behenic Acid","pos":["Glyceryl Behenate"],"neg":["Oleic Acid","Magnesium Stearate"]}
+{"query":"Hydrogenated Vegetable Oil","pos":["Hydrogenated Vegetable Oil"],"neg":["Polyethylene Glycol","Magnesium Stearate"]}
+{"query":"Partially Hydrogenated Vegetable Oil","pos":["Hydrogenated Vegetable Oil"],"neg":["Polyethylene Glycol","Magnesium Stearate"]}
+{"query":"PEG 3350","pos":["Polyethylene Glycol"],"neg":["Magnesium Stearate","Calcium Stearate"]}
+{"query":"PolyE 3350","pos":["Polyethylene Glycol"],"neg":["Magnesium Stearate","Calcium Stearate"]}
+{"query":"Poly-Ethylene-Glycol 3350","pos":["Polyethylene Glycol"],"neg":["Magnesium Stearate","Calcium Stearate"]}
+{"query":"Poly-Ethylene-Glycol-3350","pos":["Polyethylene Glycol"],"neg":["Magnesium Stearate","Calcium Stearate"]}
+{"query":"Oleic Acid","pos":["Oleic Acid"],"neg":["Hydrogenated Vegetable Oil","Glyceryl Behenate"]}
+{"query":"Mono Unsaturated Fatty Acid (MUFA)","pos":["Oleic Acid"],"neg":["Hydrogenated Vegetable Oil","Glyceryl Behenate"]}
+{"query":"Shellac","pos":["Shellac"],"neg":["Titanium Dioxide","Cellulose Acetate Phthalate"]}
+{"query":"Titanium Dioxide","pos":["Titanium Dioxide"],"neg":["Ethylcellulose","Shellac"]}
+{"query":"E171","pos":["Titanium Dioxide"],"neg":["Ethylcellulose","Shellac"]}
+{"query":"TiO2","pos":["Titanium Dioxide"],"neg":["Ethylcellulose","Shellac"]}
+{"query":"Titanium Oxide","pos":["Titanium Dioxide"],"neg":["Ethylcellulose","Shellac"]}
+{"query":"Polyvinyl Alcohol","pos":["Polyvinyl Alcohol"],"neg":["Ethylcellulose","Methacrylic Acid Copolymer"]}
+{"query":"PVA","pos":["Polyvinyl Alcohol"],"neg":["Ethylcellulose","Methacrylic Acid Copolymer"]}
+{"query":"Alcoholum Polivinicum","pos":["Polyvinyl Alcohol"],"neg":["Ethylcellulose","Methacrylic Acid Copolymer"]}
+{"query":"Polivinilalcool","pos":["Polyvinyl Alcohol"],"neg":["Ethylcellulose","Methacrylic Acid Copolymer"]}
+{"query":"Hydroxypropyl Cellulose","pos":["Hydroxypropyl Cellulose"],"neg":["Polyvinyl Alcohol","Carnauba Wax"]}
+{"query":"E463","pos":["Hydroxypropyl Cellulose"],"neg":["Polyvinyl Alcohol","Carnauba Wax"]}
+{"query":"Ethylcellulose","pos":["Ethylcellulose"],"neg":["Hydroxypropyl Methylcellulose","Zein"]}
+{"query":"E462","pos":["Ethylcellulose"],"neg":["Hydroxypropyl Methylcellulose","Zein"]}
+{"query":"Cellulose Acetate Phthalate","pos":["Cellulose Acetate Phthalate"],"neg":["Ethylcellulose","Hydroxypropyl Methylcellulose"]}
+{"query":"Methacrylic Acid Copolymer","pos":["Methacrylic Acid Copolymer"],"neg":["Cellulose Acetate Phthalate","Hydroxypropyl Methylcellulose"]}
+{"query":"PVP Methacrylic Acid Copolymer","pos":["Methacrylic Acid Copolymer"],"neg":["Cellulose Acetate Phthalate","Hydroxypropyl Methylcellulose"]}
+{"query":"PVP/MMA Copolymer","pos":["Methacrylic Acid Copolymer"],"neg":["Cellulose Acetate Phthalate","Hydroxypropyl Methylcellulose"]}
+{"query":"Zein","pos":["Zein"],"neg":["Cellulose Acetate Phthalate","Polyvinyl Alcohol"]}
+{"query":"Beeswax","pos":["Beeswax"],"neg":["Hydroxypropyl Methylcellulose","Carnauba Wax"]}
+{"query":"Cera Alba","pos":["Beeswax"],"neg":["Hydroxypropyl Methylcellulose","Carnauba Wax"]}
+{"query":"White Wax","pos":["White Wax"],"neg":["Ethylcellulose","Cellulose Acetate Phthalate"]}
+{"query":"Cera Alba","pos":["White Wax"],"neg":["Ethylcellulose","Cellulose Acetate Phthalate"]}
+{"query":"Sodium Aluminosilicate","pos":["Sodium Aluminosilicate"],"neg":["Calcium Silicate","Silicon Dioxide"]}
+{"query":"E554","pos":["Sodium Aluminosilicate"],"neg":["Calcium Silicate","Silicon Dioxide"]}
+{"query":"Aluminosilicic acid sodium salt","pos":["Sodium Aluminosilicate"],"neg":["Calcium Silicate","Silicon Dioxide"]}
+{"query":"Na2O·3Al2O3·xSiO2","pos":["Sodium Aluminosilicate"],"neg":["Calcium Silicate","Silicon Dioxide"]}
+{"query":"Sodioalumínosilicato","pos":["Sodium Aluminosilicate"],"neg":["Calcium Silicate","Silicon Dioxide"]}
+{"query":"Calcium Silicate","pos":["Calcium Silicate"],"neg":["Silica","Silicon Dioxide"]}
+{"query":"Calc. Silicate","pos":["Calcium Silicate"],"neg":["Silica","Silicon Dioxide"]}
+{"query":"CaSiO3","pos":["Calcium Silicate"],"neg":["Silica","Silicon Dioxide"]}
+{"query":"Magnesium Carbonate","pos":["Magnesium Carbonate"],"neg":["Zinc Gluconate","Magnesium Chloride"]}
+{"query":"MgCO₃","pos":["Magnesium Carbonate"],"neg":["Zinc Gluconate","Magnesium Chloride"]}
+{"query":"MagCarb","pos":["Magnesium Carbonate"],"neg":["Zinc Gluconate","Magnesium Chloride"]}
+{"query":"Calcium Carbonate","pos":["Calcium Carbonate"],"neg":["Magnesium Taurate","Magnesium Malate"]}
+{"query":"CaCO₃","pos":["Calcium Carbonate"],"neg":["Magnesium Taurate","Magnesium Malate"]}
+{"query":"Carbonate of Calcium","pos":["Calcium Carbonate"],"neg":["Magnesium Taurate","Magnesium Malate"]}
+{"query":"Calcium(II) Carbonate","pos":["Calcium Carbonate"],"neg":["Magnesium Taurate","Magnesium Malate"]}
+{"query":"Calci-Sorb","pos":["Calcium Carbonate"],"neg":["Magnesium Taurate","Magnesium Malate"]}
+{"query":"Rice Flour","pos":["Rice Flour"],"neg":["Silicon Dioxide","Silica"]}
+{"query":"Glutinous Rice Flour","pos":["Rice Flour"],"neg":["Silicon Dioxide","Silica"]}
+{"query":"Sweet Rice Flour","pos":["Rice Flour"],"neg":["Silicon Dioxide","Silica"]}
+{"query":"Short Grain Rice Flour","pos":["Rice Flour"],"neg":["Silicon Dioxide","Silica"]}
+{"query":"Silica","pos":["Silica"],"neg":["Rice Flour","Silicon Dioxide"]}
+{"query":"Colloidal Silicon","pos":["Silica"],"neg":["Rice Flour","Silicon Dioxide"]}
+{"query":"Lecithin","pos":["Lecithin"],"neg":["Soy Lecithin","Sunflower Lecithin"]}
+{"query":"E322","pos":["Lecithin"],"neg":["Soy Lecithin","Sunflower Lecithin"]}
+{"query":"Phosphatidylcholine","pos":["Lecithin"],"neg":["Soy Lecithin","Sunflower Lecithin"]}
+{"query":"Soy Lecithin","pos":["Soy Lecithin"],"neg":["Sodium Lauryl Sulfate","Sunflower Lecithin"]}
+{"query":"Lecitina de Soja","pos":["Soy Lecithin"],"neg":["Sodium Lauryl Sulfate","Sunflower Lecithin"]}
+{"query":"Sunflower Lecithin","pos":["Sunflower Lecithin"],"neg":["Mono and Diglycerides","Soy Lecithin"]}
+{"query":"Lecithine de Tournesol","pos":["Sunflower Lecithin"],"neg":["Mono and Diglycerides","Soy Lecithin"]}
+{"query":"Sunflora Lecithin","pos":["Sunflower Lecithin"],"neg":["Mono and Diglycerides","Soy Lecithin"]}
+{"query":"Lécithine de tournesol","pos":["Sunflower Lecithin"],"neg":["Mono and Diglycerides","Soy Lecithin"]}
+{"query":"Mono and Diglycerides","pos":["Mono and Diglycerides"],"neg":["Lecithin","Soy Lecithin"]}
+{"query":"Natural Annatto Extract","pos":["Annatto"],"neg":["Natural Colouring","Beetroot Red"]}
+{"query":"E160b","pos":["Annatto"],"neg":["Natural Colouring","Beetroot Red"]}
+{"query":"Annato Powder","pos":["Annatto"],"neg":["Natural Colouring","Beetroot Red"]}
+{"query":"Annatto Color","pos":["Annatto"],"neg":["Natural Colouring","Beetroot Red"]}
+{"query":"Beetroot Red","pos":["Beetroot Red"],"neg":["Annatto","Anthocyanins"]}
+{"query":"Beta Vulgaris Extract","pos":["Beetroot Red"],"neg":["Annatto","Anthocyanins"]}
+{"query":"E162","pos":["Beetroot Red"],"neg":["Annatto","Anthocyanins"]}
+{"query":"Red Beet Powder","pos":["Beetroot Red"],"neg":["Annatto","Anthocyanins"]}
+{"query":"Anthocyanins","pos":["Anthocyanins"],"neg":["Annatto","Natural Colouring"]}
+{"query":"Natural Anthocyanins","pos":["Anthocyanins"],"neg":["Annatto","Natural Colouring"]}
+{"query":"Plant-Based Anthocyanins","pos":["Anthocyanins"],"neg":["Annatto","Natural Colouring"]}
+{"query":"Pure Anthocyanins Extract","pos":["Anthocyanins"],"neg":["Annatto","Natural Colouring"]}
+{"query":"Organic Anthocyanins","pos":["Anthocyanins"],"neg":["Annatto","Natural Colouring"]}
+{"query":"Green 3","pos":["Green 3"],"neg":["Yellow 5","Yellow 6"]}
+{"query":"Polysorbate 20","pos":["Polysorbate 20"],"neg":["Sodium Alginate","Propylene Glycol"]}
+{"query":"P20","pos":["Polysorbate 20"],"neg":["Sodium Alginate","Propylene Glycol"]}
+{"query":"Propylene Glycol","pos":["Propylene Glycol"],"neg":["Stabiliser","Sodium Stearoyl Lactylate"]}
+{"query":"Chlorophyll","pos":["Chlorophyll"],"neg":["Caramel","Anthocyanins"]}
+{"query":"Chlorophyllin","pos":["Chlorophyll"],"neg":["Caramel","Anthocyanins"]}
+{"query":"Natural Chlorophyll","pos":["Chlorophyll"],"neg":["Caramel","Anthocyanins"]}
+{"query":"Caramel","pos":["Caramel"],"neg":["Annatto","Anthocyanins"]}
+{"query":"Caramel Colour","pos":["Caramel"],"neg":["Annatto","Anthocyanins"]}
+{"query":"Natural Colouring","pos":["Natural Colouring"],"neg":["Anthocyanins","Chlorophyll"]}
+{"query":"Artificial Colour","pos":["Artificial Colour"],"neg":["Red 3","Red 40"]}
+{"query":"Artificial Food Dye","pos":["Artificial Colour"],"neg":["Red 3","Red 40"]}
+{"query":"Red 40","pos":["Red 40"],"neg":["Yellow 6","Yellow 5"]}
+{"query":"Yellow 5","pos":["Yellow 5"],"neg":["Green 3","Blue 2"]}
+{"query":"Tartrazine","pos":["Yellow 5"],"neg":["Green 3","Blue 2"]}
+{"query":"Yellow 6","pos":["Yellow 6"],"neg":["Red 40","Artificial Colour"]}
+{"query":"Blue 1","pos":["Blue 1"],"neg":["Yellow 5","Red 40"]}
+{"query":"Blue 2","pos":["Blue 2"],"neg":["Yellow 5","Red 40"]}
+{"query":"Stevia Rebaudiana Extract","pos":["Stevia"],"neg":["Yacon Syrup","Natural Sweetener"]}
+{"query":"Steviol Glycosides","pos":["Steviol Glycosides"],"neg":["Yacon Syrup","Natural Sweetener"]}
+{"query":"Stevia Leaf","pos":["Stevia"],"neg":["Yacon Syrup","Natural Sweetener"]}
+{"query":"Stevia Extract","pos":["Steviol Glycosides"],"neg":["Erythritol","Glucose"]}
+{"query":"Stevia Leaf Extract","pos":["Steviol Glycosides"],"neg":["Erythritol","Glucose"]}
+{"query":"E960","pos":["Steviol Glycosides"],"neg":["Erythritol","Glucose"]}
+{"query":"Rebaudioside D","pos":["Rebaudioside D"],"neg":["Glucose","Coconut Sugar"]}
+{"query":"Stevia Extract (Rebaudioside D)","pos":["Rebaudioside D"],"neg":["Glucose","Coconut Sugar"]}
+{"query":"Natural Sweetener (Rebaudioside D)","pos":["Rebaudioside D"],"neg":["Glucose","Coconut Sugar"]}
+{"query":"Rebaudioside M","pos":["Rebaudioside M"],"neg":["Maltitol","Inulin"]}
+{"query":" Reb M","pos":["Rebaudioside M"],"neg":["Maltitol","Inulin"]}
+{"query":"Reb M","pos":["Rebaudioside M"],"neg":["Maltitol","Inulin"]}
+{"query":"Monk Fruit Extract","pos":["Monk Fruit Extract"],"neg":["Sucrose","Sorbitol"]}
+{"query":"Pure Monk Fruit Sweetener","pos":["Monk Fruit Extract"],"neg":["Sucrose","Sorbitol"]}
+{"query":"Natural Monk Fruit Concentrate","pos":["Monk Fruit Extract"],"neg":["Sucrose","Sorbitol"]}
+{"query":"Erythritol","pos":["Erythritol"],"neg":["Allulose","Fructose"]}
+{"query":"E968","pos":["Erythritol"],"neg":["Allulose","Fructose"]}
+{"query":"Erythritol (natural)","pos":["Erythritol"],"neg":["Allulose","Fructose"]}
+{"query":"Erythritol (1,2,3,4-tetrahydroxybutane)","pos":["Erythritol"],"neg":["Allulose","Fructose"]}
+{"query":"Xylitol","pos":["Xylitol"],"neg":["Honey","Coconut Sugar"]}
+{"query":"Sorbitol","pos":["Sorbitol"],"neg":["Coconut Sugar","Erythritol"]}
+{"query":"E420","pos":["Sorbitol"],"neg":["Coconut Sugar","Erythritol"]}
+{"query":"Alcool Sorbitol","pos":["Sorbitol"],"neg":["Coconut Sugar","Erythritol"]}
+{"query":"Sorbo 50","pos":["Sorbitol"],"neg":["Coconut Sugar","Erythritol"]}
+{"query":"Mannitol","pos":["Mannitol"],"neg":["Erythritol","Glucose"]}
+{"query":"Inulin","pos":["Inulin"],"neg":["Coconut Sugar","Agave Nectar"]}
+{"query":"Fructo-Oligosaccharide (FOS)","pos":["Inulin"],"neg":["Coconut Sugar","Agave Nectar"]}
+{"query":"Oligofructose","pos":["Inulin"],"neg":["Coconut Sugar","Agave Nectar"]}
+{"query":"Fructo-Oligosaccharides","pos":["Fructooligosaccharides"],"neg":["Lactitol","Rebaudioside D"]}
+{"query":"Allulose","pos":["Allulose"],"neg":["Honey","Rebaudioside D"]}
+{"query":"Thaumatin","pos":["Thaumatin"],"neg":["Steviol Glycosides","Natural Sweetener"]}
+{"query":"Tagatose","pos":["Tagatose"],"neg":["Fructose","Mannitol"]}
+{"query":"TagaSweet","pos":["Tagatose"],"neg":["Fructose","Mannitol"]}
+{"query":"Organic Coconut Sugar","pos":["Coconut Sugar"],"neg":["Rebaudioside D","Mannitol"]}
+{"query":"Natural Coconut Sugar","pos":["Coconut Sugar"],"neg":["Rebaudioside D","Mannitol"]}
+{"query":"Raw Coconut Sugar","pos":["Coconut Sugar"],"neg":["Rebaudioside D","Mannitol"]}
+{"query":"Unrefined Coconut Sugar","pos":["Coconut Sugar"],"neg":["Rebaudioside D","Mannitol"]}
+{"query":"Demerara Coconut Sugar","pos":["Coconut Sugar"],"neg":["Rebaudioside D","Mannitol"]}
+{"query":"Brown Rice Syrup","pos":["Brown Rice Syrup"],"neg":["Sorbitol","Maltitol"]}
+{"query":"Brown Rice Maltose","pos":["Brown Rice Syrup"],"neg":["Sorbitol","Maltitol"]}
+{"query":"Malt Syrup (from Brown Rice)","pos":["Brown Rice Syrup"],"neg":["Sorbitol","Maltitol"]}
+{"query":"Rice Malt Syrup","pos":["Brown Rice Syrup"],"neg":["Sorbitol","Maltitol"]}
+{"query":"Rice Syrup","pos":["Brown Rice Syrup"],"neg":["Sorbitol","Maltitol"]}
+{"query":"Trehalose","pos":["Trehalose"],"neg":["Sucrose","Steviol Glycosides"]}
+{"query":"Trehalose Anhydrous","pos":["Trehalose"],"neg":["Sucrose","Steviol Glycosides"]}
+{"query":"Beta-Glucan Trehalose","pos":["Trehalose"],"neg":["Sucrose","Steviol Glycosides"]}
+{"query":"Yacon Syrup","pos":["Yacon Syrup"],"neg":["Trehalose","Lactitol"]}
+{"query":"Yacone Syrup","pos":["Yacon Syrup"],"neg":["Trehalose","Lactitol"]}
+{"query":"Yaconi Syrup","pos":["Yacon Syrup"],"neg":["Trehalose","Lactitol"]}
+{"query":"Maltitol","pos":["Maltitol"],"neg":["Mannitol","Natural Sweetener"]}
+{"query":"Maltitール","pos":["Maltitol"],"neg":["Mannitol","Natural Sweetener"]}
+{"query":"Isomalt","pos":["Isomalt"],"neg":["Stevia","Inulin"]}
+{"query":"Isomalt Crystal","pos":["Isomalt"],"neg":["Stevia","Inulin"]}
+{"query":"Isomalt Powder","pos":["Isomalt"],"neg":["Stevia","Inulin"]}
+{"query":"Lactitol","pos":["Lactitol"],"neg":["Fructooligosaccharides","Tagatose"]}
+{"query":"Lactitol E966","pos":["Lactitol"],"neg":["Fructooligosaccharides","Tagatose"]}
+{"query":"Sucrose","pos":["Sucrose"],"neg":["Xylitol","Rebaudioside D"]}
+{"query":"Table Sugar","pos":["Sucrose"],"neg":["Xylitol","Rebaudioside D"]}
+{"query":"Glucose","pos":["Glucose"],"neg":["Rebaudioside D","Brown Rice Syrup"]}
+{"query":"Dextrose","pos":["Glucose"],"neg":["Rebaudioside D","Brown Rice Syrup"]}
+{"query":"Fructose","pos":["Fructose"],"neg":["Steviol Glycosides","Stevia"]}
+{"query":"Fruct糖ose","pos":["Fructose"],"neg":["Steviol Glycosides","Stevia"]}
+{"query":"D-Fructose","pos":["Fructose"],"neg":["Steviol Glycosides","Stevia"]}
+{"query":"Fruktrose","pos":["Fructose"],"neg":["Steviol Glycosides","Stevia"]}
+{"query":"Agave Nectar","pos":["Agave Nectar"],"neg":["Coconut Sugar","Monk Fruit Extract"]}
+{"query":"Agave Sweetener","pos":["Agave Nectar"],"neg":["Coconut Sugar","Monk Fruit Extract"]}
+{"query":"Organic Agave Nectar","pos":["Agave Nectar"],"neg":["Coconut Sugar","Monk Fruit Extract"]}
+{"query":"Raw Agave Nectar","pos":["Agave Nectar"],"neg":["Coconut Sugar","Monk Fruit Extract"]}
+{"query":"Natural Agave Nectar","pos":["Agave Nectar"],"neg":["Coconut Sugar","Monk Fruit Extract"]}
+{"query":"Sweetener, Artificial","pos":["Artificial Sweetener"],"neg":["Neotame","Aspartame"]}
+{"query":"Artificial Sweetening Agent","pos":["Artificial Sweetener"],"neg":["Neotame","Aspartame"]}
+{"query":"Aspartame","pos":["Aspartame"],"neg":["Artificial Sweetener","Sucralose"]}
+{"query":"NutraSweet","pos":["Aspartame"],"neg":["Artificial Sweetener","Sucralose"]}
+{"query":"Sucralose","pos":["Sucralose"],"neg":["Neotame","Cyclamate"]}
+{"query":"Splenda","pos":["Sucralose"],"neg":["Neotame","Cyclamate"]}
+{"query":"C10H12Cl3","pos":["Sucralose"],"neg":["Neotame","Cyclamate"]}
+{"query":"Acesulfame K","pos":["Acesulfame Potassium"],"neg":["Advantame","Cyclamate"]}
+{"query":"Ace-K","pos":["Acesulfame Potassium"],"neg":["Advantame","Cyclamate"]}
+{"query":"E950","pos":["Acesulfame Potassium"],"neg":["Advantame","Cyclamate"]}
+{"query":"Acesulforamato de Potasio","pos":["Acesulfame Potassium"],"neg":["Advantame","Cyclamate"]}
+{"query":"Acesulfame Potassium","pos":["Acesulfame Potassium"],"neg":["Advantame","Cyclamate"]}
+{"query":"Saccharin","pos":["Saccharin"],"neg":["Neotame","Cyclamate"]}
+{"query":"Saccharin Sodium","pos":["Saccharin"],"neg":["Neotame","Cyclamate"]}
+{"query":"Sweet'N Low","pos":["Saccharin"],"neg":["Neotame","Cyclamate"]}
+{"query":"Cyclamate","pos":["Cyclamate"],"neg":["Advantame","Acesulfame Potassium"]}
+{"query":"Neotame","pos":["Neotame"],"neg":["Sucralose","Artificial Sweetener"]}
+{"query":"NEOTAME","pos":["Neotame"],"neg":["Sucralose","Artificial Sweetener"]}
+{"query":"Neotame E961","pos":["Neotame"],"neg":["Sucralose","Artificial Sweetener"]}
+{"query":"Neotame (E961)","pos":["Neotame"],"neg":["Sucralose","Artificial Sweetener"]}
+{"query":"neotame","pos":["Neotame"],"neg":["Sucralose","Artificial Sweetener"]}
+{"query":"Advantame","pos":["Advantame"],"neg":["Sucralose","Aspartame"]}
+{"query":"Natural Flavour","pos":["Natural Flavour"],"neg":["Mango Extract","Watermelon Extract"]}
+{"query":"Natural Flavor","pos":["Natural Flavour"],"neg":["Mango Extract","Watermelon Extract"]}
+{"query":"Naturel Flavoure","pos":["Natural Flavour"],"neg":["Mango Extract","Watermelon Extract"]}
+{"query":"Natrual Flavouring","pos":["Natural Flavour"],"neg":["Mango Extract","Watermelon Extract"]}
+{"query":"Vanilla Extract","pos":["Vanilla Extract"],"neg":["Cocoa Powder","Spearmint Extract"]}
+{"query":"Pure Vanilla Extract","pos":["Vanilla Extract"],"neg":["Cocoa Powder","Spearmint Extract"]}
+{"query":"Real Vanilla Extract","pos":["Vanilla Extract"],"neg":["Cocoa Powder","Spearmint Extract"]}
+{"query":"Authentic Vanilla Extract","pos":["Vanilla Extract"],"neg":["Cocoa Powder","Spearmint Extract"]}
+{"query":"Natural Vanilla Flavor","pos":["Natural Vanilla Flavour"],"neg":["Coconut Flavour","Peppermint Oil"]}
+{"query":"Natural Vanilla Flavour (E621)","pos":["Natural Vanilla Flavour"],"neg":["Coconut Flavour","Peppermint Oil"]}
+{"query":"Pure Vanilla Flavor","pos":["Natural Vanilla Flavour"],"neg":["Coconut Flavour","Peppermint Oil"]}
+{"query":"Natural Vanilla Essence","pos":["Natural Vanilla Flavour"],"neg":["Coconut Flavour","Peppermint Oil"]}
+{"query":"Peppermint Oil","pos":["Peppermint Oil"],"neg":["Ginger Extract","Natural Vanilla Flavour"]}
+{"query":"Bottled Peppermint Oil","pos":["Peppermint Oil"],"neg":["Ginger Extract","Natural Vanilla Flavour"]}
+{"query":"Cocoa Powder","pos":["Cocoa Powder"],"neg":["Spearmint Extract","Peppermint Oil"]}
+{"query":"Cocoa","pos":["Cocoa Powder"],"neg":["Spearmint Extract","Peppermint Oil"]}
+{"query":"Cacao Powder","pos":["Cocoa Powder"],"neg":["Spearmint Extract","Peppermint Oil"]}
+{"query":"Natural Cocoa Powder","pos":["Cocoa Powder"],"neg":["Spearmint Extract","Peppermint Oil"]}
+{"query":"Dutch-Processed Cocoa Powder","pos":["Cocoa Powder"],"neg":["Spearmint Extract","Peppermint Oil"]}
+{"query":"Cinnamon Extract","pos":["Cinnamon Extract"],"neg":["Caramel Flavour","Vanilla Extract"]}
+{"query":"Ceylon Cinnamon Extract","pos":["Cinnamon Extract"],"neg":["Caramel Flavour","Vanilla Extract"]}
+{"query":"Dried Cinnamon Bark Extract","pos":["Cinnamon Extract"],"neg":["Caramel Flavour","Vanilla Extract"]}
+{"query":"Cinnamon Bark Extract","pos":["Cinnamon Extract"],"neg":["Caramel Flavour","Vanilla Extract"]}
+{"query":"Cinnamomum Cassia Extract","pos":["Cinnamon Extract"],"neg":["Caramel Flavour","Vanilla Extract"]}
+{"query":"Citrus Flavour","pos":["Citrus Flavour"],"neg":["Cocoa Powder","Caramel Flavour"]}
+{"query":"Natural Citrus Flavouring","pos":["Citrus Flavour"],"neg":["Cocoa Powder","Caramel Flavour"]}
+{"query":"Citrus Flavours","pos":["Citrus Flavour"],"neg":["Cocoa Powder","Caramel Flavour"]}
+{"query":"Artificial Citrus Flavour","pos":["Citrus Flavour"],"neg":["Cocoa Powder","Caramel Flavour"]}
+{"query":"Natural Coconut Flavour","pos":["Coconut Flavour"],"neg":["Strawberry Extract","Peppermint Oil"]}
+{"query":"Organic Coconut Flavour","pos":["Coconut Flavour"],"neg":["Strawberry Extract","Peppermint Oil"]}
+{"query":"Pure Coconut Flavour","pos":["Coconut Flavour"],"neg":["Strawberry Extract","Peppermint Oil"]}
+{"query":"100% Natural Coconut Flavour","pos":["Coconut Flavour"],"neg":["Strawberry Extract","Peppermint Oil"]}
+{"query":"Premium Coconut Flavour","pos":["Coconut Flavour"],"neg":["Strawberry Extract","Peppermint Oil"]}
+{"query":"Butter Flavour","pos":["Butter Flavour"],"neg":["Natural Vanilla Flavour","Ginger Extract"]}
+{"query":"Butter Flavor","pos":["Butter Flavour"],"neg":["Natural Vanilla Flavour","Ginger Extract"]}
+{"query":"Buttery Flavoring","pos":["Butter Flavour"],"neg":["Natural Vanilla Flavour","Ginger Extract"]}
+{"query":"Natural Butter Flavour","pos":["Butter Flavour"],"neg":["Natural Vanilla Flavour","Ginger Extract"]}
+{"query":"Strawberry Extract","pos":["Strawberry Extract"],"neg":["Cocoa Powder","Caramel Flavour"]}
+{"query":"Organic Strawberry Extract","pos":["Strawberry Extract"],"neg":["Cocoa Powder","Caramel Flavour"]}
+{"query":"Pure Strawberry Extract","pos":["Strawberry Extract"],"neg":["Cocoa Powder","Caramel Flavour"]}
+{"query":"Raspberry Extract","pos":["Raspberry Extract"],"neg":["Caramel Flavour","Natural Vanilla Flavour"]}
+{"query":"Watermelon Extract","pos":["Watermelon Extract"],"neg":["Natural Flavour","Peppermint Oil"]}
+{"query":"Citrullus Lanatus Extract","pos":["Watermelon Extract"],"neg":["Natural Flavour","Peppermint Oil"]}
+{"query":"Mango Extract","pos":["Mango Extract"],"neg":["Cocoa Powder","Vanilla Extract"]}
+{"query":"Mangifera Indica Extract","pos":["Mango Extract"],"neg":["Cocoa Powder","Vanilla Extract"]}
+{"query":"Natural Mango Flavor Extract","pos":["Mango Extract"],"neg":["Cocoa Powder","Vanilla Extract"]}
+{"query":"Organic Mango Extract","pos":["Mango Extract"],"neg":["Cocoa Powder","Vanilla Extract"]}
+{"query":"Peach Extract","pos":["Peach Extract"],"neg":["Vanilla Extract","Caramel Flavour"]}
+{"query":"Prunus Persica Extract","pos":["Peach Extract"],"neg":["Vanilla Extract","Caramel Flavour"]}
+{"query":"Natural Peach Extract","pos":["Peach Extract"],"neg":["Vanilla Extract","Caramel Flavour"]}
+{"query":"Organic Peach Extract","pos":["Peach Extract"],"neg":["Vanilla Extract","Caramel Flavour"]}
+{"query":"Spearmint Extract","pos":["Spearmint Extract"],"neg":["Strawberry Extract","Butter Flavour"]}
+{"query":"Mentha spicata Extract","pos":["Spearmint Extract"],"neg":["Strawberry Extract","Butter Flavour"]}
+{"query":"Natural Spearmint Flavor","pos":["Spearmint Extract"],"neg":["Strawberry Extract","Butter Flavour"]}
+{"query":"100% Pure Spearmint Extract","pos":["Spearmint Extract"],"neg":["Strawberry Extract","Butter Flavour"]}
+{"query":"Ginger Root Extract","pos":["Ginger Extract"],"neg":["Natural Flavour","Raspberry Extract"]}
+{"query":"Gingembre Extract","pos":["Ginger Extract"],"neg":["Natural Flavour","Raspberry Extract"]}
+{"query":"Zingiber Officinale Extract","pos":["Ginger Extract"],"neg":["Natural Flavour","Raspberry Extract"]}
+{"query":"Ginger Rhizome Extract","pos":["Ginger Extract"],"neg":["Natural Flavour","Raspberry Extract"]}
+{"query":"Gingger Extract","pos":["Ginger Extract"],"neg":["Natural Flavour","Raspberry Extract"]}
+{"query":"Caramel Flavour","pos":["Caramel Flavour"],"neg":["Ginger Extract","Coconut Flavour"]}
+{"query":"Natural Caramel Flavour","pos":["Caramel Flavour"],"neg":["Ginger Extract","Coconut Flavour"]}
+{"query":"Artificial Caramel Flavour","pos":["Caramel Flavour"],"neg":["Ginger Extract","Coconut Flavour"]}
+{"query":"Caramelised Sugar Flavour","pos":["Caramel Flavour"],"neg":["Ginger Extract","Coconut Flavour"]}
+{"query":"Artificial Flavoring","pos":["Artificial Flavour"],"neg":["Ethyl Vanillin","Diacetyl"]}
+{"query":"Synthetic Flavor","pos":["Artificial Flavour"],"neg":["Ethyl Vanillin","Diacetyl"]}
+{"query":"Ethyl Vanillin","pos":["Ethyl Vanillin"],"neg":["Ethyl Butyrate","Diacetyl"]}
+{"query":"Diacetyl","pos":["Diacetyl"],"neg":["Benzaldehyde","Methyl Anthranilate"]}
+{"query":"Diacetyl Mixture","pos":["Diacetyl"],"neg":["Benzaldehyde","Methyl Anthranilate"]}
+{"query":"Diacetyl (Flavoring Agent)","pos":["Diacetyl"],"neg":["Benzaldehyde","Methyl Anthranilate"]}
+{"query":"Benzaldehyde","pos":["Benzaldehyde"],"neg":["Vanillin","Methyl Anthranilate"]}
+{"query":"Isoamyl Acetate","pos":["Isoamyl Acetate"],"neg":["Artificial Flavour","Ethyl Butyrate"]}
+{"query":"ISOAMYL ACETATE","pos":["Isoamyl Acetate"],"neg":["Artificial Flavour","Ethyl Butyrate"]}
+{"query":"isoamylethanoate","pos":["Isoamyl Acetate"],"neg":["Artificial Flavour","Ethyl Butyrate"]}
+{"query":"Methyl Anthranilate","pos":["Methyl Anthranilate"],"neg":["Benzaldehyde","Ethyl Vanillin"]}
+{"query":"Ethyl Butyrate","pos":["Ethyl Butyrate"],"neg":["Benzaldehyde","Methyl Anthranilate"]}
+{"query":"EB","pos":["Ethyl Butyrate"],"neg":["Benzaldehyde","Methyl Anthranilate"]}
+{"query":"E-Butyric Acid Ethyl Ester","pos":["Ethyl Butyrate"],"neg":["Benzaldehyde","Methyl Anthranilate"]}
+{"query":"Ethyl Butanoate","pos":["Ethyl Butyrate"],"neg":["Benzaldehyde","Methyl Anthranilate"]}
+{"query":"Butyric Acid Ethyl Ester","pos":["Ethyl Butyrate"],"neg":["Benzaldehyde","Methyl Anthranilate"]}
+{"query":"Ashwagandha Extract","pos":["Ashwagandha Extract"],"neg":["Curcumin","Ginkgo Biloba Extract"]}
+{"query":"Withania Somnifera Root Extract","pos":["Ashwagandha Extract"],"neg":["Curcumin","Ginkgo Biloba Extract"]}
+{"query":"KSM-66 Ashwagandha Extract","pos":["Ashwagandha Extract"],"neg":["Curcumin","Ginkgo Biloba Extract"]}
+{"query":"Ashwagandha Root Extract","pos":["Ashwagandha Extract"],"neg":["Curcumin","Ginkgo Biloba Extract"]}
+{"query":"Withania Extract","pos":["Ashwagandha Extract"],"neg":["Curcumin","Ginkgo Biloba Extract"]}
+{"query":"Turmeric Extract","pos":["Turmeric Extract"],"neg":["Rhodiola Rosea Extract","Black Pepper Extract"]}
+{"query":"Curcuma Longa Extract","pos":["Turmeric Extract"],"neg":["Rhodiola Rosea Extract","Black Pepper Extract"]}
+{"query":"Curcuminoids Extract","pos":["Turmeric Extract"],"neg":["Rhodiola Rosea Extract","Black Pepper Extract"]}
+{"query":"BioCurcumin Extract","pos":["Turmeric Extract"],"neg":["Rhodiola Rosea Extract","Black Pepper Extract"]}
+{"query":"Meriva®","pos":["Turmeric Extract"],"neg":["Rhodiola Rosea Extract","Black Pepper Extract"]}
+{"query":"Curcumin","pos":["Curcumin"],"neg":["Lion's Mane Extract","Bacopa Monnieri Extract"]}
+{"query":"Curcuminoid","pos":["Curcumin"],"neg":["Lion's Mane Extract","Bacopa Monnieri Extract"]}
+{"query":"Diferuloylmethane","pos":["Curcumin"],"neg":["Lion's Mane Extract","Bacopa Monnieri Extract"]}
+{"query":"Curcumin 95%","pos":["Curcumin"],"neg":["Lion's Mane Extract","Bacopa Monnieri Extract"]}
+{"query":"Biocurcumax","pos":["Curcumin"],"neg":["Lion's Mane Extract","Bacopa Monnieri Extract"]}
+{"query":"Ginkgo Biloba Extract","pos":["Ginkgo Biloba Extract"],"neg":["Boswellia Extract","Citrus Bioflavonoids"]}
+{"query":"GBE","pos":["Ginkgo Biloba Extract"],"neg":["Boswellia Extract","Citrus Bioflavonoids"]}
+{"query":"Ginkgo Extract","pos":["Ginkgo Biloba Extract"],"neg":["Boswellia Extract","Citrus Bioflavonoids"]}
+{"query":"EGb 761","pos":["Ginkgo Biloba Extract"],"neg":["Boswellia Extract","Citrus Bioflavonoids"]}
+{"query":"Panax Ginseng Root Extract","pos":["Panax Ginseng Extract"],"neg":["Citrus Bioflavonoids","Black Pepper Extract"]}
+{"query":"Ginseng Radix Extract","pos":["Panax Ginseng Extract"],"neg":["Citrus Bioflavonoids","Black Pepper Extract"]}
+{"query":"Korean Ginseng Extract","pos":["Panax Ginseng Extract"],"neg":["Citrus Bioflavonoids","Black Pepper Extract"]}
+{"query":"Asian Ginseng Extract","pos":["Panax Ginseng Extract"],"neg":["Citrus Bioflavonoids","Black Pepper Extract"]}
+{"query":"Panax Ginseng Root Concentrate","pos":["Panax Ginseng Extract"],"neg":["Citrus Bioflavonoids","Black Pepper Extract"]}
+{"query":"Rhodiola Rosea Extract","pos":["Rhodiola Rosea Extract"],"neg":["Tongkat Ali Extract","Turmeric Extract"]}
+{"query":"Rhodiola Extract","pos":["Rhodiola Rosea Extract"],"neg":["Tongkat Ali Extract","Turmeric Extract"]}
+{"query":"R. Rosea Extract","pos":["Rhodiola Rosea Extract"],"neg":["Tongkat Ali Extract","Turmeric Extract"]}
+{"query":"Rhodiolae Roseae Radix Extract","pos":["Rhodiola Rosea Extract"],"neg":["Tongkat Ali Extract","Turmeric Extract"]}
+{"query":"RR Extract","pos":["Rhodiola Rosea Extract"],"neg":["Tongkat Ali Extract","Turmeric Extract"]}
+{"query":"Bacopa Monnieri Extract","pos":["Bacopa Monnieri Extract"],"neg":["Turmeric Extract","Curcumin"]}
+{"query":"Bacopa Extract","pos":["Bacopa Monnieri Extract"],"neg":["Turmeric Extract","Curcumin"]}
+{"query":"Bacopa Leaf Extract","pos":["Bacopa Monnieri Extract"],"neg":["Turmeric Extract","Curcumin"]}
+{"query":"Bacopa Powder","pos":["Bacopa Monnieri Extract"],"neg":["Turmeric Extract","Curcumin"]}
+{"query":"Monniera Extract","pos":["Bacopa Monnieri Extract"],"neg":["Turmeric Extract","Curcumin"]}
+{"query":"Lion's Mane Extract","pos":["Lion's Mane Extract"],"neg":["Bacopa Monnieri Extract","Black Pepper Extract"]}
+{"query":"Hericium Extract","pos":["Lion's Mane Extract"],"neg":["Bacopa Monnieri Extract","Black Pepper Extract"]}
+{"query":"Lions Mane Extract","pos":["Lion's Mane Extract"],"neg":["Bacopa Monnieri Extract","Black Pepper Extract"]}
+{"query":"Green Tea Extract","pos":["Green Tea Extract"],"neg":["Milk Thistle Extract","Tongkat Ali Extract"]}
+{"query":"Camellia Sinensis Leaf Extract","pos":["Green Tea Extract"],"neg":["Milk Thistle Extract","Tongkat Ali Extract"]}
+{"query":"Green Tea Leaf Extract","pos":["Green Tea Extract"],"neg":["Milk Thistle Extract","Tongkat Ali Extract"]}
+{"query":"EGCG (Epigallocatechin Gallate) Green Tea Extract","pos":["Green Tea Extract"],"neg":["Milk Thistle Extract","Tongkat Ali Extract"]}
+{"query":"Black Pepper Extract","pos":["Black Pepper Extract"],"neg":["Curcumin","Bacopa Monnieri Extract"]}
+{"query":"Piper nigrum Extract","pos":["Black Pepper Extract"],"neg":["Curcumin","Bacopa Monnieri Extract"]}
+{"query":"Peppercorn Extract","pos":["Black Pepper Extract"],"neg":["Curcumin","Bacopa Monnieri Extract"]}
+{"query":"Black Pepper Kernel Extract","pos":["Black Pepper Extract"],"neg":["Curcumin","Bacopa Monnieri Extract"]}
+{"query":"Kali Piperi Extract","pos":["Black Pepper Extract"],"neg":["Curcumin","Bacopa Monnieri Extract"]}
+{"query":"Berberine HCl","pos":["Berberine"],"neg":["Elderberry Extract","Green Tea Extract"]}
+{"query":"Berberine Sulfate","pos":["Berberine"],"neg":["Elderberry Extract","Green Tea Extract"]}
+{"query":"Milk Thistle Extract","pos":["Milk Thistle Extract"],"neg":["Bacopa Monnieri Extract","Turmeric Extract"]}
+{"query":"Silymarin Extract","pos":["Milk Thistle Extract"],"neg":["Bacopa Monnieri Extract","Turmeric Extract"]}
+{"query":"Silybum Marianum Extract","pos":["Milk Thistle Extract"],"neg":["Bacopa Monnieri Extract","Turmeric Extract"]}
+{"query":"Silibinin Extract","pos":["Milk Thistle Extract"],"neg":["Bacopa Monnieri Extract","Turmeric Extract"]}
+{"query":"Artichoke Milk Thistle Extract","pos":["Milk Thistle Extract"],"neg":["Bacopa Monnieri Extract","Turmeric Extract"]}
+{"query":"Boswellia Serrata Extract","pos":["Boswellia Extract"],"neg":["Rhodiola Rosea Extract","Elderberry Extract"]}
+{"query":"Boswellia Extract (Standardized)","pos":["Boswellia Extract"],"neg":["Rhodiola Rosea Extract","Elderberry Extract"]}
+{"query":"Boswellia Resin Extract","pos":["Boswellia Extract"],"neg":["Rhodiola Rosea Extract","Elderberry Extract"]}
+{"query":"Boswellia Serrata Resin Extract","pos":["Boswellia Extract"],"neg":["Rhodiola Rosea Extract","Elderberry Extract"]}
+{"query":"Boswellia Extract 50% Boswellic Acids","pos":["Boswellia Extract"],"neg":["Rhodiola Rosea Extract","Elderberry Extract"]}
+{"query":"Grape Seed Extract","pos":["Grape Seed Extract"],"neg":["Lion's Mane Extract","Maca Root Extract"]}
+{"query":"GSE","pos":["Grape Seed Extract"],"neg":["Lion's Mane Extract","Maca Root Extract"]}
+{"query":"Vitis vinifera Seed Extract","pos":["Grape Seed Extract"],"neg":["Lion's Mane Extract","Maca Root Extract"]}
+{"query":"Elderberry Extract","pos":["Elderberry Extract"],"neg":["Berberine","Maca Root Extract"]}
+{"query":"Sambucus nigra Extract","pos":["Elderberry Extract"],"neg":["Berberine","Maca Root Extract"]}
+{"query":"Black Elderberry Extract","pos":["Elderberry Extract"],"neg":["Berberine","Maca Root Extract"]}
+{"query":"Natural Elderberry Concentrate","pos":["Elderberry Extract"],"neg":["Berberine","Maca Root Extract"]}
+{"query":"Organic Elderberry Extract","pos":["Elderberry Extract"],"neg":["Berberine","Maca Root Extract"]}
+{"query":"Maca Root Extract","pos":["Maca Root Extract"],"neg":["Turmeric Extract","Beetroot Extract"]}
+{"query":"Maca Powder Concentrate","pos":["Maca Root Extract"],"neg":["Turmeric Extract","Beetroot Extract"]}
+{"query":"Organic Maca Root Extract","pos":["Maca Root Extract"],"neg":["Turmeric Extract","Beetroot Extract"]}
+{"query":"Raw Maca Root Extract","pos":["Maca Root Extract"],"neg":["Turmeric Extract","Beetroot Extract"]}
+{"query":"Certified Organic Maca Root Extract","pos":["Maca Root Extract"],"neg":["Turmeric Extract","Beetroot Extract"]}
+{"query":"Tongkat Ali Extract","pos":["Tongkat Ali Extract"],"neg":["Citrus Bioflavonoids","Grape Seed Extract"]}
+{"query":"Eurycoma Longifolia Extract","pos":["Tongkat Ali Extract"],"neg":["Citrus Bioflavonoids","Grape Seed Extract"]}
+{"query":"Tongkat Ali Root Extract","pos":["Tongkat Ali Extract"],"neg":["Citrus Bioflavonoids","Grape Seed Extract"]}
+{"query":"Longjack Extract","pos":["Tongkat Ali Extract"],"neg":["Citrus Bioflavonoids","Grape Seed Extract"]}
+{"query":"Saw Palmetto Extract","pos":["Saw Palmetto Extract"],"neg":["Shilajit","Ashwagandha Extract"]}
+{"query":"Saw Palmetto Concentrate","pos":["Saw Palmetto Extract"],"neg":["Shilajit","Ashwagandha Extract"]}
+{"query":"Serenoa Repens Extract","pos":["Saw Palmetto Extract"],"neg":["Shilajit","Ashwagandha Extract"]}
+{"query":"Saw Palmetto Oil Extract","pos":["Saw Palmetto Extract"],"neg":["Shilajit","Ashwagandha Extract"]}
+{"query":"Saw Palmetto Powder","pos":["Saw Palmetto Extract"],"neg":["Shilajit","Ashwagandha Extract"]}
+{"query":"Shilajit","pos":["Shilajit"],"neg":["Rhodiola Rosea Extract","Milk Thistle Extract"]}
+{"query":"Asli Shilajit","pos":["Shilajit"],"neg":["Rhodiola Rosea Extract","Milk Thistle Extract"]}
+{"query":"Shilajit Extract","pos":["Shilajit"],"neg":["Rhodiola Rosea Extract","Milk Thistle Extract"]}
+{"query":"Shilajit Powder","pos":["Shilajit"],"neg":["Rhodiola Rosea Extract","Milk Thistle Extract"]}
+{"query":"Shilaji","pos":["Shilajit"],"neg":["Rhodiola Rosea Extract","Milk Thistle Extract"]}
+{"query":"Beetroot Extract","pos":["Beetroot Extract"],"neg":["Curcumin","Bacopa Monnieri Extract"]}
+{"query":"Beta Vulgaris Extract","pos":["Beetroot Extract"],"neg":["Curcumin","Bacopa Monnieri Extract"]}
+{"query":"Beetroots Extract","pos":["Beetroot Extract"],"neg":["Curcumin","Bacopa Monnieri Extract"]}
+{"query":"BEET EXTRACT","pos":["Beetroot Extract"],"neg":["Curcumin","Bacopa Monnieri Extract"]}
+{"query":"Extracta Betae","pos":["Beetroot Extract"],"neg":["Curcumin","Bacopa Monnieri Extract"]}
+{"query":"Probiotic Strains","pos":["Probiotic"],"neg":["Bifidobacterium breve","Bifidobacterium lactis"]}
+{"query":"Live Probiotics","pos":["Probiotic"],"neg":["Bifidobacterium breve","Bifidobacterium lactis"]}
+{"query":"Probiotic Culture","pos":["Probiotic"],"neg":["Bifidobacterium breve","Bifidobacterium lactis"]}
+{"query":"Lactobacillus acidophilus","pos":["Lactobacillus acidophilus"],"neg":["Lactobacillus reuteri","Bacillus coagulans"]}
+{"query":"L. acidophilus","pos":["Lactobacillus acidophilus"],"neg":["Lactobacillus reuteri","Bacillus coagulans"]}
+{"query":"Probiotic Lactobacillus acidophilus","pos":["Lactobacillus acidophilus"],"neg":["Lactobacillus reuteri","Bacillus coagulans"]}
+{"query":"Lactobacillus rhamnosus","pos":["Lactobacillus rhamnosus"],"neg":["Lactobacillus gasseri","Lactobacillus reuteri"]}
+{"query":"L. rhamnosus","pos":["Lactobacillus rhamnosus"],"neg":["Lactobacillus gasseri","Lactobacillus reuteri"]}
+{"query":"Lactobacillus plantarum","pos":["Lactobacillus plantarum"],"neg":["Bifidobacterium lactis","Probiotic"]}
+{"query":"L. plantarum","pos":["Lactobacillus plantarum"],"neg":["Bifidobacterium lactis","Probiotic"]}
+{"query":"Lacto-plantarum","pos":["Lactobacillus plantarum"],"neg":["Bifidobacterium lactis","Probiotic"]}
+{"query":"Lactobacillus reuteri","pos":["Lactobacillus reuteri"],"neg":["Bifidobacterium longum","Lactobacillus plantarum"]}
+{"query":"L. reuteri","pos":["Lactobacillus reuteri"],"neg":["Bifidobacterium longum","Lactobacillus plantarum"]}
+{"query":"Lacto Reut","pos":["Lactobacillus reuteri"],"neg":["Bifidobacterium longum","Lactobacillus plantarum"]}
+{"query":"Probiotic L. reuteri","pos":["Lactobacillus reuteri"],"neg":["Bifidobacterium longum","Lactobacillus plantarum"]}
+{"query":"Lactobacillus gasseri","pos":["Lactobacillus gasseri"],"neg":["Saccharomyces boulardii","Bifidobacterium breve"]}
+{"query":"L. gasseri","pos":["Lactobacillus gasseri"],"neg":["Saccharomyces boulardii","Bifidobacterium breve"]}
+{"query":"Lactobacillus Gasseri","pos":["Lactobacillus gasseri"],"neg":["Saccharomyces boulardii","Bifidobacterium breve"]}
+{"query":"Lactobacillus acidophilus L. gasseri","pos":["Lactobacillus gasseri"],"neg":["Saccharomyces boulardii","Bifidobacterium breve"]}
+{"query":"Bifidobacterium longum","pos":["Bifidobacterium longum"],"neg":["Saccharomyces boulardii","Streptococcus thermophilus"]}
+{"query":"B. longum","pos":["Bifidobacterium longum"],"neg":["Saccharomyces boulardii","Streptococcus thermophilus"]}
+{"query":"Bifido longum","pos":["Bifidobacterium longum"],"neg":["Saccharomyces boulardii","Streptococcus thermophilus"]}
+{"query":"Bifidobacterium longum subsp. longum","pos":["Bifidobacterium longum"],"neg":["Saccharomyces boulardii","Streptococcus thermophilus"]}
+{"query":"Bifidobacterium lactis BB-12","pos":["Bifidobacterium lactis"],"neg":["Lactobacillus acidophilus","Bifidobacterium longum"]}
+{"query":"B. lactis","pos":["Bifidobacterium lactis"],"neg":["Lactobacillus acidophilus","Bifidobacterium longum"]}
+{"query":"Bifidobacterium breve","pos":["Bifidobacterium breve"],"neg":["Saccharomyces boulardii","Bifidobacterium longum"]}
+{"query":"B. breve","pos":["Bifidobacterium breve"],"neg":["Saccharomyces boulardii","Bifidobacterium longum"]}
+{"query":"Saccharomyces boulardii","pos":["Saccharomyces boulardii"],"neg":["Bifidobacterium breve","Bifidobacterium longum"]}
+{"query":"S. boulardii","pos":["Saccharomyces boulardii"],"neg":["Bifidobacterium breve","Bifidobacterium longum"]}
+{"query":"Saccharomyces Boulardii","pos":["Saccharomyces boulardii"],"neg":["Bifidobacterium breve","Bifidobacterium longum"]}
+{"query":"Boulardii Saccharomyces","pos":["Saccharomyces boulardii"],"neg":["Bifidobacterium breve","Bifidobacterium longum"]}
+{"query":"Bacillus coagulans","pos":["Bacillus coagulans"],"neg":["Bifidobacterium lactis","Probiotic"]}
+{"query":"B. coagulans","pos":["Bacillus coagulans"],"neg":["Bifidobacterium lactis","Probiotic"]}
+{"query":"Bacillus coagulans GBI-30 6086","pos":["Bacillus coagulans"],"neg":["Bifidobacterium lactis","Probiotic"]}
+{"query":"Streptococcus thermophilus","pos":["Streptococcus thermophilus"],"neg":["Lactobacillus gasseri","Saccharomyces boulardii"]}
+{"query":"S. thermophilus","pos":["Streptococcus thermophilus"],"neg":["Lactobacillus gasseri","Saccharomyces boulardii"]}
+{"query":"Hypericum perforatum","pos":["St. John's Wort"],"neg":["Lemon Balm","Kava"]}
+{"query":"St. John's Wort Extract","pos":["St. John's Wort"],"neg":["Lemon Balm","Kava"]}
+{"query":"Valerian Root Extract","pos":["Valerian Root"],"neg":["Passionflower","Kava"]}
+{"query":"Valeriana Officinalis","pos":["Valerian Root"],"neg":["Passionflower","Kava"]}
+{"query":"Valerianae Radix","pos":["Valerian Root"],"neg":["Passionflower","Kava"]}
+{"query":"Root of Valerian","pos":["Valerian Root"],"neg":["Passionflower","Kava"]}
+{"query":"Valerian Root Powder","pos":["Valerian Root"],"neg":["Passionflower","Kava"]}
+{"query":"Chamomile Extract","pos":["Chamomile"],"neg":["Passionflower","Hawthorn Berry"]}
+{"query":"Matricaria Chamomilla","pos":["Chamomile"],"neg":["Passionflower","Hawthorn Berry"]}
+{"query":"German Chamomile","pos":["Chamomile"],"neg":["Passionflower","Hawthorn Berry"]}
+{"query":"Roman Chamomile Oil","pos":["Chamomile"],"neg":["Passionflower","Hawthorn Berry"]}
+{"query":"Chamomile Flower","pos":["Chamomile"],"neg":["Passionflower","Hawthorn Berry"]}
+{"query":"Kava Root Extract","pos":["Kava"],"neg":["Chamomile","Valerian Root"]}
+{"query":"Piper methysticum","pos":["Kava"],"neg":["Chamomile","Valerian Root"]}
+{"query":"Kawhuhu","pos":["Kava"],"neg":["Chamomile","Valerian Root"]}
+{"query":"Kava (Piper methysticum) Powder","pos":["Kava"],"neg":["Chamomile","Valerian Root"]}
+{"query":"Kava Rhizome","pos":["Kava"],"neg":["Chamomile","Valerian Root"]}
+{"query":"Lemon Balm Extract","pos":["Lemon Balm"],"neg":["Oil of Oregano","St. John's Wort"]}
+{"query":"Melissa Officinalis Leaf Extract","pos":["Lemon Balm"],"neg":["Oil of Oregano","St. John's Wort"]}
+{"query":"Lemon Balm Oil","pos":["Lemon Balm"],"neg":["Oil of Oregano","St. John's Wort"]}
+{"query":"Passion Flower Extract","pos":["Passionflower"],"neg":["St. John's Wort","Lemon Balm"]}
+{"query":"Passiflora Incarnata","pos":["Passionflower"],"neg":["St. John's Wort","Lemon Balm"]}
+{"query":"Passionflower Powder","pos":["Passionflower"],"neg":["St. John's Wort","Lemon Balm"]}
+{"query":"Passion Flower Leaf Extract","pos":["Passionflower"],"neg":["St. John's Wort","Lemon Balm"]}
+{"query":"Passion Flower Tincture","pos":["Passionflower"],"neg":["St. John's Wort","Lemon Balm"]}
+{"query":"Echinacea Extract","pos":["Echinacea"],"neg":["Lemon Balm","Garlic"]}
+{"query":"Echinacea Root Powder","pos":["Echinacea"],"neg":["Lemon Balm","Garlic"]}
+{"query":"Echinacea Leaf","pos":["Echinacea"],"neg":["Lemon Balm","Garlic"]}
+{"query":"Echinacea Purpurea","pos":["Echinacea"],"neg":["Lemon Balm","Garlic"]}
+{"query":"Echinacea Tea","pos":["Echinacea"],"neg":["Lemon Balm","Garlic"]}
+{"query":"Garlic","pos":["Garlic"],"neg":["Valerian Root","Lemon Balm"]}
+{"query":"Garlic Powder","pos":["Garlic"],"neg":["Valerian Root","Lemon Balm"]}
+{"query":"Dehydrated Garlic","pos":["Garlic"],"neg":["Valerian Root","Lemon Balm"]}
+{"query":"Organic Garlic Cloves","pos":["Garlic"],"neg":["Valerian Root","Lemon Balm"]}
+{"query":"Fresh Garlic","pos":["Garlic"],"neg":["Valerian Root","Lemon Balm"]}
+{"query":"Holy Basil Leaf Extract","pos":["Holy Basil"],"neg":["Passionflower","Oil of Oregano"]}
+{"query":"Tulsi Leaf Powder","pos":["Holy Basil"],"neg":["Passionflower","Oil of Oregano"]}
+{"query":"Tulsi Herb Concentrate","pos":["Holy Basil"],"neg":["Passionflower","Oil of Oregano"]}
+{"query":"Black Cohosh Root Extract","pos":["Black Cohosh"],"neg":["St. John's Wort","Kava"]}
+{"query":"Actaea racemosa","pos":["Black Cohosh"],"neg":["St. John's Wort","Kava"]}
+{"query":"Cimicifuga racemosa","pos":["Black Cohosh"],"neg":["St. John's Wort","Kava"]}
+{"query":"Black Cohosh","pos":["Black Cohosh"],"neg":["St. John's Wort","Kava"]}
+{"query":"Chaste Tree Extract","pos":["Chaste Tree Berry"],"neg":["Passionflower","Garlic"]}
+{"query":"Vitex Agnus Castus","pos":["Chaste Tree Berry"],"neg":["Passionflower","Garlic"]}
+{"query":"Vitex","pos":["Chaste Tree Berry"],"neg":["Passionflower","Garlic"]}
+{"query":"Stinging Nettle Leaf Extract","pos":["Stinging Nettle"],"neg":["St. John's Wort","Valerian Root"]}
+{"query":"Urtica Dioica Leaf Extract","pos":["Stinging Nettle"],"neg":["St. John's Wort","Valerian Root"]}
+{"query":"Stinging Nettle Powder","pos":["Stinging Nettle"],"neg":["St. John's Wort","Valerian Root"]}
+{"query":"Herba Urticæ Dentatae","pos":["Stinging Nettle"],"neg":["St. John's Wort","Valerian Root"]}
+{"query":"Nettle Leaf","pos":["Stinging Nettle"],"neg":["St. John's Wort","Valerian Root"]}
+{"query":"Hawthorn Berry","pos":["Hawthorn Berry"],"neg":["St. John's Wort","Holy Basil"]}
+{"query":"Crataegus Oxycantha Fruit","pos":["Hawthorn Berry"],"neg":["St. John's Wort","Holy Basil"]}
+{"query":"Crataegus Monogyna Fruit","pos":["Hawthorn Berry"],"neg":["St. John's Wort","Holy Basil"]}
+{"query":"Hawthorn Extract","pos":["Hawthorn Berry"],"neg":["St. John's Wort","Holy Basil"]}
+{"query":"Oil of Oregano","pos":["Oil of Oregano"],"neg":["Stinging Nettle","Chamomile"]}
+{"query":"Oregano Oil","pos":["Oil of Oregano"],"neg":["Stinging Nettle","Chamomile"]}
+{"query":"Oreganol","pos":["Oil of Oregano"],"neg":["Stinging Nettle","Chamomile"]}
+{"query":"Origanum Vulgare Oil","pos":["Oil of Oregano"],"neg":["Stinging Nettle","Chamomile"]}
+{"query":"Oregano Essential Oil","pos":["Oil of Oregano"],"neg":["Stinging Nettle","Chamomile"]}
+{"query":"Digestive Enzymes Blend","pos":["Digestive Enzyme Blend"],"neg":["Serrapeptase","Amylase"]}
+{"query":"Amylase Pepsin Lactase","pos":["Digestive Enzyme Blend"],"neg":["Serrapeptase","Amylase"]}
+{"query":"Alpha-amylase","pos":["Amylase"],"neg":["Digestive Enzyme Blend","Protease"]}
+{"query":"Amylase Enzyme","pos":["Amylase"],"neg":["Digestive Enzyme Blend","Protease"]}
+{"query":"AMYLASE-HCL","pos":["Amylase"],"neg":["Digestive Enzyme Blend","Protease"]}
+{"query":"Protease","pos":["Protease"],"neg":["Lactase","Pancreatin"]}
+{"query":"Proteolytic Enzyme","pos":["Protease"],"neg":["Lactase","Pancreatin"]}
+{"query":"Protease (EC 3.4.21.-)","pos":["Protease"],"neg":["Lactase","Pancreatin"]}
+{"query":"Protease (E922)","pos":["Protease"],"neg":["Lactase","Pancreatin"]}
+{"query":"Proteolytic Enzymes","pos":["Protease"],"neg":["Lactase","Pancreatin"]}
+{"query":"Lipase","pos":["Lipase"],"neg":["Amylase","Digestive Enzyme Blend"]}
+{"query":"Lipase HCl","pos":["Lipase"],"neg":["Amylase","Digestive Enzyme Blend"]}
+{"query":"Lipase (Prozyme)","pos":["Lipase"],"neg":["Amylase","Digestive Enzyme Blend"]}
+{"query":"Lactase","pos":["Lactase"],"neg":["Lipase","Alpha-Galactosidase"]}
+{"query":"LCTase","pos":["Lactase"],"neg":["Lipase","Alpha-Galactosidase"]}
+{"query":"LacTase","pos":["Lactase"],"neg":["Lipase","Alpha-Galactosidase"]}
+{"query":"Bromelain","pos":["Bromelain"],"neg":["Papain","Lactase"]}
+{"query":"Bromelain 6000 FCC","pos":["Bromelain"],"neg":["Papain","Lactase"]}
+{"query":"Bromelain K-92","pos":["Bromelain"],"neg":["Papain","Lactase"]}
+{"query":"Papain Enzyme","pos":["Papain"],"neg":["Alpha-Galactosidase","Bromelain"]}
+{"query":"Papain (from Carica papaya)","pos":["Papain"],"neg":["Alpha-Galactosidase","Bromelain"]}
+{"query":"Papaya Proteinase","pos":["Papain"],"neg":["Alpha-Galactosidase","Bromelain"]}
+{"query":"Alpha-Galactosidase","pos":["Alpha-Galactosidase"],"neg":["Lactase","Lipase"]}
+{"query":"AG Enzyme","pos":["Alpha-Galactosidase"],"neg":["Lactase","Lipase"]}
+{"query":"AlphaGal","pos":["Alpha-Galactosidase"],"neg":["Lactase","Lipase"]}
+{"query":"Alpha Galacto-Enz","pos":["Alpha-Galactosidase"],"neg":["Lactase","Lipase"]}
+{"query":"Pancreatin","pos":["Pancreatin"],"neg":["Digestive Enzyme Blend","Serrapeptase"]}
+{"query":"Protease-Pancreatin Complex","pos":["Pancreatin"],"neg":["Digestive Enzyme Blend","Serrapeptase"]}
+{"query":"Pancreatic Extract","pos":["Pancreatin"],"neg":["Digestive Enzyme Blend","Serrapeptase"]}
+{"query":"PAN-Enz","pos":["Pancreatin"],"neg":["Digestive Enzyme Blend","Serrapeptase"]}
+{"query":"Serrapeptase","pos":["Serrapeptase"],"neg":["Protease","Digestive Enzyme Blend"]}
+{"query":"Serratiopeptidase","pos":["Serrapeptase"],"neg":["Protease","Digestive Enzyme Blend"]}
+{"query":"SerraEnz","pos":["Serrapeptase"],"neg":["Protease","Digestive Enzyme Blend"]}
+{"query":"Nattokinase","pos":["Nattokinase"],"neg":["Digestive Enzyme Blend","Amylase"]}
+{"query":"NK","pos":["Nattokinase"],"neg":["Digestive Enzyme Blend","Amylase"]}
+{"query":"Nattokinase 2000 FU","pos":["Nattokinase"],"neg":["Digestive Enzyme Blend","Amylase"]}
+{"query":"Nattokinase (BKN)","pos":["Nattokinase"],"neg":["Digestive Enzyme Blend","Amylase"]}
+{"query":"Dipeptidyl Peptidase IV Inhibitor","pos":["DPP-IV"],"neg":["Lactase","Digestive Enzyme Blend"]}
+{"query":"DPP-IV Enzyme Inhibitor","pos":["DPP-IV"],"neg":["Lactase","Digestive Enzyme Blend"]}
+{"query":"Dipeptidyl Peptidase 4 Inhibitor","pos":["DPP-IV"],"neg":["Lactase","Digestive Enzyme Blend"]}
+{"query":"DPP-IV Modulator","pos":["DPP-IV"],"neg":["Lactase","Digestive Enzyme Blend"]}
+{"query":"Acidity Regulator","pos":["Acidity Regulator"],"neg":["Acetic Acid","Phosphoric Acid"]}
+{"query":"Citric Acid","pos":["Citric Acid"],"neg":["Lactic Acid","Tartaric Acid"]}
+{"query":"Acid Citrique","pos":["Citric Acid"],"neg":["Lactic Acid","Tartaric Acid"]}
+{"query":"CITRUS ACIDUM","pos":["Citric Acid"],"neg":["Lactic Acid","Tartaric Acid"]}
+{"query":"Citric Acide","pos":["Citric Acid"],"neg":["Lactic Acid","Tartaric Acid"]}
+{"query":"Malic Acid","pos":["Malic Acid"],"neg":["Lactic Acid","Sodium Bicarbonate"]}
+{"query":"MA","pos":["Malic Acid"],"neg":["Lactic Acid","Sodium Bicarbonate"]}
+{"query":"Lactic Acid","pos":["Lactic Acid"],"neg":["Potassium Citrate","Phosphoric Acid"]}
+{"query":"Lactate","pos":["Lactic Acid"],"neg":["Potassium Citrate","Phosphoric Acid"]}
+{"query":"Lactic acid","pos":["Lactic Acid"],"neg":["Potassium Citrate","Phosphoric Acid"]}
+{"query":"Tartaric Acid","pos":["Tartaric Acid"],"neg":["Citric Acid","Acidity Regulator"]}
+{"query":"TA","pos":["Tartaric Acid"],"neg":["Citric Acid","Acidity Regulator"]}
+{"query":"Tartaric Anhydride","pos":["Tartaric Acid"],"neg":["Citric Acid","Acidity Regulator"]}
+{"query":"Tartaric Acid Anhydrous","pos":["Tartaric Acid"],"neg":["Citric Acid","Acidity Regulator"]}
+{"query":"Fumaric Acid","pos":["Fumaric Acid"],"neg":["Malic Acid","Sodium Bicarbonate"]}
+{"query":"FUMARIC ACID","pos":["Fumaric Acid"],"neg":["Malic Acid","Sodium Bicarbonate"]}
+{"query":"E297","pos":["Fumaric Acid"],"neg":["Malic Acid","Sodium Bicarbonate"]}
+{"query":"Fumaric Acid Salt","pos":["Fumaric Acid"],"neg":["Malic Acid","Sodium Bicarbonate"]}
+{"query":"Phosphoric Acid","pos":["Phosphoric Acid"],"neg":["Acidity Regulator","Sodium Citrate"]}
+{"query":"Orthophosphoric Acid","pos":["Phosphoric Acid"],"neg":["Acidity Regulator","Sodium Citrate"]}
+{"query":"Acid Phosphorique","pos":["Phosphoric Acid"],"neg":["Acidity Regulator","Sodium Citrate"]}
+{"query":"Sodium Citrate","pos":["Sodium Citrate"],"neg":["Lactic Acid","Tartaric Acid"]}
+{"query":"Na3Cit","pos":["Sodium Citrate"],"neg":["Lactic Acid","Tartaric Acid"]}
+{"query":"Sod. Citr.","pos":["Sodium Citrate"],"neg":["Lactic Acid","Tartaric Acid"]}
+{"query":"Potassium Citrate","pos":["Potassium Citrate"],"neg":["Malic Acid","Citric Acid"]}
+{"query":"K-Citrate","pos":["Potassium Citrate"],"neg":["Malic Acid","Citric Acid"]}
+{"query":"Potasium Citrate","pos":["Potassium Citrate"],"neg":["Malic Acid","Citric Acid"]}
+{"query":"Potassium Acid Citrate","pos":["Potassium Citrate"],"neg":["Malic Acid","Citric Acid"]}
+{"query":"Sodium bicarbonate","pos":["Sodium Bicarbonate"],"neg":["Potassium Citrate","Sodium Citrate"]}
+{"query":"Baking soda","pos":["Sodium Bicarbonate"],"neg":["Potassium Citrate","Sodium Citrate"]}
+{"query":"Potassium Bicarb","pos":["Potassium Bicarbonate"],"neg":["Tartaric Acid","Lactic Acid"]}
+{"query":"KHCO₃","pos":["Potassium Bicarbonate"],"neg":["Tartaric Acid","Lactic Acid"]}
+{"query":"Acetic Acid","pos":["Acetic Acid"],"neg":["Phosphoric Acid","Potassium Citrate"]}
+{"query":"Ethanoic Acid","pos":["Acetic Acid"],"neg":["Phosphoric Acid","Potassium Citrate"]}
+{"query":"Glacial Acetic Acid","pos":["Acetic Acid"],"neg":["Phosphoric Acid","Potassium Citrate"]}
+{"query":"Vinagre de Aldehído Cético","pos":["Acetic Acid"],"neg":["Phosphoric Acid","Potassium Citrate"]}
+{"query":"Xanthan Gum","pos":["Xanthan Gum"],"neg":["Pectin","Cellulose Gum"]}
+{"query":"XANTHAN GUM","pos":["Xanthan Gum"],"neg":["Pectin","Cellulose Gum"]}
+{"query":"Carrageenan","pos":["Carrageenan"],"neg":["Gelatin","Guar Gum"]}
+{"query":"Cellulose Gum","pos":["Cellulose Gum"],"neg":["Pectin","Thickener"]}
+{"query":"Cel gum","pos":["Cellulose Gum"],"neg":["Pectin","Thickener"]}
+{"query":"E466","pos":["Cellulose Gum"],"neg":["Pectin","Thickener"]}
+{"query":"Gum cellulose","pos":["Cellulose Gum"],"neg":["Pectin","Thickener"]}
+{"query":"Pectin","pos":["Pectin"],"neg":["Thickener","Gum Arabic"]}
+{"query":"Pectin E440","pos":["Pectin"],"neg":["Thickener","Gum Arabic"]}
+{"query":"Pectin Sodium","pos":["Pectin"],"neg":["Thickener","Gum Arabic"]}
+{"query":"Arabic Gum","pos":["Gum Arabic"],"neg":["Xanthan Gum","Locust Bean Gum"]}
+{"query":"E414","pos":["Gum Arabic"],"neg":["Xanthan Gum","Locust Bean Gum"]}
+{"query":"Gum Acacia","pos":["Gum Arabic"],"neg":["Xanthan Gum","Locust Bean Gum"]}
+{"query":"Gum Arabe","pos":["Gum Arabic"],"neg":["Xanthan Gum","Locust Bean Gum"]}
+{"query":"Acacia Gum","pos":["Gum Arabic"],"neg":["Xanthan Gum","Locust Bean Gum"]}
+{"query":"Gelatine","pos":["Gelatin"],"neg":["Guar Gum","Thickener"]}
+{"query":"Gelatin","pos":["Gelatin"],"neg":["Guar Gum","Thickener"]}
+{"query":"Gelatine (E441)","pos":["Gelatin"],"neg":["Guar Gum","Thickener"]}
+{"query":"Bovine Gelatin","pos":["Gelatin"],"neg":["Guar Gum","Thickener"]}
+{"query":"Porcine Gelatin","pos":["Gelatin"],"neg":["Guar Gum","Thickener"]}
+{"query":"Modified Starch","pos":["Modified Starch"],"neg":["Carrageenan","Xanthan Gum"]}
+{"query":"M-Starch","pos":["Modified Starch"],"neg":["Carrageenan","Xanthan Gum"]}
+{"query":"GM Starch","pos":["Modified Starch"],"neg":["Carrageenan","Xanthan Gum"]}
+{"query":"Agar-agar Powder","pos":["Agar"],"neg":["Guar Gum","Pectin"]}
+{"query":"Agar Jelly","pos":["Agar"],"neg":["Guar Gum","Pectin"]}
+{"query":"Locust Bean Gum","pos":["Locust Bean Gum"],"neg":["Guar Gum","Thickener"]}
+{"query":"Carob Gum","pos":["Locust Bean Gum"],"neg":["Guar Gum","Thickener"]}
+{"query":"Arabian Gum","pos":["Gum Arabic"],"neg":["Locust Bean Gum","Guar Gum"]}
+{"query":"Polysorbate 80","pos":["Polysorbate 80"],"neg":["Sodium Alginate","Propylene Glycol"]}
+{"query":"P80","pos":["Polysorbate 80"],"neg":["Sodium Alginate","Propylene Glycol"]}
+{"query":"Polyoxyethylene Sorbitan Esters","pos":["Polysorbate 80"],"neg":["Sodium Alginate","Propylene Glycol"]}
+{"query":"Sodium Alginate","pos":["Sodium Alginate"],"neg":["Polysorbate 20","Disodium Phosphate"]}
+{"query":"Alginate","pos":["Sodium Alginate"],"neg":["Polysorbate 20","Disodium Phosphate"]}
+{"query":"Sodium Alginate (E407)","pos":["Sodium Alginate"],"neg":["Polysorbate 20","Disodium Phosphate"]}
+{"query":"Sodium Stearoyl Lactylate","pos":["Sodium Stearoyl Lactylate"],"neg":["Beta-Cyclodextrin","Disodium Phosphate"]}
+{"query":"Stearoyl Lactylate","pos":["Sodium Stearoyl Lactylate"],"neg":["Beta-Cyclodextrin","Disodium Phosphate"]}
+{"query":"Beta-Cyclodextrin","pos":["Beta-Cyclodextrin"],"neg":["Polysorbate 20","Disodium Phosphate"]}
+{"query":"BCD","pos":["Beta-Cyclodextrin"],"neg":["Polysorbate 20","Disodium Phosphate"]}
+{"query":"β-Cyclodextrin","pos":["Beta-Cyclodextrin"],"neg":["Polysorbate 20","Disodium Phosphate"]}
+{"query":"Disodium Phosphate","pos":["Disodium Phosphate"],"neg":["Sodium Stearoyl Lactylate","Polysorbate 20"]}
+{"query":"E347","pos":["Disodium Phosphate"],"neg":["Sodium Stearoyl Lactylate","Polysorbate 20"]}
+{"query":"Mono- and Diphosphoric Acid Disodium Salt","pos":["Disodium Phosphate"],"neg":["Sodium Stearoyl Lactylate","Polysorbate 20"]}
+{"query":"Phosphoric Acid Disodium Salt","pos":["Disodium Phosphate"],"neg":["Sodium Stearoyl Lactylate","Polysorbate 20"]}
+{"query":"DP","pos":["Disodium Phosphate"],"neg":["Sodium Stearoyl Lactylate","Polysorbate 20"]}
+{"query":"Glycerol","pos":["Glycerol"],"neg":["Beta-Cyclodextrin","Polysorbate 80"]}
+{"query":"Glycerin","pos":["Glycerol"],"neg":["Beta-Cyclodextrin","Polysorbate 80"]}
+{"query":"Glyceryl","pos":["Glycerol"],"neg":["Beta-Cyclodextrin","Polysorbate 80"]}
+{"query":"Propanetriol","pos":["Glycerol"],"neg":["Beta-Cyclodextrin","Polysorbate 80"]}
+{"query":"Hyaluronic Acid","pos":["Hyaluronic Acid"],"neg":["Sodium Lactate","Humectant"]}
+{"query":"Hyaluronan","pos":["Hyaluronic Acid"],"neg":["Sodium Lactate","Humectant"]}
+{"query":"Hyaluronate","pos":["Hyaluronic Acid"],"neg":["Sodium Lactate","Humectant"]}
+{"query":"Honey","pos":["Honey"],"neg":["Inulin","Monk Fruit Extract"]}
+{"query":"Natural Honey","pos":["Honey"],"neg":["Inulin","Monk Fruit Extract"]}
+{"query":"Raw Honey","pos":["Honey"],"neg":["Inulin","Monk Fruit Extract"]}
+{"query":"Manuka Honey","pos":["Honey"],"neg":["Inulin","Monk Fruit Extract"]}
+{"query":"Inositol","pos":["Inositol"],"neg":["Glycerin","Humectant"]}
+{"query":"Myo-Inositol","pos":["Inositol"],"neg":["Glycerin","Humectant"]}
+{"query":"Sodium Lactate","pos":["Sodium Lactate"],"neg":["Inositol","Glycerin"]}
+{"query":"NaLac","pos":["Sodium Lactate"],"neg":["Inositol","Glycerin"]}
+{"query":"Sodium Lactate E369","pos":["Sodium Lactate"],"neg":["Inositol","Glycerin"]}
+{"query":"Sodiump Lactat","pos":["Sodium Lactate"],"neg":["Inositol","Glycerin"]}
+{"query":"NMN","pos":["NMN"],"neg":["Melatonin","BPC-157"]}
+{"query":"Nicotinamide Mononucleotide","pos":["NMN"],"neg":["Melatonin","BPC-157"]}
+{"query":"NMN Salt","pos":["NMN"],"neg":["Melatonin","BPC-157"]}
+{"query":"NMN (Nicotinamide Mononucleotide)","pos":["NMN"],"neg":["Melatonin","BPC-157"]}
+{"query":"Nicotinamide Mononucléido","pos":["NMN"],"neg":["Melatonin","BPC-157"]}
+{"query":"Nicotinamide Riboside","pos":["Nicotinamide Riboside"],"neg":["NMN","NAD+"]}
+{"query":"Nicotinamide Riboside Hydrochloride","pos":["Nicotinamide Riboside"],"neg":["NMN","NAD+"]}
+{"query":"Nicotinamide Riboside HCl","pos":["Nicotinamide Riboside"],"neg":["NMN","NAD+"]}
+{"query":"Nicotinamide Riboside Monohydrate","pos":["Nicotinamide Riboside"],"neg":["NMN","NAD+"]}
+{"query":"NAD+","pos":["NAD+"],"neg":["L-Theanine","NMN"]}
+{"query":"Nicotinamide Adenine Dinucleotide","pos":["NAD+"],"neg":["L-Theanine","NMN"]}
+{"query":"Urolithin A","pos":["Urolithin A"],"neg":["NAD+","L-Theanine"]}
+{"query":"UroA","pos":["Urolithin A"],"neg":["NAD+","L-Theanine"]}
+{"query":"Collagen Peptides","pos":["Collagen Peptides"],"neg":["Nicotinamide Riboside","5-HTP"]}
+{"query":"Collagen Hydrolysate","pos":["Collagen Peptides"],"neg":["Nicotinamide Riboside","5-HTP"]}
+{"query":"Marine Collagen Peptides","pos":["Collagen Peptides"],"neg":["Nicotinamide Riboside","5-HTP"]}
+{"query":"Type I Collagen Peptides","pos":["Collagen Peptides"],"neg":["Nicotinamide Riboside","5-HTP"]}
+{"query":"Hydrolyzed Collagen","pos":["Collagen Peptides"],"neg":["Nicotinamide Riboside","5-HTP"]}
+{"query":"BPC-157 Peptide","pos":["BPC-157"],"neg":["GABA","NMN"]}
+{"query":"Peptide BPC-157","pos":["BPC-157"],"neg":["GABA","NMN"]}
+{"query":"BPC157","pos":["BPC-157"],"neg":["GABA","NMN"]}
+{"query":"BPC-157","pos":["BPC-157"],"neg":["GABA","NMN"]}
+{"query":"Melatonin","pos":["Melatonin"],"neg":["Omega-3","NMN"]}
+{"query":"Melatonina","pos":["Melatonin"],"neg":["Omega-3","NMN"]}
+{"query":"MLT","pos":["Melatonin"],"neg":["Omega-3","NMN"]}
+{"query":"N-Acetyl Melatonin","pos":["Melatonin"],"neg":["Omega-3","NMN"]}
+{"query":"5-Hydroxytryptophan","pos":["5-HTP"],"neg":["Urolithin A","BPC-157"]}
+{"query":"5-HTP","pos":["5-HTP"],"neg":["Urolithin A","BPC-157"]}
+{"query":"5-Hydroxy-L-Tryptophan","pos":["5-HTP"],"neg":["Urolithin A","BPC-157"]}
+{"query":"L-5-Hydroxytryptophan","pos":["5-HTP"],"neg":["Urolithin A","BPC-157"]}
+{"query":"5-Hydroxytryptophane","pos":["5-HTP"],"neg":["Urolithin A","BPC-157"]}
+{"query":"GABA","pos":["GABA"],"neg":["Phosphatidylserine","L-Theanine"]}
+{"query":"Gamma-Aminobutyric Acid","pos":["GABA"],"neg":["Phosphatidylserine","L-Theanine"]}
+{"query":"GAMMA-AMINOBUTYRIC ACID","pos":["GABA"],"neg":["Phosphatidylserine","L-Theanine"]}
+{"query":"L-Theanine","pos":["L-Theanine"],"neg":["Urolithin A","Phosphatidylserine"]}
+{"query":"L-Theanin","pos":["L-Theanine"],"neg":["Urolithin A","Phosphatidylserine"]}
+{"query":"L-Thean","pos":["L-Theanine"],"neg":["Urolithin A","Phosphatidylserine"]}
+{"query":"L-Theanin","pos":["L-Theanine"],"neg":["Urolithin A","Phosphatidylserine"]}
+{"query":"Omega-3 Fish Oil","pos":["Omega-3"],"neg":["BPC-157","GABA"]}
+{"query":"Omega-3 EPA/DHA","pos":["Omega-3"],"neg":["BPC-157","GABA"]}
+{"query":"Algal Omega-3","pos":["Omega-3"],"neg":["BPC-157","GABA"]}
+{"query":"Flaxseed Oil (Omega-3)","pos":["Omega-3"],"neg":["BPC-157","GABA"]}
+{"query":"Phosphatidylserine","pos":["Phosphatidylserine"],"neg":["GABA","L-Theanine"]}
+{"query":"PS","pos":["Phosphatidylserine"],"neg":["GABA","L-Theanine"]}
+{"query":"Phosphatidyl Serine","pos":["Phosphatidylserine"],"neg":["GABA","L-Theanine"]}
+{"query":"Phosphatidyl-Serine","pos":["Phosphatidylserine"],"neg":["GABA","L-Theanine"]}
+{"query":"PhosphaTidylSerine","pos":["Phosphatidylserine"],"neg":["GABA","L-Theanine"]}
+{"query":"Spirulina Powder","pos":["Spirulina"],"neg":["Chlorella","Natural Acerola Cherry Concentrate"]}
+{"query":"Spirulina Tablets","pos":["Spirulina"],"neg":["Chlorella","Natural Acerola Cherry Concentrate"]}
+{"query":"Spirulina Extract","pos":["Spirulina"],"neg":["Chlorella","Natural Acerola Cherry Concentrate"]}
+{"query":"Organic Spirulina","pos":["Spirulina"],"neg":["Chlorella","Natural Acerola Cherry Concentrate"]}
+{"query":"Spirulina Capsules","pos":["Spirulina"],"neg":["Chlorella","Natural Acerola Cherry Concentrate"]}
+{"query":"Chlorella Pyrenoidosa","pos":["Chlorella"],"neg":["Barley Grass","Cacao"]}
+{"query":"Chlorella Vulgaris","pos":["Chlorella"],"neg":["Barley Grass","Cacao"]}
+{"query":"Chlorella Extract","pos":["Chlorella"],"neg":["Barley Grass","Cacao"]}
+{"query":"Chlorella Powder","pos":["Chlorella"],"neg":["Barley Grass","Cacao"]}
+{"query":"Wheatgrass Powder","pos":["Wheatgrass"],"neg":["Barley Grass","Hemp Seeds"]}
+{"query":"Triticum aestivum Leaf Powder","pos":["Wheatgrass"],"neg":["Barley Grass","Hemp Seeds"]}
+{"query":"Organic Wheatgrass Juice Powder","pos":["Wheatgrass"],"neg":["Barley Grass","Hemp Seeds"]}
+{"query":"Barley Grass Extract","pos":["Barley Grass"],"neg":["Maca Powder","Psyllium Husk"]}
+{"query":"Barley Grass Powder","pos":["Barley Grass"],"neg":["Maca Powder","Psyllium Husk"]}
+{"query":"Barley Green Powder","pos":["Barley Grass"],"neg":["Maca Powder","Psyllium Husk"]}
+{"query":"Barley Grass Juice Powder","pos":["Barley Grass"],"neg":["Maca Powder","Psyllium Husk"]}
+{"query":"Barley Grass Supplement","pos":["Barley Grass"],"neg":["Maca Powder","Psyllium Husk"]}
+{"query":"Moringa Leaf Extract","pos":["Moringa"],"neg":["Acai Berry","Barley Grass"]}
+{"query":"Moringa Oleifera Powder","pos":["Moringa"],"neg":["Acai Berry","Barley Grass"]}
+{"query":"Moringa Leaf Powder","pos":["Moringa"],"neg":["Acai Berry","Barley Grass"]}
+{"query":"Moringa Capsules","pos":["Moringa"],"neg":["Acai Berry","Barley Grass"]}
+{"query":"Moringa Leaf Concentrate","pos":["Moringa"],"neg":["Acai Berry","Barley Grass"]}
+{"query":"Acai Berry","pos":["Acai Berry"],"neg":["Cranberry Powder","Natural Acerola Cherry Concentrate"]}
+{"query":"Açaí Berry","pos":["Acai Berry"],"neg":["Cranberry Powder","Natural Acerola Cherry Concentrate"]}
+{"query":"ACAI BERRY","pos":["Acai Berry"],"neg":["Cranberry Powder","Natural Acerola Cherry Concentrate"]}
+{"query":"Acaï Berry","pos":["Acai Berry"],"neg":["Cranberry Powder","Natural Acerola Cherry Concentrate"]}
+{"query":"Goji Berry","pos":["Goji Berry"],"neg":["Blueberry Powder","Brown Rice Protein"]}
+{"query":"Gǒjī Guǒ","pos":["Goji Berry"],"neg":["Blueberry Powder","Brown Rice Protein"]}
+{"query":"Lycium Barbarum Fruit","pos":["Goji Berry"],"neg":["Blueberry Powder","Brown Rice Protein"]}
+{"query":"Go Ji Guo","pos":["Goji Berry"],"neg":["Blueberry Powder","Brown Rice Protein"]}
+{"query":"Gou Qi Zi","pos":["Goji Berry"],"neg":["Blueberry Powder","Brown Rice Protein"]}
+{"query":"Cranberry Powder","pos":["Cranberry Powder"],"neg":["Brown Rice Protein","Blueberry Powder"]}
+{"query":"Cranberry Extract Powder","pos":["Cranberry Powder"],"neg":["Brown Rice Protein","Blueberry Powder"]}
+{"query":"Dried Cranberry Powder","pos":["Cranberry Powder"],"neg":["Brown Rice Protein","Blueberry Powder"]}
+{"query":"Organic Cranberry Powder","pos":["Cranberry Powder"],"neg":["Brown Rice Protein","Blueberry Powder"]}
+{"query":"Natural Cranberry Powder","pos":["Cranberry Powder"],"neg":["Brown Rice Protein","Blueberry Powder"]}
+{"query":"Blueberry Powder","pos":["Blueberry Powder"],"neg":["Whey Protein","Chlorella"]}
+{"query":"Blueberry Extract Powder","pos":["Blueberry Powder"],"neg":["Whey Protein","Chlorella"]}
+{"query":"Dried Blueberry Powder","pos":["Blueberry Powder"],"neg":["Whey Protein","Chlorella"]}
+{"query":"Organic Blueberry Powder","pos":["Blueberry Powder"],"neg":["Whey Protein","Chlorella"]}
+{"query":"Natural Blueberry Powder","pos":["Blueberry Powder"],"neg":["Whey Protein","Chlorella"]}
+{"query":"Flaxseed","pos":["Flaxseed"],"neg":["Royal Jelly","Brown Rice Protein"]}
+{"query":"Linseed","pos":["Flaxseed"],"neg":["Royal Jelly","Brown Rice Protein"]}
+{"query":"Flax Seed","pos":["Flaxseed"],"neg":["Royal Jelly","Brown Rice Protein"]}
+{"query":"Flax Seed Oil","pos":["Flaxseed"],"neg":["Royal Jelly","Brown Rice Protein"]}
+{"query":"Organic Flaxseed","pos":["Flaxseed"],"neg":["Royal Jelly","Brown Rice Protein"]}
+{"query":"Chia Seeds","pos":["Chia Seeds"],"neg":["Oat Fibre","Spirulina"]}
+{"query":"chia seeds","pos":["Chia Seeds"],"neg":["Oat Fibre","Spirulina"]}
+{"query":"chia seed powder","pos":["Chia Seeds"],"neg":["Oat Fibre","Spirulina"]}
+{"query":"Chia Seed Flour","pos":["Chia Seeds"],"neg":["Oat Fibre","Spirulina"]}
+{"query":"Hemp Seeds","pos":["Hemp Seeds"],"neg":["Oat Fibre","Cacao"]}
+{"query":"Hemp Seed","pos":["Hemp Seeds"],"neg":["Oat Fibre","Cacao"]}
+{"query":"Hemp Seed Kernel","pos":["Hemp Seeds"],"neg":["Oat Fibre","Cacao"]}
+{"query":"Psyllium Husk","pos":["Psyllium Husk"],"neg":["Cranberry Powder","Hemp Seeds"]}
+{"query":"Isabgol","pos":["Psyllium Husk"],"neg":["Cranberry Powder","Hemp Seeds"]}
+{"query":"PSYLLIUM HUSK","pos":["Psyllium Husk"],"neg":["Cranberry Powder","Hemp Seeds"]}
+{"query":"Psyllium Seed Hull","pos":["Psyllium Husk"],"neg":["Cranberry Powder","Hemp Seeds"]}
+{"query":"PSYLLIUM","pos":["Psyllium Husk"],"neg":["Cranberry Powder","Hemp Seeds"]}
+{"query":"Whey Protein","pos":["Whey Protein"],"neg":["Black Seed","Natural Acerola Cherry Concentrate"]}
+{"query":"Micellar Whey Protein","pos":["Whey Protein"],"neg":["Black Seed","Natural Acerola Cherry Concentrate"]}
+{"query":"Pea Protein","pos":["Pea Protein"],"neg":["Chia Seeds","Natural Acerola Cherry Concentrate"]}
+{"query":"Isolated Pea Protein","pos":["Pea Protein"],"neg":["Chia Seeds","Natural Acerola Cherry Concentrate"]}
+{"query":"Pea Protein Powder","pos":["Pea Protein"],"neg":["Chia Seeds","Natural Acerola Cherry Concentrate"]}
+{"query":"Organic Pea Protein","pos":["Pea Protein"],"neg":["Chia Seeds","Natural Acerola Cherry Concentrate"]}
+{"query":"Cold-Pressed Pea Protein","pos":["Pea Protein"],"neg":["Chia Seeds","Natural Acerola Cherry Concentrate"]}
+{"query":"Brown Rice Protein","pos":["Brown Rice Protein"],"neg":["Psyllium Husk","Black Seed"]}
+{"query":"BROWN RICE PROTEIN","pos":["Brown Rice Protein"],"neg":["Psyllium Husk","Black Seed"]}
+{"query":"Organic Brown Rice Protein","pos":["Brown Rice Protein"],"neg":["Psyllium Husk","Black Seed"]}
+{"query":"ORGANIC BROWN RICE PROTEIN","pos":["Brown Rice Protein"],"neg":["Psyllium Husk","Black Seed"]}
+{"query":"Natural Brown Rice Protein","pos":["Brown Rice Protein"],"neg":["Psyllium Husk","Black Seed"]}
+{"query":"Colostrum","pos":["Colostrum"],"neg":["Goji Berry","Cranberry Powder"]}
+{"query":"Colostrum Powder","pos":["Colostrum"],"neg":["Goji Berry","Cranberry Powder"]}
+{"query":"Newborn Cow Colostrum","pos":["Colostrum"],"neg":["Goji Berry","Cranberry Powder"]}
+{"query":"Fresh Colostrum","pos":["Colostrum"],"neg":["Goji Berry","Cranberry Powder"]}
+{"query":"Organic Colostrum","pos":["Colostrum"],"neg":["Goji Berry","Cranberry Powder"]}
+{"query":"Bee Pollen","pos":["Bee Pollen"],"neg":["Goji Berry","Coconut Water Powder"]}
+{"query":"Bienenpulver","pos":["Bee Pollen"],"neg":["Goji Berry","Coconut Water Powder"]}
+{"query":"Pollen d'abeille","pos":["Bee Pollen"],"neg":["Goji Berry","Coconut Water Powder"]}
+{"query":"Bee Pollen Granules","pos":["Bee Pollen"],"neg":["Goji Berry","Coconut Water Powder"]}
+{"query":"Bienenpollen","pos":["Bee Pollen"],"neg":["Goji Berry","Coconut Water Powder"]}
+{"query":"Royal Jelly","pos":["Royal Jelly"],"neg":["Bee Pollen","Wheatgrass"]}
+{"query":"Roya Jelly","pos":["Royal Jelly"],"neg":["Bee Pollen","Wheatgrass"]}
+{"query":"Roya Jeli","pos":["Royal Jelly"],"neg":["Bee Pollen","Wheatgrass"]}
+{"query":"Cacao","pos":["Cacao"],"neg":["Chlorella","Chia Seeds"]}
+{"query":"Cocoa","pos":["Cacao"],"neg":["Chlorella","Chia Seeds"]}
+{"query":"Cacao Powder","pos":["Cacao"],"neg":["Chlorella","Chia Seeds"]}
+{"query":"MCT Oil","pos":["MCT Oil"],"neg":["Colostrum","Natural Acerola Cherry Concentrate"]}
+{"query":"Medium Chain Triglycerides","pos":["MCT Oil"],"neg":["Colostrum","Natural Acerola Cherry Concentrate"]}
+{"query":"MEDIUM CHAIN TRIGLYCERIDES","pos":["MCT Oil"],"neg":["Colostrum","Natural Acerola Cherry Concentrate"]}
+{"query":"MCT OIL","pos":["MCT Oil"],"neg":["Colostrum","Natural Acerola Cherry Concentrate"]}
+{"query":"mct oil","pos":["MCT Oil"],"neg":["Colostrum","Natural Acerola Cherry Concentrate"]}
+{"query":"Oat fibre","pos":["Oat Fibre"],"neg":["Spirulina","Goji Berry"]}
+{"query":"Soluble fibre from oats","pos":["Oat Fibre"],"neg":["Spirulina","Goji Berry"]}
+{"query":"Oat bran fibre","pos":["Oat Fibre"],"neg":["Spirulina","Goji Berry"]}
+{"query":"Organic oat fibre","pos":["Oat Fibre"],"neg":["Spirulina","Goji Berry"]}
+{"query":"Coconut Water Powder","pos":["Coconut Water Powder"],"neg":["Bee Pollen","Goji Berry"]}
+{"query":"Organic Coconut Water Powder","pos":["Coconut Water Powder"],"neg":["Bee Pollen","Goji Berry"]}
+{"query":"Turmeric Powder","pos":["Turmeric Powder"],"neg":["Spirulina","Natural Acerola Cherry Concentrate"]}
+{"query":"Curcuma Longa Powder","pos":["Turmeric Powder"],"neg":["Spirulina","Natural Acerola Cherry Concentrate"]}
+{"query":"Haldi Powder","pos":["Turmeric Powder"],"neg":["Spirulina","Natural Acerola Cherry Concentrate"]}
+{"query":"Ginger Powder","pos":["Ginger Powder"],"neg":["Maca Powder","Oat Fibre"]}
+{"query":"Ground Ginger","pos":["Ginger Powder"],"neg":["Maca Powder","Oat Fibre"]}
+{"query":"Zingiber Officinale Powder","pos":["Ginger Powder"],"neg":["Maca Powder","Oat Fibre"]}
+{"query":"Gingembre Powder (French)","pos":["Ginger Powder"],"neg":["Maca Powder","Oat Fibre"]}
+{"query":"Black Seed","pos":["Black Seed"],"neg":["Goji Berry","Turmeric Powder"]}
+{"query":"Kalonji Seeds","pos":["Black Seed"],"neg":["Goji Berry","Turmeric Powder"]}
+{"query":"Nigella Sativa","pos":["Black Seed"],"neg":["Goji Berry","Turmeric Powder"]}
+{"query":"Habbatul Sabil","pos":["Black Seed"],"neg":["Goji Berry","Turmeric Powder"]}
+{"query":"Maca Root Powder","pos":["Maca Powder"],"neg":["Natural Acerola Cherry Concentrate","Blueberry Powder"]}
+{"query":"Maca Powder","pos":["Maca Powder"],"neg":["Natural Acerola Cherry Concentrate","Blueberry Powder"]}
+{"query":"Maca Powder (Lepidium Meyenii)","pos":["Maca Powder"],"neg":["Natural Acerola Cherry Concentrate","Blueberry Powder"]}
+{"query":"Organic Maca Powder","pos":["Maca Powder"],"neg":["Natural Acerola Cherry Concentrate","Blueberry Powder"]}
+{"query":"Thiamine HCl","pos":["Thiamine HCl"],"neg":["Pyridoxine HCl","Menaquinone MK-7"]}
+{"query":"Thiamin Hydrochloride","pos":["Thiamine HCl"],"neg":["Pyridoxine HCl","Menaquinone MK-7"]}
+{"query":"Tiamina HCl","pos":["Thiamine HCl"],"neg":["Pyridoxine HCl","Menaquinone MK-7"]}
+{"query":"Benfotiamine","pos":["Benfotiamine"],"neg":["Pantothenic Acid","Niacin"]}
+{"query":"Riboflavin-5'-Phosphate","pos":["Riboflavin-5-Phosphate"],"neg":["Para-Aminobenzoic Acid","Calcium Ascorbate"]}
+{"query":"RBP","pos":["Riboflavin-5-Phosphate"],"neg":["Para-Aminobenzoic Acid","Calcium Ascorbate"]}
+{"query":"Pantothenic Acid","pos":["Pantothenic Acid"],"neg":["Benfotiamine","Para-Aminobenzoic Acid"]}
+{"query":"Vitamin B5","pos":["Pantothenic Acid"],"neg":["Benfotiamine","Para-Aminobenzoic Acid"]}
+{"query":"Panthothenyl Acid","pos":["Pantothenic Acid"],"neg":["Benfotiamine","Para-Aminobenzoic Acid"]}
+{"query":"Anhydrous Panthenol","pos":["Pantothenic Acid"],"neg":["Benfotiamine","Para-Aminobenzoic Acid"]}
+{"query":"D-Pantothenic Acid","pos":["Pantothenic Acid"],"neg":["Benfotiamine","Para-Aminobenzoic Acid"]}
+{"query":"Biotin","pos":["Biotin"],"neg":["Vitamin D","Liposomal Vitamin C"]}
+{"query":"B7","pos":["Biotin"],"neg":["Vitamin D","Liposomal Vitamin C"]}
+{"query":"D-Biotin","pos":["Biotin"],"neg":["Vitamin D","Liposomal Vitamin C"]}
+{"query":"Vit B3","pos":["Vitamin B3"],"neg":["Calcium Ascorbate","Liposomal Vitamin C"]}
+{"query":"Niacinamide","pos":["Niacinamide"],"neg":["Vitamin D3","Vitamin C"]}
+{"query":"Pyridoxine","pos":["Vitamin B6"],"neg":["Vitamin C","Vitamin K1"]}
+{"query":"Vit B6","pos":["Vitamin B6"],"neg":["Vitamin C","Vitamin K1"]}
+{"query":"Pyridoxal Phosphate","pos":["Vitamin B6"],"neg":["Vitamin C","Vitamin K1"]}
+{"query":"B6","pos":["Vitamin B6"],"neg":["Vitamin C","Vitamin K1"]}
+{"query":"P5P","pos":["Pyridoxal 5-Phosphate"],"neg":["Niacin","Liposomal Vitamin C"]}
+{"query":"Pyridoxal 5'-Phosphate","pos":["Pyridoxal 5-Phosphate"],"neg":["Niacin","Liposomal Vitamin C"]}
+{"query":"Folate","pos":["Folate"],"neg":["Mixed Tocopherols","Beta-Carotene"]}
+{"query":"Vit B9","pos":["Folate"],"neg":["Mixed Tocopherols","Beta-Carotene"]}
+{"query":"Folic Acid","pos":["Folic Acid"],"neg":["Methylcobalamin","Retinol"]}
+{"query":"L-Folic Acid","pos":["Folic Acid"],"neg":["Methylcobalamin","Retinol"]}
+{"query":"Pteroylmonoglutamic acid (PGA)","pos":["Folic Acid"],"neg":["Methylcobalamin","Retinol"]}
+{"query":"Thiamine","pos":["Thiamine"],"neg":["Vitamin C","Vitamin D"]}
+{"query":"Vit B1","pos":["Thiamine"],"neg":["Vitamin C","Vitamin D"]}
+{"query":"Calcium Pantothenate","pos":["Calcium Pantothenate"],"neg":["Vitamin A","Niacin"]}
+{"query":"Panthothenic Acid Calcium Salt","pos":["Calcium Pantothenate"],"neg":["Vitamin A","Niacin"]}
+{"query":"Panthenol","pos":["Panthenol"],"neg":["Mixed Tocopherols","Vitamin K2"]}
+{"query":"Pro-Vitamin B5","pos":["Panthenol"],"neg":["Mixed Tocopherols","Vitamin K2"]}
+{"query":"D-Panthenol","pos":["Panthenol"],"neg":["Mixed Tocopherols","Vitamin K2"]}
+{"query":"Panthenyl Ethyl Ester","pos":["Panthenol"],"neg":["Mixed Tocopherols","Vitamin K2"]}
+{"query":"Pyridoxine HCl","pos":["Pyridoxine HCl"],"neg":["Thiamine","Vitamin A"]}
+{"query":"Pyridoxine Hydrochloride","pos":["Pyridoxine HCl"],"neg":["Thiamine","Vitamin A"]}
+{"query":"Vitamin B12","pos":["Vitamin B12"],"neg":["Pyridoxal 5-Phosphate","Vitamin D"]}
+{"query":"Cobalamin","pos":["Vitamin B12"],"neg":["Pyridoxal 5-Phosphate","Vitamin D"]}
+{"query":"Hydroxocobalamin","pos":["Vitamin B12"],"neg":["Pyridoxal 5-Phosphate","Vitamin D"]}

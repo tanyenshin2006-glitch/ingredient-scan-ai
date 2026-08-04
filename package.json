@@ -7,6 +7,9 @@
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "seed": "tsx src/seed.ts",
+    "evaluate": "tsx src/evaluate.ts",
+    "generate": "tsx src/generate-pairs.ts",
+    "re-embed": "tsx src/re-embed.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

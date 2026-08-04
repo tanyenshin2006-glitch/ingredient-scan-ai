@@ -22,7 +22,7 @@ export async function chat(model: string, system: string, user: string, temperat
 //Pass 4
 export async function embed(text: string): Promise<number[]> {
   const res = await axios.post(`${OLLAMA}/api/embeddings`, {
-    model: 'bge-m3',
+    model: 'bge-m3-ingredients',
     prompt: text
   });
   return res.data.embedding;
