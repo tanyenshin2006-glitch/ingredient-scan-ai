@@ -1,0 +1,718 @@
+{
+  "date": "2026-08-05T05:17:22.256Z",
+  "total": 101,
+  "exact": 88,
+  "acceptable": 0,
+  "fail": 13,
+  "recall_exact": 0.8713,
+  "recall_acceptable": 0.8713,
+  "results": [
+    {
+      "query": "Vitamin B1",
+      "expected": "Thiamine",
+      "got": "Thiamine",
+      "distance": 0.22694115635820156,
+      "pass": "exact"
+    },
+    {
+      "query": "Thiamine HCl",
+      "expected": "Thiamine HCl",
+      "got": "Thiamine HCl",
+      "distance": 0,
+      "pass": "exact"
+    },
+    {
+      "query": "Thiamine Hydrochloride",
+      "expected": "Thiamine HCl",
+      "got": "Thiamine HCl",
+      "distance": 0.15440023954582294,
+      "pass": "exact"
+    },
+    {
+      "query": "Benfotiamine",
+      "expected": "Benfotiamine",
+      "got": "Benfotiamine",
+      "distance": 0,
+      "pass": "exact"
+    },
+    {
+      "query": "Vitamin B2",
+      "expected": "Riboflavin",
+      "got": "Riboflavin",
+      "distance": 0.3273299210917989,
+      "pass": "exact"
+    },
+    {
+      "query": "E101",
+      "expected": "Riboflavin",
+      "got": "NO_RESULT",
+      "distance": 1,
+      "pass": "fail"
+    },
+    {
+      "query": "Riboflavin 5-Phosphate",
+      "expected": "Riboflavin-5-Phosphate",
+      "got": "Riboflavin-5-Phosphate",
+      "distance": 0.009326204518412595,
+      "pass": "exact"
+    },
+    {
+      "query": "FMN",
+      "expected": "Riboflavin-5-Phosphate",
+      "got": "Riboflavin-5-Phosphate",
+      "distance": 0.467369815344316,
+      "pass": "exact"
+    },
+    {
+      "query": "Vitamin B3",
+      "expected": "Vitamin B3",
+      "got": "Vitamin B3",
+      "distance": 0,
+      "pass": "exact"
+    },
+    {
+      "query": "Nicotinamide",
+      "expected": "Niacinamide",
+      "got": "Niacinamide",
+      "distance": 0.3591701291519598,
+      "pass": "exact"
+    },
+    {
+      "query": "Nicotinic Acid",
+      "expected": "Niacin",
+      "got": "Niacinamide",
+      "distance": 0.34262617575628884,
+      "pass": "fail"
+    },
+    {
+      "query": "Vitamin B5",
+      "expected": "Pantothenic Acid",
+      "got": "Pantothenic Acid",
+      "distance": 0.27118771016346555,
+      "pass": "exact"
+    },
+    {
+      "query": "Calcium Pantothenate",
+      "expected": "Calcium Pantothenate",
+      "got": "Calcium Pantothenate",
+      "distance": 0,
+      "pass": "exact"
+    },
+    {
+      "query": "Vitamin B6",
+      "expected": "Vitamin B6",
+      "got": "Vitamin B6",
+      "distance": 0,
+      "pass": "exact"
+    },
+    {
+      "query": "Pyridoxine HCl",
+      "expected": "Pyridoxine HCl",
+      "got": "Pyridoxine HCl",
+      "distance": 0,
+      "pass": "exact"
+    },
+    {
+      "query": "P5P",
+      "expected": "Pyridoxal 5-Phosphate",
+      "got": "Pyridoxal 5-Phosphate",
+      "distance": 0.3481407241765858,
+      "pass": "exact"
+    },
+    {
+      "query": "Vitamin B7",
+      "expected": "Biotin",
+      "got": "Biotin",
+      "distance": 0.3358311298392074,
+      "pass": "exact"
+    },
+    {
+      "query": "Vitamin H",
+      "expected": "Biotin",
+      "got": "Biotin",
+      "distance": 0.2047723233073695,
+      "pass": "exact"
+    },
+    {
+      "query": "Vitamin B9",
+      "expected": "Folate",
+      "got": "Folate",
+      "distance": 0.3802513403875921,
+      "pass": "exact"
+    },
+    {
+      "query": "Folate",
+      "expected": "Folate",
+      "got": "Folate",
+      "distance": 0,
+      "pass": "exact"
+    },
+    {
+      "query": "Folic Acid",
+      "expected": "Folic Acid",
+      "got": "Folic Acid",
+      "distance": 0,
+      "pass": "exact"
+    },
+    {
+      "query": "5-MTHF",
+      "expected": "Methylfolate",
+      "got": "Methylfolate",
+      "distance": 0.3272037653823784,
+      "pass": "exact"
+    },
+    {
+      "query": "L-Methylfolate",
+      "expected": "Methylfolate",
+      "got": "Methylfolate",
+      "distance": 0.13378426306343083,
+      "pass": "exact"
+    },
+    {
+      "query": "Vitamin B12",
+      "expected": "Vitamin B12",
+      "got": "Vitamin B12",
+      "distance": 0,
+      "pass": "exact"
+    },
+    {
+      "query": "Cyanocobalamin",
+      "expected": "Cyanocobalamin",
+      "got": "Cyanocobalamin",
+      "distance": 0,
+      "pass": "exact"
+    },
+    {
+      "query": "Methylcobalamin",
+      "expected": "Methylcobalamin",
+      "got": "Methylcobalamin",
+      "distance": 0,
+      "pass": "exact"
+    },
+    {
+      "query": "Adenosylcobalamin",
+      "expected": "Adenosylcobalamin",
+      "got": "Adenosylcobalamin",
+      "distance": 0,
+      "pass": "exact"
+    },
+    {
+      "query": "Vitamin C",
+      "expected": "Vitamin C",
+      "got": "Vitamin C",
+      "distance": 0,
+      "pass": "exact"
+    },
+    {
+      "query": "L-Ascorbic Acid",
+      "expected": "Ascorbic Acid",
+      "got": "Ascorbic Acid",
+      "distance": 0.15492785116289498,
+      "pass": "exact"
+    },
+    {
+      "query": "Vitamin D",
+      "expected": "Vitamin D",
+      "got": "Vitamin D",
+      "distance": 0,
+      "pass": "exact"
+    },
+    {
+      "query": "Cholecalciferol",
+      "expected": "Vitamin D3",
+      "got": "Vitamin D3",
+      "distance": 0.295714456502302,
+      "pass": "exact"
+    },
+    {
+      "query": "Phylloquinone",
+      "expected": "Vitamin K1",
+      "got": "Vitamin K1",
+      "distance": 0.39966679279729667,
+      "pass": "exact"
+    },
+    {
+      "query": "Phytonadione",
+      "expected": "Vitamin K1",
+      "got": "Vitamin K1",
+      "distance": 0.3879716249549584,
+      "pass": "exact"
+    },
+    {
+      "query": "MK-7",
+      "expected": "Menaquinone MK-7",
+      "got": "Menaquinone MK-7",
+      "distance": 0.21650061810812304,
+      "pass": "exact"
+    },
+    {
+      "query": "Menaquinone-7",
+      "expected": "Menaquinone MK-7",
+      "got": "Menaquinone MK-7",
+      "distance": 0.107132280316797,
+      "pass": "exact"
+    },
+    {
+      "query": "Allura Red",
+      "expected": "Red 40",
+      "got": "Red 40",
+      "distance": 0.3365244991651202,
+      "pass": "exact"
+    },
+    {
+      "query": "E129",
+      "expected": "Red 40",
+      "got": "Red 40",
+      "distance": 0.435175775985268,
+      "pass": "exact"
+    },
+    {
+      "query": "Red Dye 40",
+      "expected": "Red 40",
+      "got": "Red 40",
+      "distance": 0.17667186436771976,
+      "pass": "exact"
+    },
+    {
+      "query": "Tartrazine",
+      "expected": "Yellow 5",
+      "got": "Yellow 5",
+      "distance": 0.4018725913446305,
+      "pass": "exact"
+    },
+    {
+      "query": "E102",
+      "expected": "Yellow 5",
+      "got": "Yellow 5",
+      "distance": 0.4584310785519171,
+      "pass": "exact"
+    },
+    {
+      "query": "Sunset Yellow",
+      "expected": "Yellow 6",
+      "got": "Yellow 6",
+      "distance": 0.3841291139327778,
+      "pass": "exact"
+    },
+    {
+      "query": "E110",
+      "expected": "Yellow 6",
+      "got": "Yellow 6",
+      "distance": 0.474108315049375,
+      "pass": "exact"
+    },
+    {
+      "query": "Erythrosine",
+      "expected": "Red 3",
+      "got": "Red 3",
+      "distance": 0.4479169493912527,
+      "pass": "exact"
+    },
+    {
+      "query": "E127",
+      "expected": "Red 3",
+      "got": "NO_RESULT",
+      "distance": 1,
+      "pass": "fail"
+    },
+    {
+      "query": "Brilliant Blue FCF",
+      "expected": "Blue 1",
+      "got": "Blue 1",
+      "distance": 0.36717693654472927,
+      "pass": "exact"
+    },
+    {
+      "query": "E133",
+      "expected": "Blue 1",
+      "got": "Blue 1",
+      "distance": 0.465236616508099,
+      "pass": "exact"
+    },
+    {
+      "query": "Indigo Carmine",
+      "expected": "Blue 2",
+      "got": "Blue 2",
+      "distance": 0.35257608260841,
+      "pass": "exact"
+    },
+    {
+      "query": "E132",
+      "expected": "Blue 2",
+      "got": "Blue 2",
+      "distance": 0.42170223553793085,
+      "pass": "exact"
+    },
+    {
+      "query": "NutraSweet",
+      "expected": "Aspartame",
+      "got": "Aspartame",
+      "distance": 0.4176949704274926,
+      "pass": "exact"
+    },
+    {
+      "query": "E951",
+      "expected": "Aspartame",
+      "got": "NO_RESULT",
+      "distance": 1,
+      "pass": "fail"
+    },
+    {
+      "query": "Splenda",
+      "expected": "Sucralose",
+      "got": "Sucralose",
+      "distance": 0.4720832615359195,
+      "pass": "exact"
+    },
+    {
+      "query": "E955",
+      "expected": "Sucralose",
+      "got": "Sucralose",
+      "distance": 0.4300570464780371,
+      "pass": "exact"
+    },
+    {
+      "query": "Ace-K",
+      "expected": "Acesulfame Potassium",
+      "got": "Acesulfame Potassium",
+      "distance": 0.40384537051936364,
+      "pass": "exact"
+    },
+    {
+      "query": "E950",
+      "expected": "Acesulfame Potassium",
+      "got": "Acesulfame Potassium",
+      "distance": 0.48517923364961946,
+      "pass": "exact"
+    },
+    {
+      "query": "Sweet N Low",
+      "expected": "Saccharin",
+      "got": "Saccharin",
+      "distance": 0.4263914325621604,
+      "pass": "exact"
+    },
+    {
+      "query": "E954",
+      "expected": "Saccharin",
+      "got": "NO_RESULT",
+      "distance": 1,
+      "pass": "fail"
+    },
+    {
+      "query": "E952",
+      "expected": "Cyclamate",
+      "got": "Cyclamate",
+      "distance": 0.4869382323068894,
+      "pass": "exact"
+    },
+    {
+      "query": "E320",
+      "expected": "BHA",
+      "got": "NO_RESULT",
+      "distance": 1,
+      "pass": "fail"
+    },
+    {
+      "query": "E321",
+      "expected": "BHT",
+      "got": "BHT",
+      "distance": 0.46723153417924046,
+      "pass": "exact"
+    },
+    {
+      "query": "E319",
+      "expected": "TBHQ",
+      "got": "NO_RESULT",
+      "distance": 1,
+      "pass": "fail"
+    },
+    {
+      "query": "Thioctic Acid",
+      "expected": "Alpha Lipoic Acid",
+      "got": "Oleic Acid",
+      "distance": 0.30959585958406277,
+      "pass": "fail"
+    },
+    {
+      "query": "KSM-66",
+      "expected": "Ashwagandha Extract",
+      "got": "NO_RESULT",
+      "distance": 1,
+      "pass": "fail"
+    },
+    {
+      "query": "Sensoril",
+      "expected": "Ashwagandha Extract",
+      "got": "NO_RESULT",
+      "distance": 1,
+      "pass": "fail"
+    },
+    {
+      "query": "BioPerine",
+      "expected": "Black Pepper Extract",
+      "got": "NO_RESULT",
+      "distance": 1,
+      "pass": "fail"
+    },
+    {
+      "query": "Piperine",
+      "expected": "Black Pepper Extract",
+      "got": "Black Pepper Extract",
+      "distance": 0.3565373076631533,
+      "pass": "exact"
+    },
+    {
+      "query": "Silymarin",
+      "expected": "Milk Thistle Extract",
+      "got": "Milk Thistle Extract",
+      "distance": 0.42642179935251956,
+      "pass": "exact"
+    },
+    {
+      "query": "Indian Frankincense",
+      "expected": "Boswellia Extract",
+      "got": "Boswellia Extract",
+      "distance": 0.4241366356455041,
+      "pass": "exact"
+    },
+    {
+      "query": "Long Jack",
+      "expected": "Tongkat Ali Extract",
+      "got": "Tongkat Ali Extract",
+      "distance": 0.43217958864619077,
+      "pass": "exact"
+    },
+    {
+      "query": "Eurycoma longifolia",
+      "expected": "Tongkat Ali Extract",
+      "got": "Tongkat Ali Extract",
+      "distance": 0.4280728336662206,
+      "pass": "exact"
+    },
+    {
+      "query": "LGG",
+      "expected": "Lactobacillus rhamnosus",
+      "got": "Lactobacillus rhamnosus",
+      "distance": 0.4155442948071628,
+      "pass": "exact"
+    },
+    {
+      "query": "BB-12",
+      "expected": "Bifidobacterium lactis",
+      "got": "Bifidobacterium lactis",
+      "distance": 0.3979755142772251,
+      "pass": "exact"
+    },
+    {
+      "query": "GanedenBC30",
+      "expected": "Bacillus coagulans",
+      "got": "Bacillus coagulans",
+      "distance": 0.4034049305641888,
+      "pass": "exact"
+    },
+    {
+      "query": "Tween 80",
+      "expected": "Polysorbate 80",
+      "got": "Polysorbate 80",
+      "distance": 0.2724253575880138,
+      "pass": "exact"
+    },
+    {
+      "query": "E433",
+      "expected": "Polysorbate 80",
+      "got": "Polysorbate 80",
+      "distance": 0.4978088893158946,
+      "pass": "exact"
+    },
+    {
+      "query": "CMC",
+      "expected": "Cellulose Gum",
+      "got": "Cellulose Gum",
+      "distance": 0.3930312709362912,
+      "pass": "exact"
+    },
+    {
+      "query": "E466",
+      "expected": "Cellulose Gum",
+      "got": "Cellulose Gum",
+      "distance": 0.4583173057650084,
+      "pass": "exact"
+    },
+    {
+      "query": "E415",
+      "expected": "Xanthan Gum",
+      "got": "Xanthan Gum",
+      "distance": 0.48243663343618726,
+      "pass": "exact"
+    },
+    {
+      "query": "E407",
+      "expected": "Carrageenan",
+      "got": "NO_RESULT",
+      "distance": 1,
+      "pass": "fail"
+    },
+    {
+      "query": "E406",
+      "expected": "Agar",
+      "got": "Agar",
+      "distance": 0.49575239093114454,
+      "pass": "exact"
+    },
+    {
+      "query": "Carob Bean Gum",
+      "expected": "Locust Bean Gum",
+      "got": "Locust Bean Gum",
+      "distance": 0.23924243059030925,
+      "pass": "exact"
+    },
+    {
+      "query": "E330",
+      "expected": "Citric Acid",
+      "got": "Citric Acid",
+      "distance": 0.41777212774795947,
+      "pass": "exact"
+    },
+    {
+      "query": "E338",
+      "expected": "Phosphoric Acid",
+      "got": "Phosphoric Acid",
+      "distance": 0.4605129907520574,
+      "pass": "exact"
+    },
+    {
+      "query": "Reb A",
+      "expected": "Steviol Glycosides",
+      "got": "Steviol Glycosides",
+      "distance": 0.41830910669568444,
+      "pass": "exact"
+    },
+    {
+      "query": "Rebaudioside A",
+      "expected": "Steviol Glycosides",
+      "got": "Steviol Glycosides",
+      "distance": 0.42288047656967265,
+      "pass": "exact"
+    },
+    {
+      "query": "Reb M",
+      "expected": "Rebaudioside M",
+      "got": "Rebaudioside M",
+      "distance": 0.2282314827302554,
+      "pass": "exact"
+    },
+    {
+      "query": "Reb D",
+      "expected": "Rebaudioside D",
+      "got": "Rebaudioside D",
+      "distance": 0.2065526975065568,
+      "pass": "exact"
+    },
+    {
+      "query": "Luo Han Guo",
+      "expected": "Monk Fruit Extract",
+      "got": "Monk Fruit Extract",
+      "distance": 0.4964310275592445,
+      "pass": "exact"
+    },
+    {
+      "query": "Dextrose",
+      "expected": "Glucose",
+      "got": "Glucose",
+      "distance": 0.1798126047115577,
+      "pass": "exact"
+    },
+    {
+      "query": "Tulsi",
+      "expected": "Holy Basil",
+      "got": "Holy Basil",
+      "distance": 0.4466235980050365,
+      "pass": "exact"
+    },
+    {
+      "query": "Vitex",
+      "expected": "Chaste Tree Berry",
+      "got": "Chaste Tree Berry",
+      "distance": 0.42023240034028675,
+      "pass": "exact"
+    },
+    {
+      "query": "Agnus Castus",
+      "expected": "Chaste Tree Berry",
+      "got": "Chaste Tree Berry",
+      "distance": 0.4706918771352374,
+      "pass": "exact"
+    },
+    {
+      "query": "Wolfberry",
+      "expected": "Goji Berry",
+      "got": "Goji Berry",
+      "distance": 0.37623141473838007,
+      "pass": "exact"
+    },
+    {
+      "query": "Linseed",
+      "expected": "Flaxseed",
+      "got": "Flaxseed",
+      "distance": 0.3193108787975786,
+      "pass": "exact"
+    },
+    {
+      "query": "Kalonji",
+      "expected": "Black Seed",
+      "got": "Black Seed",
+      "distance": 0.4429164704551526,
+      "pass": "exact"
+    },
+    {
+      "query": "Black Cumin",
+      "expected": "Black Seed",
+      "got": "Black Seed",
+      "distance": 0.34345611763307815,
+      "pass": "exact"
+    },
+    {
+      "query": "5-Hydroxytryptophan",
+      "expected": "5-HTP",
+      "got": "5-HTP",
+      "distance": 0.21289481302161561,
+      "pass": "exact"
+    },
+    {
+      "query": "Gamma-Aminobutyric Acid",
+      "expected": "GABA",
+      "got": "GABA",
+      "distance": 0.3026485608947257,
+      "pass": "exact"
+    },
+    {
+      "query": "Acacia Gum",
+      "expected": "Gum Arabic",
+      "got": "Gum Arabic",
+      "distance": 0.3068038878901116,
+      "pass": "exact"
+    },
+    {
+      "query": "E414",
+      "expected": "Gum Arabic",
+      "got": "Gum Arabic",
+      "distance": 0.4346973434848689,
+      "pass": "exact"
+    },
+    {
+      "query": "E422",
+      "expected": "Glycerol",
+      "got": "Glycerol",
+      "distance": 0.42265766174468067,
+      "pass": "exact"
+    },
+    {
+      "query": "Glycerin",
+      "expected": "Glycerol",
+      "got": "Glycerin",
+      "distance": 0,
+      "pass": "fail"
+    }
+  ]
+}

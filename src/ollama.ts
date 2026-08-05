@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const OLLAMA = process.env.OLLAMA_URL ?? 'http://localhost:11434'
 
-//Pass 1
+//Pass 1 and pass 4
 export async function chat(model: string, system: string, user: string, temperature: number = 0): Promise<string> {
   const res = await axios.post(`${OLLAMA}/api/chat`, {
     model,
@@ -19,10 +19,10 @@ export async function chat(model: string, system: string, user: string, temperat
 }
 
 
-//Pass 4
+//Pass 2
 export async function embed(text: string): Promise<number[]> {
   const res = await axios.post(`${OLLAMA}/api/embeddings`, {
-    model: 'bge-m3-ingredients',
+    model: 'bge-m3-ingredients-1',
     prompt: text
   });
   return res.data.embedding;

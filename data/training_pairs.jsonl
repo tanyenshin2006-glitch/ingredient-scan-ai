@@ -1232,3 +1232,89 @@
 {"query":"Vitamin B12","pos":["Vitamin B12"],"neg":["Pyridoxal 5-Phosphate","Vitamin D"]}
 {"query":"Cobalamin","pos":["Vitamin B12"],"neg":["Pyridoxal 5-Phosphate","Vitamin D"]}
 {"query":"Hydroxocobalamin","pos":["Vitamin B12"],"neg":["Pyridoxal 5-Phosphate","Vitamin D"]}
+{"query":"Vitamin B1","pos":["Thiamine"],"neg":["Vitamin K1","Vitamin K2"]}
+{"query":"B1","pos":["Thiamine"],"neg":["Vitamin K1","Vitamin K2"]}
+{"query":"Vit B1","pos":["Thiamine"],"neg":["Vitamin K1","Vitamin K2"]}
+{"query":"Thiamine Hydrochloride","pos":["Thiamine HCl"],"neg":["Vitamin K1","Pyridoxine HCl"]}
+{"query":"Vitamin B2","pos":["Riboflavin"],"neg":["Vitamin K2","Vitamin B12"]}
+{"query":"B2","pos":["Riboflavin"],"neg":["Vitamin K2","Vitamin B12"]}
+{"query":"Vitamin B3","pos":["Niacin"],"neg":["Vitamin B12","Vitamin B6"]}
+{"query":"B3","pos":["Niacin"],"neg":["Vitamin B12","Vitamin B6"]}
+{"query":"Vitamin B5","pos":["Pantothenic Acid"],"neg":["Vitamin B12","Vitamin B6"]}
+{"query":"B5","pos":["Pantothenic Acid"],"neg":["Vitamin B12","Vitamin B6"]}
+{"query":"Vitamin B6","pos":["Vitamin B6"],"neg":["Vitamin K1","Vitamin B12"]}
+{"query":"B6","pos":["Vitamin B6"],"neg":["Vitamin K1","Vitamin B12"]}
+{"query":"Vitamin B7","pos":["Biotin"],"neg":["Vitamin K2","Vitamin B12"]}
+{"query":"B7","pos":["Biotin"],"neg":["Vitamin K2","Vitamin B12"]}
+{"query":"Vitamin H","pos":["Biotin"],"neg":["Vitamin K2","Vitamin B12"]}
+{"query":"Vit H","pos":["Biotin"],"neg":["Vitamin K2","Vitamin B12"]}
+{"query":"Vitamin B9","pos":["Folate"],"neg":["Vitamin K2","Vitamin B12"]}
+{"query":"B9","pos":["Folate"],"neg":["Vitamin K2","Vitamin B12"]}
+{"query":"Vitamin B12","pos":["Vitamin B12"],"neg":["Vitamin K1","Vitamin K2"]}
+{"query":"B12","pos":["Vitamin B12"],"neg":["Vitamin K1","Vitamin K2"]}
+{"query":"Vitamin K1","pos":["Vitamin K1"],"neg":["Thiamine","Riboflavin"]}
+{"query":"K1","pos":["Vitamin K1"],"neg":["Thiamine","Riboflavin"]}
+{"query":"Vitamin K2","pos":["Vitamin K2"],"neg":["Thiamine","Riboflavin"]}
+{"query":"K2","pos":["Vitamin K2"],"neg":["Thiamine","Riboflavin"]}
+{"query":"5-MTHF","pos":["Methylfolate"],"neg":["5-HTP","Folic Acid"]}
+{"query":"Phytonadione","pos":["Vitamin K1"],"neg":["Vitamin K2","Thiamine"]}
+{"query":"Menaphthone","pos":["Vitamin K1"],"neg":["Vitamin K2","Menaquinone MK-7"]}
+{"query":"Allura Red","pos":["Red 40"],"neg":["Red 3","Yellow 6"]}
+{"query":"Allura Red AC","pos":["Red 40"],"neg":["Red 3","Yellow 6"]}
+{"query":"E129","pos":["Red 40"],"neg":["Red 3","Yellow 6"]}
+{"query":"E102","pos":["Yellow 5"],"neg":["Yellow 6","Red 40"]}
+{"query":"Tartrazine","pos":["Yellow 5"],"neg":["Yellow 6","Red 40"]}
+{"query":"FD&C Yellow No. 5","pos":["Yellow 5"],"neg":["Yellow 6","Red 40"]}
+{"query":"E101","pos":["Riboflavin"],"neg":["Riboflavin-5-Phosphate","Niacin"]}
+{"query":"FMN","pos":["Riboflavin-5-Phosphate"],"neg":["NMN","Riboflavin"]}
+{"query":"Flavin Mononucleotide","pos":["Riboflavin-5-Phosphate"],"neg":["NMN","Riboflavin"]}
+{"query":"Vitamin H","pos":["Biotin"],"neg":["Vitamin A","Vitamin K2"]}
+{"query":"E110","pos":["Yellow 6"],"neg":["Yellow 5","Red 40"]}
+{"query":"Sunset Yellow","pos":["Yellow 6"],"neg":["Yellow 5","Red 40"]}
+{"query":"E127","pos":["Red 3"],"neg":["Red 40","Erythritol"]}
+{"query":"Erythrosine","pos":["Red 3"],"neg":["Red 40","Erythritol"]}
+{"query":"E133","pos":["Blue 1"],"neg":["Blue 2","Green 3"]}
+{"query":"Brilliant Blue FCF","pos":["Blue 1"],"neg":["Blue 2","Green 3"]}
+{"query":"E132","pos":["Blue 2"],"neg":["Blue 1","Carmine"]}
+{"query":"Indigo Carmine","pos":["Blue 2"],"neg":["Blue 1","Carmine"]}
+{"query":"E951","pos":["Aspartame"],"neg":["Sucralose","Acesulfame Potassium"]}
+{"query":"E955","pos":["Sucralose"],"neg":["Aspartame","Acesulfame Potassium"]}
+{"query":"E954","pos":["Saccharin"],"neg":["Aspartame","Cyclamate"]}
+{"query":"E952","pos":["Cyclamate"],"neg":["Saccharin","Aspartame"]}
+{"query":"E320","pos":["BHA"],"neg":["BHT","Potassium Sorbate"]}
+{"query":"E321","pos":["BHT"],"neg":["BHA","Potassium Sorbate"]}
+{"query":"E319","pos":["TBHQ"],"neg":["BHA","BHT"]}
+{"query":"TBHQ","pos":["TBHQ"],"neg":["BHA","BHT"]}
+{"query":"Tert-Butylhydroquinone","pos":["TBHQ"],"neg":["BHA","BHT"]}
+{"query":"E433","pos":["Polysorbate 80"],"neg":["Polysorbate 20","Sodium Alginate"]}
+{"query":"Tween 80","pos":["Polysorbate 80"],"neg":["Polysorbate 20","Sodium Alginate"]}
+{"query":"E466","pos":["Cellulose Gum"],"neg":["Xanthan Gum","Guar Gum"]}
+{"query":"CMC","pos":["Cellulose Gum"],"neg":["Xanthan Gum","Guar Gum"]}
+{"query":"Carboxymethyl Cellulose","pos":["Cellulose Gum"],"neg":["Xanthan Gum","Guar Gum"]}
+{"query":"E415","pos":["Xanthan Gum"],"neg":["Cellulose Gum","Guar Gum"]}
+{"query":"E407","pos":["Carrageenan"],"neg":["Xanthan Gum","Agar"]}
+{"query":"E406","pos":["Agar"],"neg":["Carrageenan","Xanthan Gum"]}
+{"query":"E330","pos":["Citric Acid"],"neg":["Malic Acid","Tartaric Acid"]}
+{"query":"E338","pos":["Phosphoric Acid"],"neg":["Citric Acid","Malic Acid"]}
+{"query":"E422","pos":["Glycerol"],"neg":["Propylene Glycol","Sorbitol"]}
+{"query":"E414","pos":["Gum Arabic"],"neg":["Guar Gum","Xanthan Gum"]}
+{"query":"Piperine","pos":["Black Pepper Extract"],"neg":["Curcumin","Turmeric Extract"]}
+{"query":"Indian Frankincense","pos":["Boswellia Extract"],"neg":["Turmeric Extract","Rhodiola Rosea Extract"]}
+{"query":"Long Jack","pos":["Tongkat Ali Extract"],"neg":["Maca Root Extract","Ashwagandha Extract"]}
+{"query":"Eurycoma longifolia","pos":["Tongkat Ali Extract"],"neg":["Maca Root Extract","Ashwagandha Extract"]}
+{"query":"Silymarin","pos":["Milk Thistle Extract"],"neg":["Silica","Turmeric Extract"]}
+{"query":"Tulsi","pos":["Holy Basil"],"neg":["Chamomile","Lemon Balm"]}
+{"query":"Wolfberry","pos":["Goji Berry"],"neg":["Blueberry Powder","Acai Berry"]}
+{"query":"Luo Han Guo","pos":["Monk Fruit Extract"],"neg":["Stevia","Yacon Syrup"]}
+{"query":"LGG","pos":["Lactobacillus rhamnosus"],"neg":["Bifidobacterium lactis","Lactobacillus acidophilus"]}
+{"query":"BB-12","pos":["Bifidobacterium lactis"],"neg":["Vitamin B12","Bifidobacterium longum"]}
+{"query":"GanedenBC30","pos":["Bacillus coagulans"],"neg":["Bifidobacterium lactis","Lactobacillus acidophilus"]}
+{"query":"Thioctic Acid","pos":["Alpha Lipoic Acid"],"neg":["Thiamine","Riboflavin"]}
+{"query":"Alpha Lipoic Acid","pos":["Alpha Lipoic Acid"],"neg":["Thiamine","Riboflavin"]}
+{"query":"ALA","pos":["Alpha Lipoic Acid"],"neg":["Thiamine","Riboflavin"]}
+{"query":"Rebaudioside A","pos":["Steviol Glycosides"],"neg":["Rebaudioside D","Rebaudioside M"]}
+{"query":"Reb A","pos":["Steviol Glycosides"],"neg":["Rebaudioside D","Rebaudioside M"]}
+{"query":"Dextrose","pos":["Glucose"],"neg":["Sucrose","Fructose"]}
+{"query":"Kalonji","pos":["Black Seed"],"neg":["Black Pepper Extract","Turmeric Extract"]}
+{"query":"Black Cumin","pos":["Black Seed"],"neg":["Black Pepper Extract","Turmeric Extract"]}
+{"query":"Glycerin","pos":["Glycerol"],"neg":["Propylene Glycol","Sorbitol"]}

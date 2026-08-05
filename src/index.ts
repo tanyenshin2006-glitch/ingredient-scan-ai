@@ -4,6 +4,7 @@ dotenv.config({ path: '.env.local', override: true });
 import axios from 'axios';
 import { chat, embed } from './ollama.js';
 import { EXTRACT_PROMPT, ANALYSIS_PROMPT } from './prompts.js';
+import { chatGPT } from './openai.js';
 
 const app = express();
 app.use(express.json());
@@ -29,7 +30,7 @@ app.post('/api/analyse-ingredients', async (req, res) => {
 
     const extracted = JSON.parse(reply)
 
-    //Pass 2: Gemini converts ingredient into vector.
+    //Pass 2: BGE-m3 converts ingredient into vector.
     const ingredients = extracted.ingredients_text.split(',').map((i: string) => i.trim());
     const dbMatches: { ingredient: string; matches: object[] }[] = [];
 
@@ -53,7 +54,7 @@ app.post('/api/analyse-ingredients', async (req, res) => {
 
     //Pass 4: Ingredient analysis.
     const analysisInput = JSON.stringify({ ingredients: extracted.ingredients_text, db_matches: dbMatches });
-    const analysisReply = await chat('qwen2.5:7b', ANALYSIS_PROMPT, analysisInput, 0.1)
+    const analysisReply = await chatGPT(ANALYSIS_PROMPT, analysisInput);
     console.log('[Pass 4] reply:', analysisReply);
 
     const finalAnalysis = JSON.parse(analysisReply)

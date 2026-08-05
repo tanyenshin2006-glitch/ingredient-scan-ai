@@ -4,7 +4,7 @@ dotenv.config({ path: '.env.local' });
 import axios from 'axios';
 import fs from 'fs';
 import path from 'path';
-import { chat } from './ollama.js';
+import { chatGPT } from './openai.js';
 
 interface Ingredient {
   name: string;
@@ -33,7 +33,7 @@ Return ONLY valid JSON, no other text:
 
 async function getSynonyms(name: string): Promise<string[]> {
   try {
-    const response = await chat('qwen2.5:7b', '', SYNONYM_PROMPT(name));
+    const response = await chatGPT('', SYNONYM_PROMPT(name));
     const match = response.match(/\{[\s\S]*\}/);
     if (!match) throw new Error('No JSON found in response');
     const json = JSON.parse(match[0]);
@@ -47,7 +47,7 @@ async function getSynonyms(name: string): Promise<string[]> {
 async function validateSynonym(synonym: string, ingredient: string): Promise<boolean> {
   try {
     const prompt = `Is "${synonym}" a real label variation or synonym for the ingredient "${ingredient}" that might appear on a supplement or food product label? Answer YES or NO only.`;
-    const response = await chat('qwen2.5:7b', '', prompt);
+    const response = await chatGPT('', prompt);
     return response.trim().toUpperCase().startsWith('YES');
   } catch {
     return false;
