@@ -28,7 +28,8 @@ app.post('/api/analyse-ingredients', async (req, res) => {
 
     console.log('[Pass 1] reply:', reply)
 
-    const extracted = JSON.parse(reply)
+    const cleanedExtract = reply.replace(/^```json\s*/i, '').replace(/```\s*$/i, '').trim();
+    const extracted = JSON.parse(cleanedExtract)
 
     //Pass 2: BGE-m3 converts ingredient into vector.
     const ingredients = extracted.ingredients_text.split(',').map((i: string) => i.trim());
@@ -57,7 +58,8 @@ app.post('/api/analyse-ingredients', async (req, res) => {
     const analysisReply = await chatGPT(ANALYSIS_PROMPT, analysisInput);
     console.log('[Pass 4] reply:', analysisReply);
 
-    const finalAnalysis = JSON.parse(analysisReply)
+    const cleanedReply = analysisReply.replace(/^```json\s*/i, '').replace(/```\s*$/i, '').trim();
+    const finalAnalysis = JSON.parse(cleanedReply)
 
     res.json({
       ingredients: extracted.ingredients_text,
