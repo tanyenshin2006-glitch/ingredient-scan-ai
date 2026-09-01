@@ -10,7 +10,7 @@ function getClient() {
 export async function chatClaude(system: string, user: string, model='claude-opus-5') : Promise<string>{
     const response = await getClient().messages.create({
         model,
-        max_tokens: 1024,
+        max_tokens: 4096,
         system,
         messages: [{ role: 'user', content: user }],
     });

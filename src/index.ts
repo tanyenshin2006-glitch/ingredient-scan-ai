@@ -6,6 +6,12 @@ import { chat, embed } from './ollama.js';
 import { EXTRACT_PROMPT, ANALYSIS_PROMPT, SEED_GENERATION_PROMPT } from './prompts.js';
 import { chatGPT } from './openai.js';
 import { chatClaude } from './claude.js';
+import { callWithSelfHealing } from './self-heal.js';
+import { AnalysisSchema, ExtractSchema } from './schema.js';
+import { verifyApiKey } from './middleware.js';
+
+type DbMatch = { name: string; description: string; purpose: string; safety_notes: string; is_common_allergen: boolean; category: string; severity: string; bioavailability: string; bioavailability_notes: string; suggestion: string | null; distance: number };
+
 
 const app = express();
 app.use(express.json());
@@ -16,7 +22,7 @@ app.get('/', (req, res) => {
 });
 
 //Pass 1 to Pass 4
-app.post('/api/analyse-ingredients', async (req, res) => {
+app.post('/api/analyse-ingredients', verifyApiKey, async (req, res) => {
 
   try{
   
@@ -26,33 +32,44 @@ app.post('/api/analyse-ingredients', async (req, res) => {
       return res.status(400).json({ error: 'Text is required' });
     }
 
-    let reply;
+    if (text.length > 3000){
+      return res.status(400).json({ error: 'Text exceeds maximum allowed length' })
+    }
+
+    let extracted;
 
     try {
-    reply = await chat('qwen2.5:7b', EXTRACT_PROMPT, text, 0.1)
+      extracted = await callWithSelfHealing(
+        (correctionNote) => chat('qwen2.5:7b', EXTRACT_PROMPT, correctionNote ? `${text}\n\n${correctionNote}` : text, 0.1),
+        ExtractSchema
+      );
+      console.log('[Pass 1] Ollama succeeded');
     } catch (ollamaError) {
-      console.error('[Pass 1] Ollama failed, falling back to Claude Sonnet 5:', ollamaError);
+      console.error('[Pass 1] Ollama failed after retries, falling back to Claude Sonnet 5:', ollamaError);
       try{
-      reply = await chatClaude(EXTRACT_PROMPT, text, 'claude-sonnet-5')
+        extracted = await callWithSelfHealing(
+          (correctionNote) => chatClaude(EXTRACT_PROMPT, correctionNote ? `${text}\n\n${correctionNote}` : text, 'claude-sonnet-5'),
+          ExtractSchema
+        );
+        console.log('[Pass 1] Claude fallback succeeded');
       } catch (claudeError) {
-        console.error('[Pass 1] Both Ollama AND Claude failed, falling back to GPT-4o:', claudeError);
+        console.error('[Pass 1] Both Ollama AND Claude failed after retries, falling back to GPT-4o:', claudeError);
         try{
-          reply = await chatGPT(EXTRACT_PROMPT, text)
+          extracted = await callWithSelfHealing(
+            (correctionNote) => chatGPT(EXTRACT_PROMPT, correctionNote ? `${text}\n\n${correctionNote}` : text),
+            ExtractSchema
+          );
+          console.log('[Pass 1] GPT-4o fallback succeeded');
         } catch (gptError) {
-          console.error('[Pass 1] All three providers failed:', gptError);
+          console.error('[Pass 1] All three providers failed after retries:', gptError);
           throw new Error('All extraction providers unavailable');
         }
       }
     }
 
-    console.log('[Pass 1] reply:', reply)
-
-    const cleanedExtract = reply.replace(/^```json\s*/i, '').replace(/```\s*$/i, '').trim();
-    const extracted = JSON.parse(cleanedExtract)
-
     //Pass 2: BGE-m3 converts ingredient into vector.
     const ingredients = extracted.ingredients_text.split(',').map((i: string) => i.trim());
-    const dbMatches: { ingredient: string; matches: object[] }[] = [];
+    const dbMatches: { ingredient: string; matches: DbMatch[] }[] = [];
 
     for (const ingredient of ingredients) {
       const embedding = await embed(ingredient)
@@ -75,29 +92,53 @@ app.post('/api/analyse-ingredients', async (req, res) => {
     //Pass 4: Ingredient analysis.
     const analysisInput = JSON.stringify({ ingredients: extracted.ingredients_text, db_matches: dbMatches });
 
-    let analysisReply;
+    let finalAnalysis;
 
     try{
-      analysisReply = await chatClaude(ANALYSIS_PROMPT, analysisInput, 'claude-sonnet-5');
-      console.log('[Pass 4] reply:', analysisReply);
+      finalAnalysis = await callWithSelfHealing(
+        (correctionNote) => chatClaude(ANALYSIS_PROMPT, correctionNote ? `${analysisInput}\n\n${correctionNote}` : analysisInput, 'claude-sonnet-5'),
+        AnalysisSchema
+      );
+      console.log('[Pass 4] Claude succeeded');
     } catch (claudeError) {
       console.error('[Pass 4] Claude failed, falling back to GPT-4o:', claudeError);
       try{
-        analysisReply = await chatGPT(ANALYSIS_PROMPT, analysisInput)
-        console.log('[Pass 4] reply (GPT-4o fallback):', analysisReply);
+        finalAnalysis = await callWithSelfHealing(
+          (correctionNote) => chatGPT(ANALYSIS_PROMPT, correctionNote ? `${analysisInput}\n\n${correctionNote}` : analysisInput),
+          AnalysisSchema
+        );
+        console.log('[Pass 4] GPT-4o fallback succeeded');
       } catch (gptError) {
-        console.error('[Pass 4] Both Claude AND GPT-4o failed:', gptError);
+        console.error('[Pass 4] Both Claude AND GPT-4o failed after retries:', gptError);
         throw new Error('All AI providers unavailable for analysis');
       }
     }
+    const matchedNotes = dbMatches
+      .filter((dm) => dm.matches.length > 0 && dm.matches[0].distance < 0.15)
+      .map((dm) => {
+        const match = dm.matches[0];
+        return {
+          ingredient: dm.ingredient,
+          purpose: match.purpose,
+          description: match.description,
+          severity: match.severity,
+          is_common_allergen: match.is_common_allergen,
+          category: match.category,
+          bioavailability: match.bioavailability,
+          bioavailability_notes: match.bioavailability_notes,
+          safety_notes: match.safety_notes,
+          suggestion: match.suggestion,
+        };
+      });
 
-    const cleanedReply = analysisReply.replace(/^```json\s*/i, '').replace(/```\s*$/i, '').trim();
-    const finalAnalysis = JSON.parse(cleanedReply)
+    const allIngredientNotes = [...matchedNotes, ...finalAnalysis.ingredient_notes];
+
 
     res.json({
       ingredients: extracted.ingredients_text,
       db_matches: dbMatches,
       ...finalAnalysis,
+      ingredient_notes: allIngredientNotes,
     });
 
   } catch (error) {
@@ -107,7 +148,7 @@ app.post('/api/analyse-ingredients', async (req, res) => {
 });
 
 //Generate ingredient data for seeding.
-app.post('/api/generate-ingredient', async (req, res) =>{
+app.post('/api/generate-ingredient', verifyApiKey, async (req, res) =>{
   try{
     const {name} = req.body;
     if (!name) {
