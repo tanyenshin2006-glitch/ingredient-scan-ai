@@ -18,6 +18,9 @@
   "packageManager": "pnpm@10.31.0",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.120.0",
+    "@langfuse/otel": "^5.11.0",
+    "@langfuse/tracing": "^5.11.0",
+    "@opentelemetry/sdk-node": "^0.222.0",
     "axios": "^1.18.1",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",

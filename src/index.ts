@@ -1,3 +1,4 @@
+import './instrumentation.js';
 import express from 'express';
 import dotenv from 'dotenv';
 dotenv.config({ path: '.env.local', override: true });
@@ -9,6 +10,7 @@ import { chatClaude } from './claude.js';
 import { callWithSelfHealing } from './self-heal.js';
 import { AnalysisSchema, ExtractSchema } from './schema.js';
 import { verifyApiKey } from './middleware.js';
+import { startActiveObservation } from '@langfuse/tracing';
 
 type DbMatch = { name: string; description: string; purpose: string; safety_notes: string; is_common_allergen: boolean; category: string; severity: string; bioavailability: string; bioavailability_notes: string; suggestion: string | null; distance: number };
 
@@ -36,83 +38,101 @@ app.post('/api/analyse-ingredients', verifyApiKey, async (req, res) => {
       return res.status(400).json({ error: 'Text exceeds maximum allowed length' })
     }
 
-    let extracted;
-
-    try {
-      extracted = await callWithSelfHealing(
-        (correctionNote) => chat('qwen2.5:7b', EXTRACT_PROMPT, correctionNote ? `${text}\n\n${correctionNote}` : text, 0.1),
-        ExtractSchema
-      );
-      console.log('[Pass 1] Ollama succeeded');
-    } catch (ollamaError) {
-      console.error('[Pass 1] Ollama failed after retries, falling back to Claude Sonnet 5:', ollamaError);
-      try{
-        extracted = await callWithSelfHealing(
-          (correctionNote) => chatClaude(EXTRACT_PROMPT, correctionNote ? `${text}\n\n${correctionNote}` : text, 'claude-sonnet-5'),
+    const extracted = await startActiveObservation("pass-1-extraction", async (span) => {
+      try {
+        const result = await callWithSelfHealing(
+          (correctionNote) => chat('qwen2.5:7b', EXTRACT_PROMPT, correctionNote ? `${text}\n\n${correctionNote}` : text, 0.1),
           ExtractSchema
         );
-        console.log('[Pass 1] Claude fallback succeeded');
-      } catch (claudeError) {
-        console.error('[Pass 1] Both Ollama AND Claude failed after retries, falling back to GPT-4o:', claudeError);
+        span.update({ input: text, output: result });
+        console.log('[Pass 1] Ollama succeeded');
+        return result;
+      } catch (ollamaError) {
+        console.error('[Pass 1] Ollama failed after retries, falling back to Claude Sonnet 5:', ollamaError);
         try{
-          extracted = await callWithSelfHealing(
-            (correctionNote) => chatGPT(EXTRACT_PROMPT, correctionNote ? `${text}\n\n${correctionNote}` : text),
+          const result = await callWithSelfHealing(
+            (correctionNote) => chatClaude(EXTRACT_PROMPT, correctionNote ? `${text}\n\n${correctionNote}` : text, 'claude-sonnet-5'),
             ExtractSchema
           );
-          console.log('[Pass 1] GPT-4o fallback succeeded');
-        } catch (gptError) {
-          console.error('[Pass 1] All three providers failed after retries:', gptError);
-          throw new Error('All extraction providers unavailable');
+          span.update({ input: text, output: result });
+          console.log('[Pass 1] Claude fallback succeeded');
+          return result;
+        } catch (claudeError) {
+          console.error('[Pass 1] Both Ollama AND Claude failed after retries, falling back to GPT-4o:', claudeError);
+          try{
+            const result = await callWithSelfHealing(
+              (correctionNote) => chatGPT(EXTRACT_PROMPT, correctionNote ? `${text}\n\n${correctionNote}` : text),
+              ExtractSchema
+            );
+            span.update({ input: text, output:result });
+            console.log('[Pass 1] GPT-4o fallback succeeded');
+            return result;
+          } catch (gptError) {
+            console.error('[Pass 1] All three providers failed after retries:', gptError);
+            throw new Error('All extraction providers unavailable');
+          }
         }
       }
-    }
+    })
 
     //Pass 2: BGE-m3 converts ingredient into vector.
     const ingredients = extracted.ingredients_text.split(',').map((i: string) => i.trim());
-    const dbMatches: { ingredient: string; matches: DbMatch[] }[] = [];
 
-    for (const ingredient of ingredients) {
-      const embedding = await embed(ingredient)
+    const dbMatches: { ingredient: string; matches: DbMatch[] }[] = await startActiveObservation("pass-2-3-embed-search", async (span) => {
+      const results = await Promise.all (
+        ingredients.map(async (ingredient: string) => {
+          const embedding = await embed(ingredient)
 
-      if (!embedding) {
-        return res.status(500).json({ error: `Failed to embed ingredient: ${ingredient}` });
-      }
+          if (!embedding) {
+            throw new Error(`Failed to embed ingredient: ${ingredient}`);
+          }
 
     //Pass 3: Search similar vector in DB.
-      const searchResponse = await axios.post(
-        `${process.env.BE_SERVICE_URL}/api/ingredients/search`,
-        {embedding, limit:3, maxDistance:0.9},
-        {headers: { 'x-api-key': process.env.INTERNAL_API_KEY }}
+          const searchResponse = await axios.post(
+            `${process.env.BE_SERVICE_URL}/api/ingredients/search`,
+            {embedding, limit:3, maxDistance:0.9},
+            {headers: { 'x-api-key': process.env.INTERNAL_API_KEY }}
+          );
+          console.log(`[Distance] ${ingredient}:`, searchResponse.data.map((m: any) => ({ name: m.name, distance: m.distance })));
+          console.log(`[Pass 3] matches for "${ingredient}":`, searchResponse.data);
+          
+          return { ingredient, matches: searchResponse.data}
+        })
       );
-      console.log(`[Distance] ${ingredient}:`, searchResponse.data.map((m: any) => ({ name: m.name, distance: m.distance })));
-      console.log(`[Pass 3] matches for "${ingredient}":`, searchResponse.data);
-      dbMatches.push({ ingredient, matches: searchResponse.data });
-    }
+
+      span.update({ input: ingredients, output: results });
+      return results;
+    });  
 
     //Pass 4: Ingredient analysis.
     const analysisInput = JSON.stringify({ ingredients: extracted.ingredients_text, db_matches: dbMatches });
 
-    let finalAnalysis;
-
-    try{
-      finalAnalysis = await callWithSelfHealing(
-        (correctionNote) => chatClaude(ANALYSIS_PROMPT, correctionNote ? `${analysisInput}\n\n${correctionNote}` : analysisInput, 'claude-sonnet-5'),
-        AnalysisSchema
-      );
-      console.log('[Pass 4] Claude succeeded');
-    } catch (claudeError) {
-      console.error('[Pass 4] Claude failed, falling back to GPT-4o:', claudeError);
+    const finalAnalysis = await startActiveObservation("pass-4-analysis", async (span) => {
       try{
-        finalAnalysis = await callWithSelfHealing(
-          (correctionNote) => chatGPT(ANALYSIS_PROMPT, correctionNote ? `${analysisInput}\n\n${correctionNote}` : analysisInput),
+        const result = await callWithSelfHealing(
+          (correctionNote) => chatClaude(ANALYSIS_PROMPT, correctionNote ? `${analysisInput}\n\n${correctionNote}` : analysisInput, 'claude-sonnet-5'),
           AnalysisSchema
         );
-        console.log('[Pass 4] GPT-4o fallback succeeded');
-      } catch (gptError) {
-        console.error('[Pass 4] Both Claude AND GPT-4o failed after retries:', gptError);
-        throw new Error('All AI providers unavailable for analysis');
+        span.update({ input: analysisInput, output: result });
+        console.log('[Pass 4] Claude succeeded');
+        return result;
+      } catch (claudeError) {
+        console.error('[Pass 4] Claude failed, falling back to GPT-4o:', claudeError);
+        try{
+          const result = await callWithSelfHealing(
+            (correctionNote) => chatGPT(ANALYSIS_PROMPT, correctionNote ? `${analysisInput}\n\n${correctionNote}` : analysisInput),
+            AnalysisSchema
+          );
+          span.update({ input: analysisInput, output: result });
+          console.log('[Pass 4] GPT-4o fallback succeeded');
+          return result;
+        } catch (gptError) {
+          console.error('[Pass 4] Both Claude AND GPT-4o failed after retries:', gptError);
+          throw new Error('All AI providers unavailable for analysis');
+        }
       }
-    }
+    });
+
     const matchedNotes = dbMatches
       .filter((dm) => dm.matches.length > 0 && dm.matches[0].distance < 0.15)
       .map((dm) => {
@@ -155,9 +175,13 @@ app.post('/api/generate-ingredient', verifyApiKey, async (req, res) =>{
       return res.status(400).json({ error: 'Ingredient name is required'});
     }
 
-    const reply = await chatClaude(SEED_GENERATION_PROMPT, name);
-    const cleaned = reply.replace(/^```json\s*/i, '').replace(/```\s*$/i, '').trim();
-    const generated = JSON.parse(cleaned)
+    const generated = await startActiveObservation("seed-generation", async (span) => {
+      const reply = await chatClaude(SEED_GENERATION_PROMPT, name);
+      const cleaned = reply.replace(/^```json\s*/i, '').replace(/```\s*$/i, '').trim();
+      const result = JSON.parse(cleaned);
+      span.update({ input: name, output: result });
+      return result;
+    });
 
     const embedding = await embed(generated.name);
     if (!embedding) {
